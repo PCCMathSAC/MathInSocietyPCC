@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Project Notes</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Math in Society">
+<meta property="book:author" content="Portland Community College Math Department">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Math in Society:</span> <span class="subtitle">Mathematics for Liberal Arts Majors</span></a></h1>
+<p class="byline">Portland Community College Math Department</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="frontmatter-3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="frontmatter.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="frontmatter-5.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter contains-active">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Attributions</span></a></div></li>
+<li class="toc-item toc-preface active"><div class="toc-title-box"><a href="Notes.html" class="internal"><span class="title">Project Notes</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Resources</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Errata</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="language_logic_rules.html" class="internal"><span class="codenumber">1</span> <span class="title">Logic and Sets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_one_language_logic.html" class="internal"><span class="codenumber">1.1</span> <span class="title">The Language and Rules of Logic</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_language_logic.html#chap_one_language_logic-4" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Logic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_language_logic.html#chap_one_language_logic-5" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Propositions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_language_logic.html#chap_one_language_logic-6" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Negation (not)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_language_logic.html#chap_one_language_logic-7" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Multiple Negations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_language_logic.html#chap_one_language_logic-8" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Logical Connectors (and, or)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_language_logic.html#chap_one_language_logic-9" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Exclusive vs. Inclusive <em class="emphasis">or</em></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_language_logic.html#chap_one_language_logic-10" class="internal"><span class="codenumber">1.1.7</span> <span class="title">Conditional Statements (if, then)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_language_logic.html#chap_one_language_logic-11" class="internal"><span class="codenumber">1.1.8</span> <span class="title">Basic Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_language_logic.html#chap_one_language_logic-12" class="internal"><span class="codenumber">1.1.9</span> <span class="title">Conditional Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_language_logic.html#chap_one_language_logic-13" class="internal"><span class="codenumber">1.1.10</span> <span class="title">Truth Tables for Complex Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_language_logic.html#chap_one_language_logic-14" class="internal"><span class="codenumber">1.1.11</span> <span class="title">Truth Tables with Three Propositions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_one_language_logic.html#chap_one_language_logic-15" class="internal"><span class="codenumber">1.1.12</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_one_sets_venn.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Sets and Venn Diagrams</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_sets_venn.html#chap_one_sets_venn-4" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Sets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_sets_venn.html#chap_one_sets_venn-5" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Set Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_sets_venn.html#chap_one_sets_venn-6" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Universal Set</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_sets_venn.html#chap_one_sets_venn-7" class="internal"><span class="codenumber">1.2.4</span> <span class="title">The Null Set</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_sets_venn.html#chap_one_sets_venn-8" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Intersection, Union, and Complement (And, Or, Not)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_sets_venn.html#chap_one_sets_venn-9" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Venn Diagrams</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_sets_venn.html#chap_one_sets_venn-10" class="internal"><span class="codenumber">1.2.7</span> <span class="title">Illustrating Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_sets_venn.html#chap_one_sets_venn-11" class="internal"><span class="codenumber">1.2.8</span> <span class="title">Qualified Propositions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_sets_venn.html#chap_one_sets_venn-12" class="internal"><span class="codenumber">1.2.9</span> <span class="title">Overlapping Sets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_sets_venn.html#chap_one_sets_venn-13" class="internal"><span class="codenumber">1.2.10</span> <span class="title">Disjoint Sets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_sets_venn.html#chap_one_sets_venn-14" class="internal"><span class="codenumber">1.2.11</span> <span class="title">Subsets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_one_sets_venn.html#chap_one_sets_venn-15" class="internal"><span class="codenumber">1.2.12</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_one_arguments.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Describing and Critiquing Arguments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_arguments.html#chap_one_arguments-4" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Logical Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_arguments.html#chap_one_arguments-5" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Inductive and Deductive Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_arguments.html#chap_one_arguments-6" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Evaluating Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_arguments.html#chap_one_arguments-7" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Evaluating Deductive Arguments Using Sets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_one_arguments.html#chap_one_arguments-8" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_one_fallacies.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Logical Fallacies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_fallacies.html#chap_one_fallacies-3" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Logical Fallacies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_fallacies.html#chap_one_fallacies-4" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Common Logical Fallacies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_fallacies.html#chap_one_fallacies-5" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Personal Attack (Ad hominem)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_fallacies.html#chap_one_fallacies-6" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Appeal to Ignorance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_fallacies.html#chap_one_fallacies-7" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Appeal to Authority</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_fallacies.html#chap_one_fallacies-8" class="internal"><span class="codenumber">1.4.6</span> <span class="title">False Dilemma</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_fallacies.html#chap_one_fallacies-9" class="internal"><span class="codenumber">1.4.7</span> <span class="title">Straw Man (or Straw Person)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_one_fallacies.html#chap_one_fallacies-10" class="internal"><span class="codenumber">1.4.8</span> <span class="title">Post Hoc</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_one_fallacies.html#chap_one_fallacies-11" class="internal"><span class="codenumber">1.4.9</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_one_review.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Chapter 1 Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="financial_math.html" class="internal"><span class="codenumber">2</span> <span class="title">Financial Math</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_two_intro_spreadsheet.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Introduction to Spreadsheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_intro_spreadsheet.html#chap_two_intro_spreadsheet-4" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Basic Calculations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_intro_spreadsheet.html#chap_two_intro_spreadsheet-5" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Cell References</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_intro_spreadsheet.html#chap_two_intro_spreadsheet-6" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Cell Formatting</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_intro_spreadsheet.html#chap_two_intro_spreadsheet-7" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Fill-Down Feature</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_intro_spreadsheet.html#chap_two_intro_spreadsheet-8" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Formulas</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_two_intro_spreadsheet.html#chap_two_intro_spreadsheet-9" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_two_simple_compound.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Simple and Compound Interest</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_simple_compound.html#chap_two_simple_compound-4" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Simple Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_simple_compound.html#chap_two_simple_compound-5" class="internal"><span class="codenumber">2.2.2</span> <span class="title">APR – Annual Percentage Rate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_simple_compound.html#chap_two_simple_compound-6" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_simple_compound.html#chap_two_simple_compound-7" class="internal"><span class="codenumber">2.2.4</span> <span class="title">The Future Value Spreadsheet Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_simple_compound.html#chap_two_simple_compound-8" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Comparing Simple and Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_simple_compound.html#chap_two_simple_compound-9" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Finding the Principal, or Present Value</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_simple_compound.html#chap_two_simple_compound-10" class="internal"><span class="codenumber">2.2.7</span> <span class="title">The Present Value Spreadsheet Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_simple_compound.html#chap_two_simple_compound-11" class="internal"><span class="codenumber">2.2.8</span> <span class="title">Continuously Compounded Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_simple_compound.html#chap_two_simple_compound-12" class="internal"><span class="codenumber">2.2.9</span> <span class="title">Finding the Amount of Interest Earned and the Percentage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_simple_compound.html#chap_two_simple_compound-13" class="internal"><span class="codenumber">2.2.10</span> <span class="title">Effective Rate</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_two_simple_compound.html#chap_two_simple_compound-14" class="internal"><span class="codenumber">2.2.11</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_two_savings_plan.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Savings Plans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_savings_plan.html#chap_two_savings_plan-4" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Savings Plan Formulas</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_savings_plan.html#chap_two_savings_plan-5" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Finding Payment Amounts Usings Spreadsheets and Formulas</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_savings_plan.html#chap_two_savings_plan-6" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Comparing Lump Sum and Regular Savings Payments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_savings_plan.html#chap_two_savings_plan-7" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Deriving the Savings Plan Formula (Optional)</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_two_savings_plan.html#chap_two_savings_plan-8" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_two_loans.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Loan Payments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_loans.html#chap_two_loans-4" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Installment Loans</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_loans.html#chap_two_loans-5" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Loan Formulas</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_loans.html#chap_two_loans-6" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Remaining Loan Balance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_loans.html#chap_two_loans-7" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Credit Cards</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_loans.html#chap_two_loans-8" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Summary of Spreadsheet Formulas</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_loans.html#chap_two_loans-9" class="internal"><span class="codenumber">2.4.6</span> <span class="title">When to use the formulas: What is the question asking?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_loans.html#chap_two_loans-10" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Summary of Mathematical Formulas</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_loans.html#chap_two_loans-11" class="internal"><span class="codenumber">2.4.8</span> <span class="title">When to use the formulas: What is the question asking?</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_two_loans.html#chap_two_loans-12" class="internal"><span class="codenumber">2.4.9</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_two_income_taxes.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Income Taxes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-4" class="internal"><span class="codenumber">2.5.1</span> <span class="title">A Very Brief History of Taxes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-5" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Types of Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-6" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-7" class="internal"><span class="codenumber">2.5.4</span> <span class="title">State Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-8" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Municipal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-9" class="internal"><span class="codenumber">2.5.6</span> <span class="title">Calculating Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-10" class="internal"><span class="codenumber">2.5.7</span> <span class="title">Gross Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-11" class="internal"><span class="codenumber">2.5.8</span> <span class="title">Adjusted Gross Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-12" class="internal"><span class="codenumber">2.5.9</span> <span class="title">Taxable Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-13" class="internal"><span class="codenumber">2.5.10</span> <span class="title">Filing Status</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-14" class="internal"><span class="codenumber">2.5.11</span> <span class="title">Tax Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-15" class="internal"><span class="codenumber">2.5.12</span> <span class="title">Tax Credits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-16" class="internal"><span class="codenumber">2.5.13</span> <span class="title">Calculating a Refund or Payment Due</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_two_income_taxes.html#chap_two_income_taxes-17" class="internal"><span class="codenumber">2.5.14</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_two_review.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Chapter 2 Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="statistics.html" class="internal"><span class="codenumber">3</span> <span class="title">Statistics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_three_statistical_process.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Overview of the Statistical Process</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-4" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Statistical Process</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-5" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Population</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-6" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Parameter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-7" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Sample</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-8" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Statistic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-9" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-10" class="internal"><span class="codenumber">3.1.7</span> <span class="title">Sampling Methods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-11" class="internal"><span class="codenumber">3.1.8</span> <span class="title">Simple random sample (SRS)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-12" class="internal"><span class="codenumber">3.1.9</span> <span class="title">Stratified sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-13" class="internal"><span class="codenumber">3.1.10</span> <span class="title">Systematic sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-14" class="internal"><span class="codenumber">3.1.11</span> <span class="title">Convenience sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-15" class="internal"><span class="codenumber">3.1.12</span> <span class="title">Statistical Bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-16" class="internal"><span class="codenumber">3.1.13</span> <span class="title">Types of bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-17" class="internal"><span class="codenumber">3.1.14</span> <span class="title">Observational Studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-18" class="internal"><span class="codenumber">3.1.15</span> <span class="title">Experiments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-19" class="internal"><span class="codenumber">3.1.16</span> <span class="title">Confounding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-20" class="internal"><span class="codenumber">3.1.17</span> <span class="title">Control group</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-21" class="internal"><span class="codenumber">3.1.18</span> <span class="title">Placebo effect</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-22" class="internal"><span class="codenumber">3.1.19</span> <span class="title">Placebo and Placebo-controlled experiments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-23" class="internal"><span class="codenumber">3.1.20</span> <span class="title">Blind studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-24" class="internal"><span class="codenumber">3.1.21</span> <span class="title">Margin of Error and Confidence Intervals</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_three_statistical_process.html#chap_three_statistical_process-25" class="internal"><span class="codenumber">3.1.22</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_three_describing_data.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Describing Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-4" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Types of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-5" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Presenting Categorical Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-6" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-7" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Relative Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-8" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Bar graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-9" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Pie Charts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-10" class="internal"><span class="codenumber">3.2.7</span> <span class="title">Using a Spreadsheet to Make Bar Charts and Pie Charts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-11" class="internal"><span class="codenumber">3.2.8</span> <span class="title">Misleading Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-12" class="internal"><span class="codenumber">3.2.9</span> <span class="title">Perceptual Distortion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-13" class="internal"><span class="codenumber">3.2.10</span> <span class="title">Misleading Scale</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-14" class="internal"><span class="codenumber">3.2.11</span> <span class="title">Stacked Bar Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-15" class="internal"><span class="codenumber">3.2.12</span> <span class="title">Presenting Quantitative Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-16" class="internal"><span class="codenumber">3.2.13</span> <span class="title">Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-17" class="internal"><span class="codenumber">3.2.14</span> <span class="title">Class Intervals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-18" class="internal"><span class="codenumber">3.2.15</span> <span class="title">Histograms Using Technology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-19" class="internal"><span class="codenumber">3.2.16</span> <span class="title">The Shape of a Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-20" class="internal"><span class="codenumber">3.2.17</span> <span class="title">Modality</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-21" class="internal"><span class="codenumber">3.2.18</span> <span class="title">Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-22" class="internal"><span class="codenumber">3.2.19</span> <span class="title">Skewness</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-23" class="internal"><span class="codenumber">3.2.20</span> <span class="title">Skewed to the Left</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-24" class="internal"><span class="codenumber">3.2.21</span> <span class="title">Skewed to the Right</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-25" class="internal"><span class="codenumber">3.2.22</span> <span class="title">The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-26" class="internal"><span class="codenumber">3.2.23</span> <span class="title">Outlier</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_three_describing_data.html#chap_three_describing_data-27" class="internal"><span class="codenumber">3.2.24</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_three_measure_of_center.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Summary Statistics: Measures of Center</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_center.html#chap_three_measure_of_center-4" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Calculating Summary Statistics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_center.html#chap_three_measure_of_center-5" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Measures of Center</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_center.html#chap_three_measure_of_center-6" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Mode</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_center.html#chap_three_measure_of_center-7" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_center.html#chap_three_measure_of_center-8" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Median</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_center.html#chap_three_measure_of_center-9" class="internal"><span class="codenumber">3.3.6</span> <span class="title">The Relationship Between the Mean and the Median</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_three_measure_of_center.html#chap_three_measure_of_center-10" class="internal"><span class="codenumber">3.3.7</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_three_measure_of_variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Summary Statistics: Measures of Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_variation.html#chap_three_measure_of_variation-4" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Measures of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_variation.html#chap_three_measure_of_variation-5" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Standard Deviation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_variation.html#chap_three_measure_of_variation-6" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_variation.html#chap_three_measure_of_variation-7" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Quartiles and the Interquartile Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_variation.html#chap_three_measure_of_variation-8" class="internal"><span class="codenumber">3.4.5</span> <span class="title">The Five-Number Summary and Boxplots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_variation.html#chap_three_measure_of_variation-9" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Modified Boxplot (Optional)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_variation.html#chap_three_measure_of_variation-10" class="internal"><span class="codenumber">3.4.7</span> <span class="title">Percentiles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_variation.html#chap_three_measure_of_variation-11" class="internal"><span class="codenumber">3.4.8</span> <span class="title">Comparing Distributions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_measure_of_variation.html#chap_three_measure_of_variation-12" class="internal"><span class="codenumber">3.4.9</span> <span class="title">Z-Scores</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_three_measure_of_variation.html#chap_three_measure_of_variation-13" class="internal"><span class="codenumber">3.4.10</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_three_review.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Chapter 3 Review</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_three_normal_model.html" class="internal"><span class="codenumber">3.6</span> <span class="title">The Normal Distribution</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_normal_model.html#chap_three_normal_model-4" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Introduction to The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_normal_model.html#chap_three_normal_model-5" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Properties of the Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_normal_model.html#chap_three_normal_model-6" class="internal"><span class="codenumber">3.6.3</span> <span class="title">The Empirical Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_normal_model.html#chap_three_normal_model-7" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Using the Empirical Rule to Calculate Approximate Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_normal_model.html#chap_three_normal_model-8" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Using Technology to Calculate Exact Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_normal_model.html#chap_three_normal_model-9" class="internal"><span class="codenumber">3.6.6</span> <span class="title">The Standard Normal Distribution and Z-Scores</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_three_normal_model.html#chap_three_normal_model-10" class="internal"><span class="codenumber">3.6.7</span> <span class="title">Confidence Intervals and Margin of Error</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_three_normal_model.html#chap_three_normal_model-11" class="internal"><span class="codenumber">3.6.8</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="probability.html" class="internal"><span class="codenumber">4</span> <span class="title">Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_four_contingency_tables.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Contingency Tables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_contingency_tables.html#chap_four_contingency_tables-4" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Contingency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_contingency_tables.html#chap_four_contingency_tables-5" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Contingency Tables and Venn Diagrams</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_contingency_tables.html#chap_four_contingency_tables-6" class="internal"><span class="codenumber">4.1.3</span> <span class="title">“And” Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_contingency_tables.html#chap_four_contingency_tables-7" class="internal"><span class="codenumber">4.1.4</span> <span class="title">“Or” Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_contingency_tables.html#chap_four_contingency_tables-8" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Conditional Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_contingency_tables.html#chap_four_contingency_tables-9" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Contingency Tables with More Than Two Categories</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_contingency_tables.html#chap_four_contingency_tables-10" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Empirical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_contingency_tables.html#chap_four_contingency_tables-11" class="internal"><span class="codenumber">4.1.8</span> <span class="title">Finding Empirical Probabilities with a Contingency Table</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_contingency_tables.html#chap_four_contingency_tables-12" class="internal"><span class="codenumber">4.1.9</span> <span class="title">Conditional Probabilities</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_four_contingency_tables.html#chap_four_contingency_tables-13" class="internal"><span class="codenumber">4.1.10</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_four_theoretical_probability.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Theoretical Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-4" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Basic Probability Concepts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-5" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Experiment</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-6" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Events and Outcomes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-7" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Sample Space</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-8" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Equally Likely Outcomes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-9" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Certain and Impossible Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-10" class="internal"><span class="codenumber">4.2.7</span> <span class="title">Complementary Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-11" class="internal"><span class="codenumber">4.2.8</span> <span class="title">Experimental vs. Theoretical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-12" class="internal"><span class="codenumber">4.2.9</span> <span class="title">The Law of Large Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-13" class="internal"><span class="codenumber">4.2.10</span> <span class="title">Probability of Compound Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-14" class="internal"><span class="codenumber">4.2.11</span> <span class="title">“And” Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-15" class="internal"><span class="codenumber">4.2.12</span> <span class="title">Independent and Dependent Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-16" class="internal"><span class="codenumber">4.2.13</span> <span class="title">“Or” Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-17" class="internal"><span class="codenumber">4.2.14</span> <span class="title">Overlapping or Disjoint Sets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_four_theoretical_probability.html#chap_four_theoretical_probability-18" class="internal"><span class="codenumber">4.2.15</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_four_expected_value.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Expected Value</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_four_expected_value.html#chap_four_expected_value-4" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Expected Value</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_four_expected_value.html#chap_four_expected_value-5" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_four_review.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Chapter 4 Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="democracy.html" class="internal"><span class="codenumber">5</span> <span class="title">Democracy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_five_apportionment.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Apportionment</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_apportionment.html#chap_five_apportionment-4" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Historical Context for This Chapter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_apportionment.html#chap_five_apportionment-5" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Formation of the United States</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_apportionment.html#chap_five_apportionment-6" class="internal"><span class="codenumber">5.1.3</span> <span class="title">What is Apportionment?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_apportionment.html#chap_five_apportionment-7" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Hamilton’s Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_apportionment.html#chap_five_apportionment-8" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Problems with Hamilton’s Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_apportionment.html#chap_five_apportionment-9" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Jefferson’s Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_apportionment.html#chap_five_apportionment-10" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Webster’s Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_apportionment.html#chap_five_apportionment-11" class="internal"><span class="codenumber">5.1.8</span> <span class="title">Land Rights, Citizenship and Voting Rights</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_apportionment.html#chap_five_apportionment-12" class="internal"><span class="codenumber">5.1.9</span> <span class="title">Huntington-Hill Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_apportionment.html#chap_five_apportionment-13" class="internal"><span class="codenumber">5.1.10</span> <span class="title">What is the Geometric Mean?</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_five_apportionment.html#chap_five_apportionment-14" class="internal"><span class="codenumber">5.1.11</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_five_voting_methods.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Voting Methods</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_voting_methods.html#chap_five_voting_methods-4" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Voting Rights</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_voting_methods.html#chap_five_voting_methods-5" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Ranked Choice Ballots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_voting_methods.html#chap_five_voting_methods-6" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Preference Schedule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_voting_methods.html#chap_five_voting_methods-7" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Plurality Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_voting_methods.html#chap_five_voting_methods-8" class="internal"><span class="codenumber">5.2.5</span> <span class="title">How Many Votes are Needed to Win?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_voting_methods.html#chap_five_voting_methods-9" class="internal"><span class="codenumber">5.2.6</span> <span class="title">Insincere Voting</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_voting_methods.html#chap_five_voting_methods-10" class="internal"><span class="codenumber">5.2.7</span> <span class="title">Instant Runoff Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_voting_methods.html#chap_five_voting_methods-11" class="internal"><span class="codenumber">5.2.8</span> <span class="title">Borda Count (Point System)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_voting_methods.html#chap_five_voting_methods-12" class="internal"><span class="codenumber">5.2.9</span> <span class="title">Pairwise Comparison: Copeland’s Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_voting_methods.html#chap_five_voting_methods-13" class="internal"><span class="codenumber">5.2.10</span> <span class="title">Which Method is the Most Fair?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_voting_methods.html#chap_five_voting_methods-14" class="internal"><span class="codenumber">5.2.11</span> <span class="title">Primaries and Sequential Voting</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_five_voting_methods.html#chap_five_voting_methods-15" class="internal"><span class="codenumber">5.2.12</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_five_popular_vote.html" class="internal"><span class="codenumber">5.3</span> <span class="title">The Popular Vote, Electoral College and Electoral Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_popular_vote.html#chap_five_popular_vote-4" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Choosing the U.S. President</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_popular_vote.html#chap_five_popular_vote-5" class="internal"><span class="codenumber">5.3.2</span> <span class="title">How Electoral Votes are Determined</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_popular_vote.html#chap_five_popular_vote-6" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Electoral Power</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_five_popular_vote.html#chap_five_popular_vote-7" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_five_gerrymandering.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Gerrymandering and How to Measure It</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_gerrymandering.html#chap_five_gerrymandering-4" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Forming State Legislative Districts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_gerrymandering.html#chap_five_gerrymandering-5" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Proportionality and Fairness</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_gerrymandering.html#chap_five_gerrymandering-6" class="internal"><span class="codenumber">5.4.3</span> <span class="title">How to Gerrymander</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_gerrymandering.html#chap_five_gerrymandering-7" class="internal"><span class="codenumber">5.4.4</span> <span class="title">The Efficiency Gap</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_five_gerrymandering.html#chap_five_gerrymandering-8" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_five_review.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Chapter 5 Review</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chap_five_budget_deficit_debt.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Federal Budget, Deficit and National Debt</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_budget_deficit_debt.html#chap_five_budget_deficit_debt-4" class="internal"><span class="codenumber">5.6.1</span> <span class="title">Federal Income and Spending</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_budget_deficit_debt.html#chap_five_budget_deficit_debt-5" class="internal"><span class="codenumber">5.6.2</span> <span class="title">The Federal Budget Process</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_budget_deficit_debt.html#chap_five_budget_deficit_debt-6" class="internal"><span class="codenumber">5.6.3</span> <span class="title">The Federal Surplus or Deficit</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_budget_deficit_debt.html#chap_five_budget_deficit_debt-7" class="internal"><span class="codenumber">5.6.4</span> <span class="title">Debt to GDP Ratio</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_budget_deficit_debt.html#chap_five_budget_deficit_debt-8" class="internal"><span class="codenumber">5.6.5</span> <span class="title">National Debt</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_budget_deficit_debt.html#chap_five_budget_deficit_debt-9" class="internal"><span class="codenumber">5.6.6</span> <span class="title">National Debt Clocks</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chap_five_budget_deficit_debt.html#chap_five_budget_deficit_debt-10" class="internal"><span class="codenumber">5.6.7</span> <span class="title">Pie Charts and Percentages</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="chap_five_budget_deficit_debt.html#chap_five_budget_deficit_debt-11" class="internal"><span class="codenumber">5.6.8</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-references"><div class="toc-title-box"><a href="backmatter-1.html" class="internal"><span class="title">References</span></a></div></li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="preface" id="Notes"><h2 class="heading hide-type">
+<span class="type">Preface</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Project Notes</span>
+</h2>
+<blockquote class="blockquote" id="Notes-2"><div class="para" id="Notes-2-1"><em class="emphasis">We dedicate this book to our students. May you have greater ease in paying for college and grow your proficiency and confidence in math.</em></div></blockquote>
+<section class="paragraphs" id="Notes-3"><h2 class="heading"><span class="title">Acknowledgements.</span></h2> <div class="para" id="Notes-3-2">We would like to thank Amy Hofer and grant support from <a class="external" href="https://openoregon.org/" target="_blank">Open Oregon Educational Resources</a><details class="ptx-footnote" aria-live="polite" id="Notes-3-2-2"><summary class="ptx-footnote__number" title="Footnote 0.0.23"><sup> 23 </sup></summary><div class="ptx-footnote__contents" id="Notes-3-2-2"><code class="code-inline tex2jax_ignore">openoregon.org</code></div></details> and the PCC librarians and OER steering committee. Thanks also to Kaela Parks and Michael Cantino of Disability Services for their expertise on accessibility.</div></section><section class="paragraphs" id="Notes-4"><h2 class="heading"><span class="title">Antiracist and Culturally Responsive Elements.</span></h2> <div class="para" id="Notes-4-2">Our goal is for our students to see themselves in this book. We have added stories of mathematicians and economists with identities that have traditionally been underrepresented in textbooks. We use local places and culturally diverse names in the examples and exercises. We have examples with they/them/their pronouns and same-sex couples.</div> <div class="para" id="Notes-4-3">In the democracy chapter we have included the Native American genocide and slavery which are often left out of math texts. We have also emphasized the names of civil rights leaders and African Americans killed by the police in our examples. We recognize there is more to do in this area and welcome contributions and feedback. Please email Cara Lee at <a href="mailto:cara.lee@pcc.edu">cara.lee@pcc.edu</a> or use the Google Form link below.</div></section><section class="paragraphs" id="Notes-5"><h2 class="heading"><span class="title">Philosophy.</span></h2> <div class="para" id="Notes-5-2">Our goal is for the content of this book to be relevant and accessible to our readers. We emphasize technology, conceptual understanding and communication over rote calculation. However, some manual calculation is important to understand what the technology is doing. We emphasize readily available spreadsheets and <a class="external" href="www.geogebra.com" target="_blank">GeoGebra</a><details class="ptx-footnote" aria-live="polite" id="Notes-5-2-2"><summary class="ptx-footnote__number" title="Footnote 0.0.24"><sup> 24 </sup></summary><div class="ptx-footnote__contents" id="Notes-5-2-2"><code class="code-inline tex2jax_ignore">geogebra.com</code></div></details> throughout the text.</div></section><section class="paragraphs" id="Notes-6"><h2 class="heading"><span class="title">Web and Print Versions.</span></h2> <div class="para" id="Notes-6-2">This book is available free online at <a class="external" href="http://spot.pcc.edu/math/mathinsociety" target="_blank"><code class="code-inline tex2jax_ignore">spot.pcc.edu/math/mathinsociety</code></a>. Chapters 1–5 are available at the PCC bookstore printed by the PCC Print Center.</div></section><section class="paragraphs" id="Notes-7"><h2 class="heading"><span class="title">Additional Topics.</span></h2> <div class="para" id="Notes-7-2">Your course may include one or more instructor choice topics which are available online only from the website above, or from David Lippman’s original book at <a class="external" href="http://www.opentextbookstore.com/mathinsociety" target="_blank"><code class="code-inline tex2jax_ignore">opentextbookstore.com/mathinsociety</code></a>.</div></section><section class="paragraphs" id="Notes-8"><h2 class="heading"><span class="title">Accessibility.</span></h2> <div class="para" id="Notes-8-2">The <abbr class="initialism">HTML</abbr> version of this book is intended to meet or exceed web accessibility standards. The alternate text for images is in progress. If you find anything that can improve the accessibility of this book, please email Cara Lee at <a href="mailto:cara.lee@pcc.edu">cara.lee@pcc.edu</a> or use the Google Form link below.</div></section><section class="paragraphs" id="Notes-9"><h2 class="heading"><span class="title">Online Homework.</span></h2> <div class="para" id="Notes-9-2">Online homework problems are available for free at <a class="external" href="https://www.myopenmath.com/" target="_blank"><code class="code-inline tex2jax_ignore">myopenmath.com</code></a>.</div></section><section class="paragraphs" id="Notes-10"><h2 class="heading"><span class="title">Typos and Other Feedback.</span></h2> <div class="para" id="Notes-10-2">Please notify us of typos and other feedback using this <a class="external" href="https://forms.gle/s14kNGd7anRmVgCD6" target="_blank">Google Form</a><details class="ptx-footnote" aria-live="polite" id="Notes-10-2-2"><summary class="ptx-footnote__number" title="Footnote 0.0.25"><sup> 25 </sup></summary><div class="ptx-footnote__contents" id="Notes-10-2-2"><code class="code-inline tex2jax_ignore">forms.gle/s14kNGd7anRmVgCD6</code></div></details>.</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="frontmatter-3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="frontmatter-5.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
