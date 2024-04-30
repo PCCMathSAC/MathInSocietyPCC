@@ -8,12 +8,15 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Summary Statistics: Measures of Variation</title>
+<title>Math In Society: Summary Statistics: Measures of Variation</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
+<meta property="og:image" content="https://spot.pcc.edu/math/mathinsociety/book-1.html/external/images/Portland_Oregon_Skyline.jpg">
 <meta property="book:title" content="Math in Society">
 <meta property="book:author" content="Portland Community College Math Department">
+<link rel="icon" type="image/png" sizes="32x32" href="external/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="external/favicon/favicon-16x16.png">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -89,9 +92,9 @@ window.MathJax = {
 <link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
 </head>
-<body class="pretext book ignore-math">
+<body id="PCC-Math In Society" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
-<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<a id="logo-link" class="logo-link" target="_blank" href="https://spot.pcc.edu/math/mathinsociety/book-1.html"><img src="external/images/Portland_Oregon_Skyline.jpg" alt="Logo image"></a><div class="title-container">
 <h1 class="heading"><a href="root-1-2.html"><span class="title">Math in Society:</span> <span class="subtitle">Mathematics for Liberal Arts Majors</span></a></h1>
 <p class="byline">Portland Community College Math Department</p>
 </div>
@@ -106,7 +109,8 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="chap_three_measure_of_center.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="statistics.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chap_three_review.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="chap_three_measure_of_center.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="statistics.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chap_three_review.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\( 		
+ 		\newcommand{\highlight}[1]{{\color{blue}{{#1}}}}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -123,7 +127,6 @@ window.MathJax = {
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Attributions</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="Notes.html" class="internal"><span class="title">Project Notes</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Resources</span></a></div></li>
-<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Errata</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -509,12 +512,48 @@ window.MathJax = {
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.1</span><span class="space"> </span><span class="title">Measures of Variation</span>
 </h3>
 <div class="para" id="chap_three_measure_of_variation-4-2">Consider these three sets of quiz scores for a 10-point quiz:</div>
-<div class="para" id="chap_three_measure_of_variation-4-3">Section A: 5 5 5 5 5 5 5 5 5 5</div>
-<div class="para" id="chap_three_measure_of_variation-4-4">Section B: 0 0 0 0 0 10 10 10 10 10</div>
-<div class="para" id="chap_three_measure_of_variation-4-5">Section C: 4 4 4 5 5 5 5 6 6 6</div>
-<div class="para" id="chap_three_measure_of_variation-4-6">All three data sets have a mean of 5 points and median of 5 points, yet the sets of scores are clearly quite different. In Section A, everyone had the same score; in Section B half the class got no points and the other half got a perfect score. Section C was not as consistent as section A, but not as widely varied as section B.</div>
-<div class="para" id="chap_three_measure_of_variation-4-7">Thus, in addition to the mean and median, which are measures of center or the “average” value, we also need a measure of how “spread out”" or varied each data set is.</div>
-<div class="para" id="chap_three_measure_of_variation-4-8">There are several ways to measure the variation of a distribution. In this section we will look at the <em class="alert">standard deviation</em>, <em class="alert">range</em> and the <em class="alert">interquartile range (IQR)</em>.</div></section><section class="subsection" id="chap_three_measure_of_variation-5"><h3 class="heading hide-type">
+<div class="para" id="chap_three_measure_of_variation-4-3">Section A:</div>
+<div class="para" id="chap_three_measure_of_variation-4-4"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+</tr></table></div></div></div></div>
+<div class="para" id="chap_three_measure_of_variation-4-5">Section B:</div>
+<div class="para" id="chap_three_measure_of_variation-4-6"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+</tr></table></div></div></div></div>
+<div class="para" id="chap_three_measure_of_variation-4-7">Section C:</div>
+<div class="para" id="chap_three_measure_of_variation-4-8"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">6</td>
+<td class="c m b1 r1 l0 t1 lines">6</td>
+<td class="c m b1 r1 l0 t1 lines">6</td>
+</tr></table></div></div></div></div>
+<div class="para" id="chap_three_measure_of_variation-4-9">All three data sets have a mean of 5 points and median of 5 points, yet the sets of scores are clearly quite different. In Section A, everyone had the same score; in Section B half the class got no points and the other half got a perfect score. Section C was not as consistent as section A, but not as widely varied as section B.</div>
+<div class="para" id="chap_three_measure_of_variation-4-10">Thus, in addition to the mean and median, which are measures of center or the “average” value, we also need a measure of how “spread out”" or varied each data set is.</div>
+<div class="para" id="chap_three_measure_of_variation-4-11">There are several ways to measure the variation of a distribution. In this section we will look at the <em class="alert">standard deviation</em>, <em class="alert">range</em> and the <em class="alert">interquartile range (IQR)</em>.</div></section><section class="subsection" id="chap_three_measure_of_variation-5"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.2</span><span class="space"> </span><span class="title">Standard Deviation</span>
 </h3>
 <div class="para" id="chap_three_measure_of_variation-5-2">The <em class="alert">sample standard deviation, s</em>, is a measure of variation that tells us how far, on average, the data values deviate, or are different from, the mean. The mean and standard deviation are paired to provide a measure of center and spread for symmetric distributions.</div>
@@ -525,56 +564,68 @@ s=\sqrt{\frac{\text{Sum of the squared deviations from the mean}}{n-1}}
 \end{equation*}
 </div></div>
 <div class="para" id="chap_three_measure_of_variation-5-3-3">where <span class="process-math">\(n\)</span> is the sample size, or the number of data values</div></article><div class="para" id="chap_three_measure_of_variation-5-4">We will go through the whole process for calculating the standard deviation. Let’s say there is another section of quiz scores:</div>
-<div class="para" id="chap_three_measure_of_variation-5-5">Section D: 0, 5, 5, 5, 5, 5, 5, 5, 5, 10</div>
-<div class="para" id="chap_three_measure_of_variation-5-6">The mean quiz score, like Sections A, B and C, is 5 points.</div>
-<div class="para" id="chap_three_measure_of_variation-5-7">The first step in finding the standard deviation is to find the deviation, or difference, of each data value from the mean. We will do this in a table. You could also use a spreadsheet to do these calculations.</div>
+<div class="para" id="chap_three_measure_of_variation-5-5">Section D:</div>
+<div class="para" id="chap_three_measure_of_variation-5-6"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+</tr></table></div></div></div></div>
+<div class="para" id="chap_three_measure_of_variation-5-7">The mean quiz score, like Sections A, B and C, is 5 points.</div>
+<div class="para" id="chap_three_measure_of_variation-5-8">The first step in finding the standard deviation is to find the deviation, or difference, of each data value from the mean. We will do this in a table. You could also use a spreadsheet to do these calculations.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"><em class="alert">Data Value</em></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Deviation: (Data Value – Mean)</em></th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">0</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">0</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0-5=-5\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">10</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">10</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 </tr>
 </table></div></div></div>
-<div class="para" id="chap_three_measure_of_variation-5-9">We would like to get an idea of the “average” deviation from the mean, but if we find the average of the values in the second column, the negative and positive values cancel each other out (this will always happen), so to prevent this we square the deviations.</div>
+<div class="para" id="chap_three_measure_of_variation-5-10">We would like to get an idea of the “average” deviation from the mean, but if we find the average of the values in the second column, the negative and positive values cancel each other out (this will always happen), so to prevent this we square the deviations.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"><em class="alert">Data Value</em></th>
@@ -582,148 +633,191 @@ s=\sqrt{\frac{\text{Sum of the squared deviations from the mean}}{n-1}}
 <th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Deviation Squared</em></th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">0</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">0</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0-5=-5\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((-5)^{2}=25\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0^{2}=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0^{2}=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0^{2}=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0^{2}=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0^{2}=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0^{2}=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0^{2}=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0^{2}=0\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">10</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">10</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(10-5=5\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5^{2}=25\)</span></td>
 </tr>
 </table></div></div></div>
-<div class="para" id="chap_three_measure_of_variation-5-11">Next, we add the squared deviations and we get</div>
-<div class="para logical" id="chap_three_measure_of_variation-5-12"><div class="displaymath process-math" id="chap_three_measure_of_variation-5-12-1">
+<div class="para" id="chap_three_measure_of_variation-5-12">Next, we add the squared deviations and we get</div>
+<div class="para logical" id="chap_three_measure_of_variation-5-13"><div class="displaymath process-math" id="chap_three_measure_of_variation-5-13-1">
 \begin{gather*}
 25+0+0+0+0+0+0+0+0+25=50
 \end{gather*}
 </div></div>
-<div class="para" id="chap_three_measure_of_variation-5-13">Ordinarily, we would then divide by the number of scores, <span class="process-math">\(n\text{,}\)</span> (in this case, 10) to find the mean of the deviations, but the division by <span class="process-math">\(n\)</span> is only done if the data set represents a population. When the data set represents a sample (as it almost always does), we divide by <span class="process-math">\(n–1\)</span> (in this case,).</div>
-<div class="para" id="chap_three_measure_of_variation-5-14">We assume Section D represents a sample, so we will divide by 9. Note that our units are now points-squared since we squared all of the deviations. It is much more meaningful to use the units we started with, so to convert back to points we take the square root.</div>
-<div class="para" id="chap_three_measure_of_variation-5-15">The sample standard deviation for Section D is</div>
-<div class="para logical" id="chap_three_measure_of_variation-5-16"><div class="displaymath process-math" id="chap_three_measure_of_variation-5-16-1">
+<div class="para" id="chap_three_measure_of_variation-5-14">Ordinarily, we would then divide by the number of scores, <span class="process-math">\(n\text{,}\)</span> (in this case, 10) to find the mean of the deviations, but the division by <span class="process-math">\(n\)</span> is only done if the data set represents a population. When the data set represents a sample (as it almost always does), we divide by <span class="process-math">\(n–1\)</span> (in this case,).</div>
+<div class="para" id="chap_three_measure_of_variation-5-15">We assume Section D represents a sample, so we will divide by 9. Note that our units are now points-squared since we squared all of the deviations. It is much more meaningful to use the units we started with, so to convert back to points we take the square root.</div>
+<div class="para" id="chap_three_measure_of_variation-5-16">The sample standard deviation for Section D is</div>
+<div class="para logical" id="chap_three_measure_of_variation-5-17"><div class="displaymath process-math" id="chap_three_measure_of_variation-5-17-1">
 \begin{gather*}
 s=\sqrt{\frac{50}{9}} \approx 2.36\text{ points.}
 \end{gather*}
 </div></div>
-<div class="para" id="chap_three_measure_of_variation-5-17">For comparison, here is the standard deviation for each section listed above:</div>
-<div class="para" id="chap_three_measure_of_variation-5-18">
-<span class="process-math">\(S_{A}=0\)</span> points</div>
+<div class="para" id="chap_three_measure_of_variation-5-18">For comparison, here is the standard deviation for each section listed above:</div>
 <div class="para" id="chap_three_measure_of_variation-5-19">
-<span class="process-math">\(S_{B}=5.27\)</span> points</div>
+<span class="process-math">\(S_{A}=0\)</span> points</div>
 <div class="para" id="chap_three_measure_of_variation-5-20">
-<span class="process-math">\(S_{C}=0.82\)</span> points</div>
+<span class="process-math">\(S_{B}=5.27\)</span> points</div>
 <div class="para" id="chap_three_measure_of_variation-5-21">
+<span class="process-math">\(S_{C}=0.82\)</span> points</div>
+<div class="para" id="chap_three_measure_of_variation-5-22">
 <span class="process-math">\(S_{D}=2.36\)</span> points</div>
-<div class="para" id="chap_three_measure_of_variation-5-22">For the standard deviation, we usually use two more decimal places than the original data. This tells us that on average, scores were 2.36 points away from the mean of 5 points. In summary, here are the steps to calculate the standard deviation by hand.</div>
-<article class="assemblage assemblage-like" id="chap_three_measure_of_variation-5-23"><h4 class="heading"><span class="title">Calculating the Sample Standard Deviation.</span></h4>
-<div class="para logical" id="chap_three_measure_of_variation-5-23-2"><ol class="decimal">
-<li id="chap_three_measure_of_variation-5-23-2-1-1"><div class="para" id="chap_three_measure_of_variation-5-23-2-1-1-1">Find the deviations by subtracting the mean from each data value</div></li>
-<li id="chap_three_measure_of_variation-5-23-2-1-2"><div class="para" id="chap_three_measure_of_variation-5-23-2-1-2-1">Square each deviation</div></li>
-<li id="chap_three_measure_of_variation-5-23-2-1-3"><div class="para" id="chap_three_measure_of_variation-5-23-2-1-3-1">Add the squared deviations</div></li>
-<li id="chap_three_measure_of_variation-5-23-2-1-4"><div class="para" id="chap_three_measure_of_variation-5-23-2-1-4-1">Compute the square root of the sum divided by <span class="process-math">\(n-1\text{:}\)</span>
+<div class="para" id="chap_three_measure_of_variation-5-23">For the standard deviation, we usually use two more decimal places than the original data. This tells us that on average, scores were 2.36 points away from the mean of 5 points. In summary, here are the steps to calculate the standard deviation by hand.</div>
+<article class="assemblage assemblage-like" id="chap_three_measure_of_variation-5-24"><h4 class="heading"><span class="title">Calculating the Sample Standard Deviation.</span></h4>
+<div class="para logical" id="chap_three_measure_of_variation-5-24-2"><ol class="decimal">
+<li id="chap_three_measure_of_variation-5-24-2-1-1"><div class="para" id="chap_three_measure_of_variation-5-24-2-1-1-1">Find the deviations by subtracting the mean from each data value</div></li>
+<li id="chap_three_measure_of_variation-5-24-2-1-2"><div class="para" id="chap_three_measure_of_variation-5-24-2-1-2-1">Square each deviation</div></li>
+<li id="chap_three_measure_of_variation-5-24-2-1-3"><div class="para" id="chap_three_measure_of_variation-5-24-2-1-3-1">Add the squared deviations</div></li>
+<li id="chap_three_measure_of_variation-5-24-2-1-4"><div class="para" id="chap_three_measure_of_variation-5-24-2-1-4-1">Compute the square root of the sum divided by <span class="process-math">\(n-1\text{:}\)</span>
 </div></li>
 </ol></div>
-<div class="para logical" id="chap_three_measure_of_variation-5-23-3"><div class="displaymath process-math">
+<div class="para logical" id="chap_three_measure_of_variation-5-24-3"><div class="displaymath process-math">
 \begin{equation*}
 s=\sqrt{\frac{\text{Sum of the squared deviations from the mean}}{n-1}}
 \end{equation*}
-</div></div></article><div class="para logical" id="chap_three_measure_of_variation-5-24">
+</div></div></article><div class="para logical" id="chap_three_measure_of_variation-5-25">
 <div class="para">There are a few important characteristics we want to keep in mind when finding and interpreting the standard deviation.</div>
 <ul class="disc">
-<li id="chap_three_measure_of_variation-5-24-1-1"><div class="para" id="chap_three_measure_of_variation-5-24-1-1-1">The standard deviation is never negative. It will be zero if all the data values are equal and get larger as the data spreads out.</div></li>
-<li id="chap_three_measure_of_variation-5-24-1-2"><div class="para" id="chap_three_measure_of_variation-5-24-1-2-1">The standard deviation has the same units as the original data and it is important to label it.</div></li>
-<li id="chap_three_measure_of_variation-5-24-1-3"><div class="para" id="chap_three_measure_of_variation-5-24-1-3-1">The standard deviation, like the mean, can be highly influenced by outliers.</div></li>
+<li id="chap_three_measure_of_variation-5-25-1-1"><div class="para" id="chap_three_measure_of_variation-5-25-1-1-1">The standard deviation is never negative. It will be zero if all the data values are equal and get larger as the data spreads out.</div></li>
+<li id="chap_three_measure_of_variation-5-25-1-2"><div class="para" id="chap_three_measure_of_variation-5-25-1-2-1">The standard deviation has the same units as the original data and it is important to label it.</div></li>
+<li id="chap_three_measure_of_variation-5-25-1-3"><div class="para" id="chap_three_measure_of_variation-5-25-1-3-1">The standard deviation, like the mean, can be highly influenced by outliers.</div></li>
 </ul>
 </div>
-<article class="example example-like" id="chap_three_measure_of_variation-5-25"><h4 class="heading">
+<article class="example example-like" id="chap_three_measure_of_variation-5-26"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.2</span><span class="period">.</span>
 </h4>
-<div class="para" id="chap_three_measure_of_variation-5-25-1">To continue our peanut butter example, we will find the standard deviation of this sample: $3.29, $3.59, $3.79, $3.75, and $3.99.</div> <div class="para" id="chap_three_measure_of_variation-5-25-2">The first thing we need to find is the sample mean, and we know it is $3.68 from our previous work. Next, we need to find the deviation from the mean for each data value and square it.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="chap_three_measure_of_variation-5-26-1">To continue our peanut butter example, we will find the standard deviation of this sample in dollars: 3.29, 3.59, 3.79, 3.75, and 3.99.</div> <div class="para" id="chap_three_measure_of_variation-5-26-2">The first thing we need to find is the sample mean, and we know it is $3.68 from our previous work. Next, we need to find the deviation from the mean for each data value and square it.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"><em class="alert">Data Value</em></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Deviation</em></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Deviation Squared</em></th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">$3.29</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$3.29</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3.59-3.68=-0.09\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((-0.39)^{2}=1521\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">$3.59</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$3.59</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3.59-3.68=-0.09\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((-0.09)^{2}=0.0081\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">$3.79</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$3.79</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3.79-3.68=0.11\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((0.11)^{2}=0.0121\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">$3.75</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$3.75</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3.75-3.68=0.07\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((0.07)^{2}=0.0049\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">$3.99</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$3.99</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3.99-3.68=0.31\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((0.31)^{2}=0.0961\)</span></td>
 </tr>
-</table></div></div></div> <div class="para" id="chap_three_measure_of_variation-5-25-4">The sum of the deviations squared is</div> <div class="para logical" id="chap_three_measure_of_variation-5-25-5"><div class="displaymath process-math" id="chap_three_measure_of_variation-5-25-5-1">
+</table></div></div></div> <div class="para" id="chap_three_measure_of_variation-5-26-4">The sum of the deviations squared is</div> <div class="para logical" id="chap_three_measure_of_variation-5-26-5"><div class="displaymath process-math" id="chap_three_measure_of_variation-5-26-5-1">
 \begin{gather*}
 0.1521+0.0081+0.0121+0.0049+0.0961=0.2733\text{ dollars-squared.}
 \end{gather*}
-</div></div> <div class="para" id="chap_three_measure_of_variation-5-25-6">The sample standard deviation is</div> <div class="para logical" id="chap_three_measure_of_variation-5-25-7"><div class="displaymath process-math" id="chap_three_measure_of_variation-5-25-7-1">
+</div></div> <div class="para" id="chap_three_measure_of_variation-5-26-6">The sample standard deviation is</div> <div class="para logical" id="chap_three_measure_of_variation-5-26-7"><div class="displaymath process-math" id="chap_three_measure_of_variation-5-26-7-1">
 \begin{gather*}
 s=\sqrt{\frac{0.2733}{4}} \approx \$0.2614
 \end{gather*}
-</div></div> <div class="para" id="chap_three_measure_of_variation-5-25-8">Since the units are dollars, we will round to two decimal places rather than two more than the data. This gives us a standard deviation of $0.26. Together with the mean this tells us that on average, the cost of a jar of peanut butter is $0.26 away from the mean of $3.68.</div></article><div class="para" id="chap_three_measure_of_variation-5-26">Calculating the standard deviation by hand can be quite a nuisance when we are dealing with a large data set, so we can also use technology. We use the spreadsheet function <code class="code-inline tex2jax_ignore">=STDEV.S</code> to find the <em class="emphasis">sample</em> standard deviation. Notice that this is different from the population standard deviation, which uses the function <code class="code-inline tex2jax_ignore">=STDEV.P</code>.</div>
-<div class="para" id="chap_three_measure_of_variation-5-27">Just like the spreadsheet functions <code class="code-inline tex2jax_ignore">=AVERAGE</code> and <code class="code-inline tex2jax_ignore">=MEDIAN</code>, we can either list the individual data values in the formula, or we can enter the data values into a row or column and use the row or column range in the formula.</div>
+</div></div> <div class="para" id="chap_three_measure_of_variation-5-26-8">Since the units are dollars, we will round to two decimal places rather than two more than the data. This gives us a standard deviation of $0.26. Together with the mean this tells us that on average, the cost of a jar of peanut butter is $0.26 away from the mean of $3.68.</div></article><div class="para" id="chap_three_measure_of_variation-5-27">Calculating the standard deviation by hand can be quite a nuisance when we are dealing with a large data set, so we can also use technology. We use the spreadsheet function <code class="code-inline tex2jax_ignore">=STDEV.S</code> to find the <em class="emphasis">sample</em> standard deviation. Notice that this is different from the population standard deviation, which uses the function <code class="code-inline tex2jax_ignore">=STDEV.P</code>.</div>
+<div class="para" id="chap_three_measure_of_variation-5-28">Just like the spreadsheet functions <code class="code-inline tex2jax_ignore">=AVERAGE</code> and <code class="code-inline tex2jax_ignore">=MEDIAN</code>, we can either list the individual data values in the formula, or we can enter the data values into a row or column and use the row or column range in the formula.</div>
 <article class="example example-like" id="textbook_example_mean_median_sd"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="textbook_example_mean_median_sd-1-1">The total cost of textbooks for the term was collected from 36 students. Use a spreadsheet to find the mean, median, and standard deviation of the sample.</div> <div class="para" id="textbook_example_mean_median_sd-1-2">$140 $160 $160 $165 $180 $220 $235 $240 $250</div> <div class="para" id="textbook_example_mean_median_sd-1-3">$260 $280 $285 $285 $285 $290 $300 $300 $305</div> <div class="para" id="textbook_example_mean_median_sd-1-4">$310 $310 $315 $315 $320 $320 $330 $340 $345</div> <div class="para" id="textbook_example_mean_median_sd-1-5">$350 $355 $360 $360 $380 $395 $420 $460 $460</div> <div class="para" id="textbook_example_mean_median_sd-1-6">Since we are finding more than one statistic for this data set, it is much more efficient to enter the data values into a row or column and reference the range in each of the formulas. We enter the data into column A.</div>
+<div class="para" id="textbook_example_mean_median_sd-1-1">The total cost of textbooks, in dollars, for the term was collected from 36 students. Use a spreadsheet to find the mean, median, and standard deviation of the sample.</div> <div class="para" id="textbook_example_mean_median_sd-1-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">140</td>
+<td class="c m b1 r1 l0 t1 lines">160</td>
+<td class="c m b1 r1 l0 t1 lines">160</td>
+<td class="c m b1 r1 l0 t1 lines">165</td>
+<td class="c m b1 r1 l0 t1 lines">180</td>
+<td class="c m b1 r1 l0 t1 lines">220</td>
+<td class="c m b1 r1 l0 t1 lines">235</td>
+<td class="c m b1 r1 l0 t1 lines">240</td>
+<td class="c m b1 r1 l0 t1 lines">250</td>
+<td class="c m b1 r1 l0 t1 lines">260</td>
+<td class="c m b1 r1 l0 t1 lines">280</td>
+<td class="c m b1 r1 l0 t1 lines">285</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">285</td>
+<td class="c m b1 r1 l0 t0 lines">285</td>
+<td class="c m b1 r1 l0 t0 lines">290</td>
+<td class="c m b1 r1 l0 t0 lines">300</td>
+<td class="c m b1 r1 l0 t0 lines">300</td>
+<td class="c m b1 r1 l0 t0 lines">305</td>
+<td class="c m b1 r1 l0 t0 lines">310</td>
+<td class="c m b1 r1 l0 t0 lines">310</td>
+<td class="c m b1 r1 l0 t0 lines">315</td>
+<td class="c m b1 r1 l0 t0 lines">315</td>
+<td class="c m b1 r1 l0 t0 lines">320</td>
+<td class="c m b1 r1 l0 t0 lines">320</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">330</td>
+<td class="c m b1 r1 l0 t0 lines">340</td>
+<td class="c m b1 r1 l0 t0 lines">345</td>
+<td class="c m b1 r1 l0 t0 lines">350</td>
+<td class="c m b1 r1 l0 t0 lines">355</td>
+<td class="c m b1 r1 l0 t0 lines">360</td>
+<td class="c m b1 r1 l0 t0 lines">360</td>
+<td class="c m b1 r1 l0 t0 lines">380</td>
+<td class="c m b1 r1 l0 t0 lines">395</td>
+<td class="c m b1 r1 l0 t0 lines">420</td>
+<td class="c m b1 r1 l0 t0 lines">460</td>
+<td class="c m b1 r1 l0 t0 lines">460</td>
+</tr>
+</table></div></div></div></div> <div class="para" id="textbook_example_mean_median_sd-1-3">Since we are finding more than one statistic for this data set, it is much more efficient to enter the data values into a row or column and reference the range in each of the formulas. We enter the data into column A.</div>
 <div class="solutions"><details id="textbook_example_mean_median_sd-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel top" style="width:33.3333333333333%;"><div class="para logical" id="textbook_example_mean_median_sd-2-1-1">
@@ -742,12 +836,12 @@ s=\sqrt{\frac{0.2733}{4}} \approx \$0.2614
 <div class="para">and get $78.68.</div>
 </div></div>
 </div></div> <div class="para" id="textbook_example_mean_median_sd-2-2">The mean and the median are relatively close to each other, so we can expect the distribution to be approximately symmetric with maybe a slight skew to the left, since the mean is smaller. The mean and standard deviation together tell us that the average cost of textbooks for a term is about $299.58, give or take $78.68.</div>
-</div></details></div></article><div class="para" id="chap_three_measure_of_variation-5-29">In addition to a spreadsheet, we will continue our use of GeoGebra. Let’s take a look at how to use GeoGeogebra to find the mean, median and standard deviation for the last example. We begin just like we did for making a histogram.</div>
-<article class="example example-like" id="chap_three_measure_of_variation-5-30"><h4 class="heading">
+</div></details></div></article><div class="para" id="chap_three_measure_of_variation-5-30">In addition to a spreadsheet, we will continue our use of GeoGebra. Let’s take a look at how to use GeoGeogebra to find the mean, median and standard deviation for the last example. We begin just like we did for making a histogram.</div>
+<article class="example example-like" id="chap_three_measure_of_variation-5-31"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="chap_three_measure_of_variation-5-30-1">
-<a href="chap_three_measure_of_variation.html#textbook_example_mean_median_sd" class="xref" data-knowl="./knowl/xref/textbook_example_mean_median_sd.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.3">Example 3.4.3</a> continued: We enter the textbook data into column A of the spreadsheet in GeoGebra. (Main Menu →View →Spreadsheet). Next, select the column title of your data, click on the histogram in the menu bar on the left, and select One Variable Analysis.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/stdev1.png" class="contained" alt="A screenshot of GeoGebra showing the icon for One Variable Analysis"></div></div></div> <div class="para" id="chap_three_measure_of_variation-5-30-3">Then you will see the histogram. It is always a good idea to check the shape of your distribution before calculating anything. Notice our histogram matches what we found about the distribution from the mean and median. It is approximately symmetric or slightly skewed to the left.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/stdev2.png" class="contained" alt="A screenshot of GeoGebra showing the histogram. The summation symbol to show summary statistics is on the right side."></div></div></div> <div class="para" id="chap_three_measure_of_variation-5-30-5">Next, we click the summation symbol <span class="process-math">\((\sum x)\)</span> in the menu bar on the right. The list of summary statistics will pop up as you can see in the image below. We see that the mean is $299.58, the median is $307.50 and the sample standard deviation is $78.68 – just like we found using the spreadsheet formulas.</div> <div class="para" id="chap_three_measure_of_variation-5-30-6">The statistics we will use are the sample size <span class="process-math">\((n)\text{,}\)</span> the mean, median, and the sample standard deviation <span class="process-math">\((s)\text{.}\)</span> The last five entries in the table – min, Q1, median, Q3, and max – together make up the 5-number summary which we will learn about shortly!</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/stdev3.png" class="contained" alt="A screenshot of GeoGebra showing the data, histogram and summary statistics."></div></div></div> <div class="para" id="chap_three_measure_of_variation-5-30-8">The standard deviation is the measure of variation that we pair with the mean for approximately symmetric distributions. This pairing should make sense because the standard deviation uses the mean in its calculation. But what about the median? What measure of variation do we pair with it?</div></article></section><section class="subsection" id="chap_three_measure_of_variation-6"><h3 class="heading hide-type">
+<div class="para" id="chap_three_measure_of_variation-5-31-1">
+<a href="chap_three_measure_of_variation.html#textbook_example_mean_median_sd" class="xref" data-knowl="./knowl/xref/textbook_example_mean_median_sd.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.3">Example 3.4.3</a> continued: We enter the textbook data into column A of the spreadsheet in GeoGebra. (Main Menu →View →Spreadsheet). Next, select the column title of your data, click on the histogram in the menu bar on the left, and select One Variable Analysis.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/stdev1.png" class="contained" alt="A screenshot of GeoGebra showing the icon for One Variable Analysis"></div></div></div> <div class="para" id="chap_three_measure_of_variation-5-31-3">Then you will see the histogram. It is always a good idea to check the shape of your distribution before calculating anything. Notice our histogram matches what we found about the distribution from the mean and median. It is approximately symmetric or slightly skewed to the left.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/stdev2.png" class="contained" alt="A screenshot of GeoGebra showing the histogram. The summation symbol to show summary statistics is on the right side."></div></div></div> <div class="para" id="chap_three_measure_of_variation-5-31-5">Next, we click the summation symbol <span class="process-math">\((\sum x)\)</span> in the menu bar on the right. The list of summary statistics will pop up as you can see in the image below. We see that the mean is $299.58, the median is $307.50 and the sample standard deviation is $78.68 – just like we found using the spreadsheet formulas.</div> <div class="para" id="chap_three_measure_of_variation-5-31-6">The statistics we will use are the sample size <span class="process-math">\((n)\text{,}\)</span> the mean, median, and the sample standard deviation <span class="process-math">\((s)\text{.}\)</span> The last five entries in the table – min, Q1, median, Q3, and max – together make up the 5-number summary which we will learn about shortly!</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/stdev3.png" class="contained" alt="A screenshot of GeoGebra showing the data, histogram and summary statistics."></div></div></div> <div class="para" id="chap_three_measure_of_variation-5-31-8">The standard deviation is the measure of variation that we pair with the mean for approximately symmetric distributions. This pairing should make sense because the standard deviation uses the mean in its calculation. But what about the median? What measure of variation do we pair with it?</div></article></section><section class="subsection" id="chap_three_measure_of_variation-6"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.3</span><span class="space"> </span><span class="title">Range</span>
 </h3>
 <div class="para" id="chap_three_measure_of_variation-6-2">One candidate is the <em class="alert">range</em>. The range tells us the spread or width of the entire data set. We calculate the range as the difference between the maximum and minimum value.</div>
@@ -778,11 +872,37 @@ s=\sqrt{\frac{0.2733}{4}} \approx \$0.2614
 <div class="para" id="chap_three_measure_of_variation-7-7-5">If there is an odd number of data values, we don’t use the median in either half</div></article><article class="example example-like" id="chap_three_measure_of_variation-7-8"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="chap_three_measure_of_variation-7-8-1-1">(even number of data values): Suppose we have measured the height, in inches, of 12 people who identify as female. The data values are listed below. Find the interquartile range.</div> <div class="para" id="chap_three_measure_of_variation-7-8-1-2">59 60 69 64 70 72 66 64 67 66 63 61</div>
+<div class="para" id="chap_three_measure_of_variation-7-8-1-1">For an even number of data values: Suppose we have measured the height, in inches, of 12 people who identify as female. The data values are listed below. Find the interquartile range.</div> <div class="para" id="chap_three_measure_of_variation-7-8-1-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">59</td>
+<td class="c m b1 r1 l0 t1 lines">60</td>
+<td class="c m b1 r1 l0 t1 lines">69</td>
+<td class="c m b1 r1 l0 t1 lines">64</td>
+<td class="c m b1 r1 l0 t1 lines">70</td>
+<td class="c m b1 r1 l0 t1 lines">72</td>
+<td class="c m b1 r1 l0 t1 lines">66</td>
+<td class="c m b1 r1 l0 t1 lines">64</td>
+<td class="c m b1 r1 l0 t1 lines">67</td>
+<td class="c m b1 r1 l0 t1 lines">66</td>
+<td class="c m b1 r1 l0 t1 lines">63</td>
+<td class="c m b1 r1 l0 t1 lines">61</td>
+</tr></table></div></div></div></div>
 <div class="solutions"><details id="chap_three_measure_of_variation-7-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="chap_three_measure_of_variation-7-8-2-1">Just like when finding the median, we must first order the data.</div> <div class="para" id="chap_three_measure_of_variation-7-8-2-2">59 60 61 63 64 64 66 66 67 69 70 72</div> <div class="para" id="chap_three_measure_of_variation-7-8-2-3">Then we divide the data into two halves. In the case of an even sample size, we split the distribution down the middle. The first 6 data values are the lower half and the next 6 data values are the upper half. Then we find the median of each. The median of the lower half is Q1 and the median of the upper half is Q3.</div> <div class="para logical" id="chap_three_measure_of_variation-7-8-2-4"><div class="displaymath process-math" id="chap_three_measure_of_variation-7-8-2-4-1">
+<div class="para" id="chap_three_measure_of_variation-7-8-2-1">Just like when finding the median, we must first order the data.</div> <div class="para" id="chap_three_measure_of_variation-7-8-2-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">59</td>
+<td class="c m b1 r1 l0 t1 lines">60</td>
+<td class="c m b1 r1 l0 t1 lines">61</td>
+<td class="c m b1 r1 l0 t1 lines">63</td>
+<td class="c m b1 r1 l0 t1 lines">64</td>
+<td class="c m b1 r1 l0 t1 lines">64</td>
+<td class="c m b1 r1 l0 t1 lines">66</td>
+<td class="c m b1 r1 l0 t1 lines">66</td>
+<td class="c m b1 r1 l0 t1 lines">67</td>
+<td class="c m b1 r1 l0 t1 lines">69</td>
+<td class="c m b1 r1 l0 t1 lines">70</td>
+<td class="c m b1 r1 l0 t1 lines">72</td>
+</tr></table></div></div></div></div> <div class="para" id="chap_three_measure_of_variation-7-8-2-3">Then we divide the data into two halves. In the case of an even sample size, we split the distribution down the middle. The first 6 data values are the lower half and the next 6 data values are the upper half. Then we find the median of each. The median of the lower half is Q1 and the median of the upper half is Q3.</div>  <div class="para logical" id="chap_three_measure_of_variation-7-8-2-4"><div class="displaymath process-math" id="chap_three_measure_of_variation-7-8-2-4-1">
 \begin{gather*}
-\overbrace{59,60, \underbrace{61, 63,}^{Q1 =\frac{61+63}{2}=62} 64, 64,}^{\text{Lower Half}} \overbrace{66, 66, \underbrace{67, 69,}^{Q3 =\frac{67+69}{2}=68} 70, 72}^{\text{Upper Half}}
+\overbrace{59,60,\underbrace{61,63,}^{Q1=\frac{61+63}{2}=62} 64,64,}^{\text{Lower Half}} \overbrace{66,66,\underbrace{67, 69,}^{Q3 =\frac{67+69}{2}=68} 70,72}^{\text{Upper Half}}
 \end{gather*}
 </div></div> <div class="para" id="chap_three_measure_of_variation-7-8-2-5">In this data <span class="process-math">\(Q_{1}=62\)</span> inches, and <span class="process-math">\(Q_{3}=68\)</span> inches. Then we subtract to find the IQR.</div> <div class="para logical" id="chap_three_measure_of_variation-7-8-2-6"><div class="displaymath process-math" id="chap_three_measure_of_variation-7-8-2-6-1">
 \begin{gather*}
@@ -792,19 +912,36 @@ IQR=Q_{3}-Q_{1}=68-62=6\text{ inches}
 </div></details></div></article><article class="example example-like" id="chap_three_measure_of_variation-7-9"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="chap_three_measure_of_variation-7-9-1">(odd number of data values): Suppose we added one more height (68 inches) to the data set from the previous example. We will again find the interquartile range of the heights.</div> <div class="para" id="chap_three_measure_of_variation-7-9-2">59 60 61 63 64 64 66 66 67 68 69 70 72</div> <div class="para" id="chap_three_measure_of_variation-7-9-3">The data are already in order, but we have an odd number of values. To deal with this we do not use the median in the upper or lower halves. The lower half will include the values strictly below the median, and the upper half will include the values strictly above the median.</div> <div class="para logical" id="chap_three_measure_of_variation-7-9-4"><div class="displaymath process-math" id="chap_three_measure_of_variation-7-9-4-1">
+<div class="para" id="chap_three_measure_of_variation-7-9-1-1">For an odd number of data values: Suppose we added one more height (68 inches) to the data set from the previous example. We will again find the interquartile range of the heights.</div> <div class="para" id="chap_three_measure_of_variation-7-9-1-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">59</td>
+<td class="c m b1 r1 l0 t1 lines">60</td>
+<td class="c m b1 r1 l0 t1 lines">61</td>
+<td class="c m b1 r1 l0 t1 lines">63</td>
+<td class="c m b1 r1 l0 t1 lines">64</td>
+<td class="c m b1 r1 l0 t1 lines">64</td>
+<td class="c m b1 r1 l0 t1 lines">66</td>
+<td class="c m b1 r1 l0 t1 lines">66</td>
+<td class="c m b1 r1 l0 t1 lines">67</td>
+<td class="c m b1 r1 l0 t1 lines">68</td>
+<td class="c m b1 r1 l0 t1 lines">69</td>
+<td class="c m b1 r1 l0 t1 lines">70</td>
+<td class="c m b1 r1 l0 t1 lines">72</td>
+</tr></table></div></div></div></div>
+<div class="solutions"><details id="chap_three_measure_of_variation-7-9-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="chap_three_measure_of_variation-7-9-2-1">The data are already in order, but we have an odd number of values. To deal with this we do not use the median in the upper or lower halves. The lower half will include the values strictly below the median, and the upper half will include the values strictly above the median.</div> <div class="para logical" id="chap_three_measure_of_variation-7-9-2-2"><div class="displaymath process-math" id="chap_three_measure_of_variation-7-9-2-2-1">
 \begin{gather*}
-\overbrace{59,60, \underbrace{61, 63,}^{Q1 =\frac{61+63}{2}=62} 64, 64,}^{\text{Lower Half}} \overbrace{66}^{\text{Median(Ignore)}} \overbrace{66, 67, \underbrace{68, 69,}^{Q3 =\frac{68+69}{2}=68.5} 70, 72}^{\text{Upper Half}}
+\overbrace{59,60, \underbrace{61, 63,}^{Q1 =\frac{61+63}{2}=62} 64, 64, }^{\text{Lower Half}} \overbrace{66}^{\text{Median(Ignore)}} \overbrace{66, 67, \underbrace{68, 69,}^{Q3 =\frac{68+69}{2}=68.5} 70, 72}^{\text{Upper Half}}
 \end{gather*}
-</div></div> <div class="para" id="chap_three_measure_of_variation-7-9-5">Then the interquartile range is:</div> <div class="para logical" id="chap_three_measure_of_variation-7-9-6"><div class="displaymath process-math" id="chap_three_measure_of_variation-7-9-6-1">
+</div></div> <div class="para" id="chap_three_measure_of_variation-7-9-2-3">Then the interquartile range is:</div> <div class="para logical" id="chap_three_measure_of_variation-7-9-2-4"><div class="displaymath process-math" id="chap_three_measure_of_variation-7-9-2-4-1">
 \begin{gather*}
 IQR=Q_{3}-Q_{1}=68.5-62=6.5\text{ inches}
 \end{gather*}
-</div></div> <div class="para" id="chap_three_measure_of_variation-7-9-7">If the data set is small, we can find the first and third quartiles by hand, but we have also seen that they are part of the output from GeoGebra. Here is the output for this data.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/quartile.png" class="contained" alt="A screenshot of GeoGebra showing the data and the summary statistics."></div></div></div> <div class="para" id="chap_three_measure_of_variation-7-9-9">From the list of summary statistics we can see that <span class="process-math">\(=Q_{1}=62\)</span> and <span class="process-math">\(=Q_{3}=68.5\)</span> inches. Now we can calculate the interquartile range.</div> <div class="para logical" id="chap_three_measure_of_variation-7-9-10"><div class="displaymath process-math" id="chap_three_measure_of_variation-7-9-10-1">
+</div></div> <div class="para" id="chap_three_measure_of_variation-7-9-2-5">If the data set is small, we can find the first and third quartiles by hand, but we have also seen that they are part of the output from GeoGebra. Here is the output for this data.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/quartile.png" class="contained" alt="A screenshot of GeoGebra showing the data and the summary statistics."></div></div></div> <div class="para" id="chap_three_measure_of_variation-7-9-2-7">From the list of summary statistics we can see that <span class="process-math">\(=Q_{1}=62\)</span> and <span class="process-math">\(=Q_{3}=68.5\)</span> inches. Now we can calculate the interquartile range.</div> <div class="para logical" id="chap_three_measure_of_variation-7-9-2-8"><div class="displaymath process-math" id="chap_three_measure_of_variation-7-9-2-8-1">
 \begin{gather*}
 IQR=68.5-62=6.5\text{ inches}
 \end{gather*}
-</div></div></article><div class="para" id="chap_three_measure_of_variation-7-10">This is the same value we found by hand. It is important to note that we are not using spreadsheets for the five-number summary because they do not calculate the quartiles in the same way, so they will not give the same results. Now that we have learned how to find the quartiles we can make a five-number summary and boxplot.</div></section><section class="subsection" id="chap_three_measure_of_variation-8"><h3 class="heading hide-type">
+</div></div> <div class="para" id="chap_three_measure_of_variation-7-9-2-9">This is the same value we found by hand.</div>
+</div></details></div></article><div class="para" id="chap_three_measure_of_variation-7-10">It is important to note that we are not using spreadsheets for the five-number summary because they do not calculate the quartiles in the same way, so they will not give the same results. Now that we have learned how to find the quartiles we can make a five-number summary and boxplot.</div></section><section class="subsection" id="chap_three_measure_of_variation-8"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.5</span><span class="space"> </span><span class="title">The Five-Number Summary and Boxplots</span>
 </h3>
 <div class="para" id="chap_three_measure_of_variation-8-2">The <em class="alert">five-number summary</em> is made up of the minimum, Q1, median, Q3, and the maximum. These five values divide the data into quarters. A <em class="alert">boxplot</em>, also called a <em class="alert">box-and-whisker plot</em>, is a graphical representation of the five-number summary. Each region of the boxplot contains approximately the same number of data values, so we can see the spread for each region. We can find the five-number summary and draw a boxplot by hand or by using GeoGebra. In our last example the five-number summary from GeoGebra is: 59, 62, 66, 68.5, 72 inches.</div>
@@ -817,7 +954,50 @@ IQR=68.5-62=6.5\text{ inches}
 <article class="example example-like" id="chap_three_measure_of_variation-8-5"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="chap_three_measure_of_variation-8-5-1-1">Let’s continue with the cost of textbook data from <a href="chap_three_measure_of_variation.html#textbook_example_mean_median_sd" class="xref" data-knowl="./knowl/xref/textbook_example_mean_median_sd.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.3">Example 3.4.3</a>. Use GeoGebra to find the five-number summary for this sample and draw a boxplot by hand.</div> <div class="para" id="chap_three_measure_of_variation-8-5-1-2">$140 $160 $160 $165 $180 $220 $235 $240 $250</div> <div class="para" id="chap_three_measure_of_variation-8-5-1-3">$260 $280 $285 $285 $285 $290 $300 $300 $305</div> <div class="para" id="chap_three_measure_of_variation-8-5-1-4">$310 $310 $315 $315 $320 $320 $330 $340 $345</div> <div class="para" id="chap_three_measure_of_variation-8-5-1-5">$350 $355 $360 $360 $380 $395 $420 $460 $460</div>
+<div class="para" id="chap_three_measure_of_variation-8-5-1-1">Let’s continue with the cost of textbook data in dollars from <a href="chap_three_measure_of_variation.html#textbook_example_mean_median_sd" class="xref" data-knowl="./knowl/xref/textbook_example_mean_median_sd.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.3">Example 3.4.3</a>. Use GeoGebra to find the five-number summary for this sample and draw a boxplot by hand.</div> <div class="para" id="chap_three_measure_of_variation-8-5-1-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">140</td>
+<td class="c m b1 r1 l0 t1 lines">160</td>
+<td class="c m b1 r1 l0 t1 lines">160</td>
+<td class="c m b1 r1 l0 t1 lines">165</td>
+<td class="c m b1 r1 l0 t1 lines">180</td>
+<td class="c m b1 r1 l0 t1 lines">220</td>
+<td class="c m b1 r1 l0 t1 lines">235</td>
+<td class="c m b1 r1 l0 t1 lines">240</td>
+<td class="c m b1 r1 l0 t1 lines">250</td>
+<td class="c m b1 r1 l0 t1 lines">260</td>
+<td class="c m b1 r1 l0 t1 lines">280</td>
+<td class="c m b1 r1 l0 t1 lines">285</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">285</td>
+<td class="c m b1 r1 l0 t0 lines">285</td>
+<td class="c m b1 r1 l0 t0 lines">290</td>
+<td class="c m b1 r1 l0 t0 lines">300</td>
+<td class="c m b1 r1 l0 t0 lines">300</td>
+<td class="c m b1 r1 l0 t0 lines">305</td>
+<td class="c m b1 r1 l0 t0 lines">310</td>
+<td class="c m b1 r1 l0 t0 lines">310</td>
+<td class="c m b1 r1 l0 t0 lines">315</td>
+<td class="c m b1 r1 l0 t0 lines">315</td>
+<td class="c m b1 r1 l0 t0 lines">320</td>
+<td class="c m b1 r1 l0 t0 lines">320</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">330</td>
+<td class="c m b1 r1 l0 t0 lines">340</td>
+<td class="c m b1 r1 l0 t0 lines">345</td>
+<td class="c m b1 r1 l0 t0 lines">350</td>
+<td class="c m b1 r1 l0 t0 lines">355</td>
+<td class="c m b1 r1 l0 t0 lines">360</td>
+<td class="c m b1 r1 l0 t0 lines">360</td>
+<td class="c m b1 r1 l0 t0 lines">380</td>
+<td class="c m b1 r1 l0 t0 lines">395</td>
+<td class="c m b1 r1 l0 t0 lines">420</td>
+<td class="c m b1 r1 l0 t0 lines">460</td>
+<td class="c m b1 r1 l0 t0 lines">460</td>
+</tr>
+</table></div></div></div></div>
 <div class="solutions"><details id="chap_three_measure_of_variation-8-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="chap_three_measure_of_variation-8-5-2-1">As we found before, here is the GeoGebra output. The last five entries of the summary statistics are the five-number summary. Remember to label all of your statistics with units.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/five_num1.png" class="contained" alt="A screenshot of GeoGebra showing the data and the summary statistics."></div></div></div> <div class="para" id="chap_three_measure_of_variation-8-5-2-3">The five-number summary is</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
@@ -838,9 +1018,22 @@ IQR=68.5-62=6.5\text{ inches}
 </div></details></div></article><article class="example example-like" id="chap_three_measure_of_variation-8-6"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="chap_three_measure_of_variation-8-6-1-1">We will continue with our height data from the 12 people who identify as women. Find the five-number summary and create a boxplot using GeoGebra.</div>
+<div class="para" id="chap_three_measure_of_variation-8-6-1-1">We will continue with our height data, in inches, from the 12 people who identify as women. Find the five-number summary and create a boxplot using GeoGebra.</div>
 <div class="solutions"><details id="chap_three_measure_of_variation-8-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="chap_three_measure_of_variation-8-6-2-1">59 60 69 64 70 72 66 64 67 66 63 61</div> <div class="para" id="chap_three_measure_of_variation-8-6-2-2">Following the steps above we have the following GeoGebra output. The last five entries in the statistics table are the five-number summary and we have the boxplot on the right.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/five_num3.png" class="contained" alt="A screenshot of GeoGebra showint the data, summary statistics and the boxplot."></div></div></div> <div class="para" id="chap_three_measure_of_variation-8-6-2-4">Here is the five-number summary:</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="chap_three_measure_of_variation-8-6-2-1"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">59</td>
+<td class="c m b1 r1 l0 t1 lines">60</td>
+<td class="c m b1 r1 l0 t1 lines">69</td>
+<td class="c m b1 r1 l0 t1 lines">64</td>
+<td class="c m b1 r1 l0 t1 lines">70</td>
+<td class="c m b1 r1 l0 t1 lines">72</td>
+<td class="c m b1 r1 l0 t1 lines">66</td>
+<td class="c m b1 r1 l0 t1 lines">64</td>
+<td class="c m b1 r1 l0 t1 lines">67</td>
+<td class="c m b1 r1 l0 t1 lines">66</td>
+<td class="c m b1 r1 l0 t1 lines">63</td>
+<td class="c m b1 r1 l0 t1 lines">61</td>
+</tr></table></div></div></div></div> <div class="para" id="chap_three_measure_of_variation-8-6-2-2">Following the steps above we have the following GeoGebra output. The last five entries in the statistics table are the five-number summary and we have the boxplot on the right.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/five_num3.png" class="contained" alt="A screenshot of GeoGebra showint the data, summary statistics and the boxplot."></div></div></div> <div class="para" id="chap_three_measure_of_variation-8-6-2-4">Here is the five-number summary:</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">Min</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(Q_{1}\)</span></th>
@@ -855,7 +1048,7 @@ IQR=68.5-62=6.5\text{ inches}
 <td class="c m b1 r1 l0 t0 lines">68in</td>
 <td class="c m b1 r1 l0 t0 lines">72in</td>
 </tr>
-</table></div></div></div> <div class="para" id="chap_three_measure_of_variation-8-6-2-6">For this data, the two sides of the box and the two whiskers are approximately the same width. This suggests that the distribution is symmetric. We can verify this by noticing that the mean is approximately equal to the median.</div> <div class="para" id="chap_three_measure_of_variation-8-6-2-7">The boxplot can tell us the shape of the distribution, but we cannot tell how many peaks the data has. For that we need a histogram. We can see the histogram and boxplot together by selecting the icon that looks like two rectangles stacked, or an = sign.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/five_num4.png" class="contained" alt="A screenshot of GeoGebra showing the histogram and boxplot stacked."></div></div></div> <div class="para" id="chap_three_measure_of_variation-8-6-2-9">Now we have a full picture of this data.</div>
+</table></div></div></div> <div class="para" id="chap_three_measure_of_variation-8-6-2-6">For this data, the two sides of the box and the two whiskers are approximately the same width. This suggests that the distribution is symmetric. We can verify this by noticing that the mean is approximately equal to the median.</div> <div class="para" id="chap_three_measure_of_variation-8-6-2-7">The boxplot can tell us the shape of the distribution, but we cannot tell how many peaks the data has. For that we need a histogram. We can see the histogram and boxplot together by selecting the icon that looks like two rectangles stacked, or an = sign.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/five_num4.png" class="contained" alt="A screenshot of GeoGebra showing the histogram and boxplot stacked."></div></div></div> <div class="para" id="chap_three_measure_of_variation-8-6-2-9">Now we have a full picture of the data.</div>
 </div></details></div></article><div class="para" id="chap_three_measure_of_variation-8-7">The default boxplot in GeoGebra is called a <em class="alert">modified box plot</em>, which shows the data values that are outliers with an X but requires a few more steps to make by hand. To change from the modified box plot to a regular box plot, click on the left pointing arrow in the boxplot window (downloaded version) or the settings wheel (online version) for options, and uncheck “show outliers.” The output window below shows two side-by-side boxplots (the regular boxplot on top and the modified boxplot on the bottom) illustrating the distribution of the annual salaries for 50 randomly selected full-time workers in the Portland Metro area.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/five_num5.png" class="contained" alt="A screenshot of GeoGebra showing two boxplots for the same data stacked. The first one is the regular boxplot and show outliers is unchecked; the second one has 4 outliers on the right side and the box for show outliers is checked."></div></div></div>
 <div class="para" id="chap_three_measure_of_variation-8-9">From the upper boxplot we can see that this distribution is skewed to the right and the upper quarter of the data is very spread out. It is natural to think of the data values as being evenly spread out in each region, but that is quite often not the case. From the lower boxplot we can see that there are 4 data values that are considered outliers and how far away the last data value is from the others. This is why it is useful to show outliers on a boxplot.</div></section><section class="subsection" id="chap_three_measure_of_variation-9"><h3 class="heading hide-type">
@@ -881,7 +1074,7 @@ IQR=68.5-62=6.5\text{ inches}
 <div class="para" id="chap_three_measure_of_variation-11-4-1-1">The boxplots below show the 5-number summaries of the birth weights, in kilograms, of infants with severe idiopathic respiratory distress syndrome (SIRDS)<details class="ptx-footnote" aria-live="polite" id="chap_three_measure_of_variation-11-4-1-1-1"><summary class="ptx-footnote__number" title="Footnote 3.4.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="chap_three_measure_of_variation-11-4-1-1-1">van Vliet, P.K. and Gupta, J.M. (1973) Sodium bicarbonate in idiopathic respiratory distress syndrome. Arch. Disease in Childhood, 48, 249–255. As quoted on <a class="external" href="http://openlearn.open.ac.uk/mod/oucontent/view.php?id=398296&amp;section=1.1.3" target="_blank"><code class="code-inline tex2jax_ignore">openlearn.open.ac.uk/mod/oucontent/view.php?id=398296&amp;section=1.1.3</code></a>
 </div></details>. The boxplots are separated to show the birth weights of infants who survived and those that did not. What can we conclude from this data?</div>
 <div class="solutions"><details id="chap_three_measure_of_variation-11-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/compare_dist2.png" class="contained" alt="The boxplot for infants who survived shows a 5-number summary of approximately 1.2, 1.8, 2.2, 2.9, 3.7 kg. The boxplot for infants who died shows a 5-number summary of 1.1, 1.3, 1.5, 2.2, 2.8 kg."></div></div></div> <div class="para" id="chap_three_measure_of_variation-11-4-2-2">Comparing the two groups, the boxplot reveals that the birth weights of the infants that died appear to be, overall, smaller than the weights of infants that survived. In fact, we can see that the median birth weight of infants that survived is about the same as the third quartile of the infants that died. Similarly, we can see that the 25th percentile of the survivors is larger than the 50th percentile of those that died, meaning that over 75% of the survivors had a birth weight larger than the median birth weight of those that died.Looking at the maximum value for those that died and the third quartile of the survivors, we can see that over 25% of the survivors had birth weights higher than the heaviest infant that died. The box plots give us a quick, though informal, way to determine that birth weight is quite likely linked to the survival of infants with SIRDS.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/compare_dist2.png" class="contained" alt="The boxplot for infants who survived shows a 5-number summary of approximately 1.2, 1.8, 2.2, 2.9, 3.7 kg. The boxplot for infants who died shows a 5-number summary of 1.1, 1.3, 1.5, 2.2, 2.8 kg."></div></div></div> <div class="para" id="chap_three_measure_of_variation-11-4-2-2">Comparing the two groups, the boxplot reveals that the birth weights of the infants that died appear to be, overall, smaller than the weights of infants that survived. In fact, we can see that the median birth weight of infants that survived is about the same as the third quartile of the infants that died. Similarly, we can see that the 25th percentile of the survivors is larger than the 50th percentile of those that died, meaning that over 75% of the survivors had a birth weight larger than the median birth weight of those that died.</div> <div class="para" id="chap_three_measure_of_variation-11-4-2-3">Similarly, looking at the maximum value for those that died and the third quartile of the survivors, we can see that over 25% of the survivors had birth weights higher than the heaviest infant that died. The box plots give us a quick, though informal, way to determine that birth weight is quite likely linked to the survival of infants with SIRDS.</div>
 </div></details></div></article></section><section class="subsection" id="chap_three_measure_of_variation-12"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.9</span><span class="space"> </span><span class="title">Z-Scores</span>
 </h3>
@@ -940,184 +1133,331 @@ Z_{\text{Georgie}}=\frac{24-8.6}{1.2}=12.83\text{ standard deviations.}
 </div></div> <div class="para" id="chap_three_measure_of_variation-12-9-7">Since both Z-scores are greater than 2 standard deviations, both weights are extremely unusual. However, since the Z-score for Georgie’s weight is larger, he is even more giant than Andre the Giant.</div></article></section><section class="exercises" id="chap_three_measure_of_variation-13"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.4.10</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<article class="exercise exercise-like" id="chap_three_measure_of_variation-13-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="para logical" id="chap_three_measure_of_variation-13-2-1-1">
-<div class="para">A group of diners were asked how much they would pay for a meal. Their responses were: $7.50, $25.00, $10.00, $10.00, $7.50, $8.25, $9.00, $5.00, $15.00, $8.00, $7.25, $7.50, $8.00, $7.00, $12.00.</div>
-<ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-2-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-2-1-1-1-1-1">Using your mean from <a href="chap_three_measure_of_center.html#diners_example" class="xref" data-knowl="./knowl/xref/diners_example.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.7.1">Exercise 3.3.7.1</a>, find the standard deviation of this data. Explain what the mean and standard deviation tell you about how much the group of diners would pay for a meal.</div></li>
-<li id="chap_three_measure_of_variation-13-2-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-2-1-1-1-2-1">Calculate the five-number summary for this data.</div></li>
-<li id="chap_three_measure_of_variation-13-2-1-1-1-3"><div class="para" id="chap_three_measure_of_variation-13-2-1-1-1-3-1">Calculate the range and IQR for this data.</div></li>
-<li id="chap_three_measure_of_variation-13-2-1-1-1-4"><div class="para" id="chap_three_measure_of_variation-13-2-1-1-1-4-1">Create a boxplot for the data.</div></li>
-</ol>
-</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="para" id="chap_three_measure_of_variation-13-3-1-1">The amount of commercials in an hour of television varies by channel. The total length (in minutes) of all commercials from 8 pm to 9 pm in for some selected broadcast and cable channels on a weekday evening were: 10, 12.75, 7, 9, 9.75, 6.5, 12.5, 12.5, 8.75, 17, 10.5, 2</div> <div class="para logical" id="chap_three_measure_of_variation-13-3-1-2"><ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-3-1-2-1-1"><div class="para" id="chap_three_measure_of_variation-13-3-1-2-1-1-1">Using your mean from <a href="chap_three_measure_of_center.html#commercials_example" class="xref" data-knowl="./knowl/xref/commercials_example.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.7.2">Exercise 3.3.7.2</a>, find the standard deviation of this data. Explain what the mean and standard deviation tell you about how much the group of diners would pay for a meal.</div></li>
-<li id="chap_three_measure_of_variation-13-3-1-2-1-2"><div class="para" id="chap_three_measure_of_variation-13-3-1-2-1-2-1">Calculate the five-number summary for this data.</div></li>
-<li id="chap_three_measure_of_variation-13-3-1-2-1-3"><div class="para" id="chap_three_measure_of_variation-13-3-1-2-1-3-1">Calculate the range and IQR for this data.</div></li>
-<li id="chap_three_measure_of_variation-13-3-1-2-1-4"><div class="para" id="chap_three_measure_of_variation-13-3-1-2-1-4-1">Create a boxplot for the data.</div></li>
-</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="para logical" id="chap_three_measure_of_variation-13-4-1-1">
-<div class="para">You recorded the time in seconds it took for 8 participants to solve a puzzle. The times were: 15.2, 18.8, 19.3, 19.7, 20.2, 21.8, 22.1, 29.4.</div>
-<ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-4-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-4-1-1-1-1-1">Using your mean from <a href="chap_three_measure_of_center.html#puzzle_example" class="xref" data-knowl="./knowl/xref/puzzle_example.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.7.3">Exercise 3.3.7.3</a>, find the standard deviation of this data. Explain what the mean and standard deviation tell you about how much the group of diners would pay for a meal.</div></li>
-<li id="chap_three_measure_of_variation-13-4-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-4-1-1-1-2-1">Calculate the five-number summary for this data.</div></li>
-<li id="chap_three_measure_of_variation-13-4-1-1-1-3"><div class="para" id="chap_three_measure_of_variation-13-4-1-1-1-3-1">Calculate the range and IQR for this data.</div></li>
-<li id="chap_three_measure_of_variation-13-4-1-1-1-4"><div class="para" id="chap_three_measure_of_variation-13-4-1-1-1-4-1">Create a boxplot for the data.</div></li>
-</ol>
-</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-5"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="para" id="chap_three_measure_of_variation-13-5-1-1">You weigh 9 Oreo cookies, and you find the weights (in grams) are: 3.49, 3.51, 3.51, 3.51, 3.52, 3.54, 3.55, 3.58, 3.61</div> <div class="para logical" id="chap_three_measure_of_variation-13-5-1-2"><ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-5-1-2-1-1"><div class="para" id="chap_three_measure_of_variation-13-5-1-2-1-1-1">Using your mean from <a href="chap_three_measure_of_center.html#oreo_example" class="xref" data-knowl="./knowl/xref/oreo_example.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.7.4">Exercise 3.3.7.4</a>, find the standard deviation of this data. Explain what the mean and standard deviation tell you about the weights of these Oreo cookies.</div></li>
-<li id="chap_three_measure_of_variation-13-5-1-2-1-2"><div class="para" id="chap_three_measure_of_variation-13-5-1-2-1-2-1">Calculate the five-number summary for this data.</div></li>
-<li id="chap_three_measure_of_variation-13-5-1-2-1-3"><div class="para" id="chap_three_measure_of_variation-13-5-1-2-1-3-1">Calculate the range and IQR for this data.</div></li>
-<li id="chap_three_measure_of_variation-13-5-1-2-1-4"><div class="para" id="chap_three_measure_of_variation-13-5-1-2-1-4-1">Create a boxplot for the data.</div></li>
-</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-6"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
-<div class="para logical" id="chap_three_measure_of_variation-13-6-1-1">
+<section class="introduction" id="chap_three_measure_of_variation-13-2"><div class="para" id="chap_three_measure_of_variation-13-2-1">Many of the datasets from the Measures of Center section are repeated here so you can use your previous work to help you.</div></section><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-3"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-3-1-1">A group of diners were asked how much they would pay for a breakfast in dollars. Their responses were:</div> <div class="para" id="chap_three_measure_of_variation-13-3-1-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">7.50</td>
+<td class="c m b1 r1 l0 t1 lines">25</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">7.50</td>
+<td class="c m b1 r1 l0 t1 lines">8.25</td>
+<td class="c m b1 r1 l0 t1 lines">9</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">8</td>
+<td class="c m b1 r1 l0 t1 lines">7.25</td>
+<td class="c m b1 r1 l0 t1 lines">7.50</td>
+<td class="c m b1 r1 l0 t1 lines">8</td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">12</td>
+</tr></table></div></div></div></div> <div class="para logical" id="chap_three_measure_of_variation-13-3-1-3"><ol class="lower-alpha">
+<li id="chap_three_measure_of_variation-13-3-1-3-1-1"><div class="para" id="chap_three_measure_of_variation-13-3-1-3-1-1-1">Using your mean from <a href="chap_three_measure_of_center.html#diners_example" class="xref" data-knowl="./knowl/xref/diners_example.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.7.1">Exercise 3.3.7.1</a>, find the standard deviation of this data. Explain what the mean and standard deviation tell you about how much the group of diners would pay for a meal.</div></li>
+<li id="chap_three_measure_of_variation-13-3-1-3-1-2"><div class="para" id="chap_three_measure_of_variation-13-3-1-3-1-2-1">Calculate the five-number summary for this data.</div></li>
+<li id="chap_three_measure_of_variation-13-3-1-3-1-3"><div class="para" id="chap_three_measure_of_variation-13-3-1-3-1-3-1">Calculate the range and IQR for this data.</div></li>
+<li id="chap_three_measure_of_variation-13-3-1-3-1-4"><div class="para" id="chap_three_measure_of_variation-13-3-1-3-1-4-1">Create a boxplot for the data.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-4"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-4-1-1">The amount of commercials in an hour of television varies by channel. The total length (in minutes) of all commercials from 8 pm to 9 pm for some randomly selected broadcast and cable channels on a weekday evening were:</div> <div class="para" id="chap_three_measure_of_variation-13-4-1-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">12.75</td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">9</td>
+<td class="c m b1 r1 l0 t1 lines">9.75</td>
+<td class="c m b1 r1 l0 t1 lines">6.5</td>
+<td class="c m b1 r1 l0 t1 lines">12.5</td>
+<td class="c m b1 r1 l0 t1 lines">12.5</td>
+<td class="c m b1 r1 l0 t1 lines">8.75</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+<td class="c m b1 r1 l0 t1 lines">10.5</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+</tr></table></div></div></div></div> <div class="para logical" id="chap_three_measure_of_variation-13-4-1-3"><ol class="lower-alpha">
+<li id="chap_three_measure_of_variation-13-4-1-3-1-1"><div class="para" id="chap_three_measure_of_variation-13-4-1-3-1-1-1">Using your mean from <a href="chap_three_measure_of_center.html#commercials_example" class="xref" data-knowl="./knowl/xref/commercials_example.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.7.2">Exercise 3.3.7.2</a>, find the standard deviation of this data. Explain what the mean and standard deviation tell you about how much the group of diners would pay for a meal.</div></li>
+<li id="chap_three_measure_of_variation-13-4-1-3-1-2"><div class="para" id="chap_three_measure_of_variation-13-4-1-3-1-2-1">Calculate the five-number summary for this data.</div></li>
+<li id="chap_three_measure_of_variation-13-4-1-3-1-3"><div class="para" id="chap_three_measure_of_variation-13-4-1-3-1-3-1">Calculate the range and IQR for this data.</div></li>
+<li id="chap_three_measure_of_variation-13-4-1-3-1-4"><div class="para" id="chap_three_measure_of_variation-13-4-1-3-1-4-1">Create a boxplot for the data.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-5"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-5-1-1">You recorded the time in seconds it took for 8 participants to solve a puzzle. The times were:</div> <div class="para" id="chap_three_measure_of_variation-13-5-1-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">15.2</td>
+<td class="c m b1 r1 l0 t1 lines">18.8</td>
+<td class="c m b1 r1 l0 t1 lines">19.3</td>
+<td class="c m b1 r1 l0 t1 lines">19.7</td>
+<td class="c m b1 r1 l0 t1 lines">20.2</td>
+<td class="c m b1 r1 l0 t1 lines">21.8</td>
+<td class="c m b1 r1 l0 t1 lines">22.1</td>
+<td class="c m b1 r1 l0 t1 lines">29.4</td>
+</tr></table></div></div></div></div> <div class="para logical" id="chap_three_measure_of_variation-13-5-1-3"><ol class="lower-alpha">
+<li id="chap_three_measure_of_variation-13-5-1-3-1-1"><div class="para" id="chap_three_measure_of_variation-13-5-1-3-1-1-1">Using your mean from <a href="chap_three_measure_of_center.html#puzzle_example" class="xref" data-knowl="./knowl/xref/puzzle_example.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.7.3">Exercise 3.3.7.3</a>, find the standard deviation of this data. Explain what the mean and standard deviation tell you about how much the group of diners would pay for a meal.</div></li>
+<li id="chap_three_measure_of_variation-13-5-1-3-1-2"><div class="para" id="chap_three_measure_of_variation-13-5-1-3-1-2-1">Calculate the five-number summary for this data.</div></li>
+<li id="chap_three_measure_of_variation-13-5-1-3-1-3"><div class="para" id="chap_three_measure_of_variation-13-5-1-3-1-3-1">Calculate the range and IQR for this data.</div></li>
+<li id="chap_three_measure_of_variation-13-5-1-3-1-4"><div class="para" id="chap_three_measure_of_variation-13-5-1-3-1-4-1">Create a boxplot for the data.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-6"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-6-1-1">You weigh 9 Oreo cookies, and you find the weights (in grams) are:</div> <div class="para" id="chap_three_measure_of_variation-13-6-1-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">3.49</td>
+<td class="c m b1 r1 l0 t1 lines">3.51</td>
+<td class="c m b1 r1 l0 t1 lines">3.51</td>
+<td class="c m b1 r1 l0 t1 lines">3.51</td>
+<td class="c m b1 r1 l0 t1 lines">3.52</td>
+<td class="c m b1 r1 l0 t1 lines">3.54</td>
+<td class="c m b1 r1 l0 t1 lines">3.55</td>
+<td class="c m b1 r1 l0 t1 lines">3.58</td>
+<td class="c m b1 r1 l0 t1 lines">3.61</td>
+</tr></table></div></div></div></div> <div class="para logical" id="chap_three_measure_of_variation-13-6-1-3"><ol class="lower-alpha">
+<li id="chap_three_measure_of_variation-13-6-1-3-1-1"><div class="para" id="chap_three_measure_of_variation-13-6-1-3-1-1-1">Using your mean from <a href="chap_three_measure_of_center.html#oreo_example" class="xref" data-knowl="./knowl/xref/oreo_example.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.7.4">Exercise 3.3.7.4</a>, find the standard deviation of this data. Explain what the mean and standard deviation tell you about the weights of these Oreo cookies.</div></li>
+<li id="chap_three_measure_of_variation-13-6-1-3-1-2"><div class="para" id="chap_three_measure_of_variation-13-6-1-3-1-2-1">Calculate the five-number summary for this data.</div></li>
+<li id="chap_three_measure_of_variation-13-6-1-3-1-3"><div class="para" id="chap_three_measure_of_variation-13-6-1-3-1-3-1">Calculate the range and IQR for this data.</div></li>
+<li id="chap_three_measure_of_variation-13-6-1-3-1-4"><div class="para" id="chap_three_measure_of_variation-13-6-1-3-1-4-1">Create a boxplot for the data.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-7"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para logical" id="chap_three_measure_of_variation-13-7-1-1">
 <div class="para">The following table shows the cost of purchasing a car at a local dealership. Some of the cars sold were new and some were used.</div>
 <ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-6-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-6-1-1-1-1-1">Find the standard deviation of this data. Explain what the mean and standard deviation tell you about how much the cars are selling for.</div></li>
-<li id="chap_three_measure_of_variation-13-6-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-6-1-1-1-2-1">Calculate the five-number summary for this data.</div></li>
-<li id="chap_three_measure_of_variation-13-6-1-1-1-3"><div class="para" id="chap_three_measure_of_variation-13-6-1-1-1-3-1">Calculate the range and IQR.</div></li>
-<li id="chap_three_measure_of_variation-13-6-1-1-1-4">
-<div class="para" id="chap_three_measure_of_variation-13-6-1-1-1-4-1">Create a boxplot for the data.</div>
+<li id="chap_three_measure_of_variation-13-7-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-7-1-1-1-1-1">Find the standard deviation of this data. Explain what the mean and standard deviation tell you about how much the cars are selling for.</div></li>
+<li id="chap_three_measure_of_variation-13-7-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-7-1-1-1-2-1">Calculate the five-number summary for this data.</div></li>
+<li id="chap_three_measure_of_variation-13-7-1-1-1-3"><div class="para" id="chap_three_measure_of_variation-13-7-1-1-1-3-1">Calculate the range and IQR.</div></li>
+<li id="chap_three_measure_of_variation-13-7-1-1-1-4">
+<div class="para" id="chap_three_measure_of_variation-13-7-1-1-1-4-1">Create a boxplot for the data.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">Cost<br>(Thousands of dollars)</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Frequency</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">15</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">15</th>
 <td class="c m b1 r1 l0 t0 lines">3</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">20</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">20</th>
 <td class="c m b1 r1 l0 t0 lines">7</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">25</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">25</th>
 <td class="c m b1 r1 l0 t0 lines">10</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">30</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">30</th>
 <td class="c m b1 r1 l0 t0 lines">15</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">35</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">35</th>
 <td class="c m b1 r1 l0 t0 lines">13</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">40</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">40</th>
 <td class="c m b1 r1 l0 t0 lines">11</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">45</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">45</th>
 <td class="c m b1 r1 l0 t0 lines">9</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">50</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">50</th>
 <td class="c m b1 r1 l0 t0 lines">7</td>
 </tr>
 </table></div></div></div>
 </li>
 </ol>
-</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-7"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
-<div class="para" id="chap_three_measure_of_variation-13-7-1-1">As part of a study of email, a researcher counted the length of 34 emails. The lengths of the emails are shown below, rounded to the nearest thousand characters (so a length 0 means that the numbers of characters rounded to 0, not that the message was blank).</div> <div class="para logical" id="chap_three_measure_of_variation-13-7-1-2"><ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-7-1-2-1-1"><div class="para" id="chap_three_measure_of_variation-13-7-1-2-1-1-1">Find the standard deviation of this data. Explain what the mean and standard deviation tell you about the length of the emails.</div></li>
-<li id="chap_three_measure_of_variation-13-7-1-2-1-2"><div class="para" id="chap_three_measure_of_variation-13-7-1-2-1-2-1">Calculate the five-number summary for this data.</div></li>
-<li id="chap_three_measure_of_variation-13-7-1-2-1-3"><div class="para" id="chap_three_measure_of_variation-13-7-1-2-1-3-1">Calculate the range and IQR.</div></li>
-<li id="chap_three_measure_of_variation-13-7-1-2-1-4"><div class="para" id="chap_three_measure_of_variation-13-7-1-2-1-4-1">Create a boxplot for the data.</div></li>
+</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-8"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-8-1-1">As part of a study of email, a researcher counted the length of 34 emails. The lengths of the emails are shown below, rounded to the nearest thousand characters (so a length 0 means that the numbers of characters rounded to 0, not that the message was blank).</div> <div class="para logical" id="chap_three_measure_of_variation-13-8-1-2"><ol class="lower-alpha">
+<li id="chap_three_measure_of_variation-13-8-1-2-1-1"><div class="para" id="chap_three_measure_of_variation-13-8-1-2-1-1-1">Find the standard deviation of this data. Explain what the mean and standard deviation tell you about the length of the emails.</div></li>
+<li id="chap_three_measure_of_variation-13-8-1-2-1-2"><div class="para" id="chap_three_measure_of_variation-13-8-1-2-1-2-1">Calculate the five-number summary for this data.</div></li>
+<li id="chap_three_measure_of_variation-13-8-1-2-1-3"><div class="para" id="chap_three_measure_of_variation-13-8-1-2-1-3-1">Calculate the range and IQR.</div></li>
+<li id="chap_three_measure_of_variation-13-8-1-2-1-4"><div class="para" id="chap_three_measure_of_variation-13-8-1-2-1-4-1">Create a boxplot for the data.</div></li>
 </ol></div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">Length of an email<br>(Thousands of characters)</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Frequency</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">0</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">0</th>
 <td class="c m b1 r1 l0 t0 lines">4</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">1</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">1</th>
 <td class="c m b1 r1 l0 t0 lines">5</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">2</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2</th>
 <td class="c m b1 r1 l0 t0 lines">2</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">3</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">3</th>
 <td class="c m b1 r1 l0 t0 lines">3</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">4</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">4</th>
 <td class="c m b1 r1 l0 t0 lines">3</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines">1</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">6</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">6</th>
 <td class="c m b1 r1 l0 t0 lines">3</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">7</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">7</th>
 <td class="c m b1 r1 l0 t0 lines">3</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">8</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">8</th>
 <td class="c m b1 r1 l0 t0 lines">0</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">9</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">9</th>
 <td class="c m b1 r1 l0 t0 lines">3</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">10</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">10</th>
 <td class="c m b1 r1 l0 t0 lines">3</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">11</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">11</th>
 <td class="c m b1 r1 l0 t0 lines">2</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">12</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">12</th>
 <td class="c m b1 r1 l0 t0 lines">0</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">13</th>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">14</th>
+<td class="c m b1 r1 l0 t0 lines">2</td>
+</tr>
+</table></div></div></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-9"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-9-1-1">Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment. Suppose that a new cancer drug is currently under study. Of interest is the average length of time in months patients live once starting the treatment. Two researchers each follow a different set of 40 cancer patients throughout their treatment. The following data (in months) are collected.</div> <div class="para" id="chap_three_measure_of_variation-13-9-1-2">Researcher 1 Patients (in months):</div> <div class="para" id="chap_three_measure_of_variation-13-9-1-3"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">11</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">16</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+<td class="c m b1 r1 l0 t1 lines">22</td>
+<td class="c m b1 r1 l0 t1 lines">44</td>
+<td class="c m b1 r1 l0 t1 lines">37</td>
+<td class="c m b1 r1 l0 t1 lines">16</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">24</td>
+<td class="c m b1 r1 l0 t1 lines">25</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">26</td>
+<td class="c m b1 r1 l0 t1 lines">27</td>
+<td class="c m b1 r1 l0 t1 lines">33</td>
+<td class="c m b1 r1 l0 t1 lines">29</td>
+<td class="c m b1 r1 l0 t1 lines">35</td>
+<td class="c m b1 r1 l0 t1 lines">44</td>
 </tr>
 <tr>
 <td class="c m b1 r1 l1 t0 lines">13</td>
-<td class="c m b1 r1 l0 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">21</td>
+<td class="c m b1 r1 l0 t0 lines">22</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">40</td>
+<td class="c m b1 r1 l0 t0 lines">32</td>
+<td class="c m b1 r1 l0 t0 lines">26</td>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines">31</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+<td class="c m b1 r1 l0 t0 lines">29</td>
+<td class="c m b1 r1 l0 t0 lines">17</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">24</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">47</td>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+</tr>
+</table></div></div></div></div> <div class="para" id="chap_three_measure_of_variation-13-9-1-4">Researcher 2 Patients (in months):</div> <div class="para" id="chap_three_measure_of_variation-13-9-1-5"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">11</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">16</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+<td class="c m b1 r1 l0 t1 lines">28</td>
+<td class="c m b1 r1 l0 t1 lines">41</td>
+<td class="c m b1 r1 l0 t1 lines">31</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">26</td>
+<td class="c m b1 r1 l0 t1 lines">25</td>
+<td class="c m b1 r1 l0 t1 lines">21</td>
+<td class="c m b1 r1 l0 t1 lines">22</td>
+<td class="c m b1 r1 l0 t1 lines">31</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">35</td>
+<td class="c m b1 r1 l0 t1 lines">44</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">14</td>
-<td class="c m b1 r1 l0 t0 lines">2</td>
+<td class="c m b1 r1 l1 t0 lines">23</td>
+<td class="c m b1 r1 l0 t0 lines">21</td>
+<td class="c m b1 r1 l0 t0 lines">21</td>
+<td class="c m b1 r1 l0 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">41</td>
+<td class="c m b1 r1 l0 t0 lines">22</td>
+<td class="c m b1 r1 l0 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines">25</td>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+<td class="c m b1 r1 l0 t0 lines">29</td>
+<td class="c m b1 r1 l0 t0 lines">13</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">24</td>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+<td class="c m b1 r1 l0 t0 lines">42</td>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+<td class="c m b1 r1 l0 t0 lines">29</td>
 </tr>
-</table></div></div></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-8"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
-<div class="para logical" id="chap_three_measure_of_variation-13-8-1-1">
-<div class="para">Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment. Suppose that a new cancer drug is currently under study. Of interest is the average length of time in months patients live once starting the treatment. Two researchers each follow a different set of 40 cancer patients throughout their treatment. The following data (in months) are collected.</div>
-<ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-8-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-8-1-1-1-1-1">Find the standard deviation of each group.</div></li>
-<li id="chap_three_measure_of_variation-13-8-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-8-1-1-1-2-1">Calculate the 5-number summary for each group.</div></li>
-<li id="chap_three_measure_of_variation-13-8-1-1-1-3"><div class="para" id="chap_three_measure_of_variation-13-8-1-1-1-3-1">Calculate the range and IQR for each group.</div></li>
-<li id="chap_three_measure_of_variation-13-8-1-1-1-4">
-<div class="para" id="chap_three_measure_of_variation-13-8-1-1-1-4-1">Create side-by-side boxplots and compare and contrast the two groups.</div>
-<div class="para" id="chap_three_measure_of_variation-13-8-1-1-1-4-2">Researcher 1: 3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34</div>
-<div class="para" id="chap_three_measure_of_variation-13-8-1-1-1-4-3">Researcher 2: 3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29</div>
-</li>
-</ol>
-</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-9"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
-<div class="para" id="chap_three_measure_of_variation-13-9-1-1">The US Census Bureau, in addition to counting the population of the US every 10 years, conducts yearly informational surveys, such as the American Community Survey (ACS). For the 2012 ACS, a randomly chosen group of 20 respondents (10 males, 10 females) answered a question about their incomes.</div> <div class="para" id="chap_three_measure_of_variation-13-9-1-2">Males: $53,000; $70,000; $12,800; 30,000; $4,500; $42,000; $48,000; $60,000; $108,000; $11,000</div> <div class="para" id="chap_three_measure_of_variation-13-9-1-3">Females: $1,600; $1,200; $20,000; $25,000; $670; $29,000; $44,000; $30,000; $5,800; $50,000</div> <div class="para logical" id="chap_three_measure_of_variation-13-9-1-4"><ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-9-1-4-1-1"><div class="para" id="chap_three_measure_of_variation-13-9-1-4-1-1-1">Find the standard deviation of each group.</div></li>
-<li id="chap_three_measure_of_variation-13-9-1-4-1-2"><div class="para" id="chap_three_measure_of_variation-13-9-1-4-1-2-1">Calculate the 5-number summary for each group.</div></li>
-<li id="chap_three_measure_of_variation-13-9-1-4-1-3"><div class="para" id="chap_three_measure_of_variation-13-9-1-4-1-3-1">Calculate the range and IQR for each group.</div></li>
-<li id="chap_three_measure_of_variation-13-9-1-4-1-4"><div class="para" id="chap_three_measure_of_variation-13-9-1-4-1-4-1">Create side-by-side boxplots, and compare and contrast the two groups.</div></li>
-</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-10"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
-<div class="para logical" id="chap_three_measure_of_variation-13-10-1-1">
+</table></div></div></div></div> <div class="para logical" id="chap_three_measure_of_variation-13-9-1-6"><ol class="lower-alpha">
+<li id="chap_three_measure_of_variation-13-9-1-6-1-1"><div class="para" id="chap_three_measure_of_variation-13-9-1-6-1-1-1">Find the standard deviation of each group.</div></li>
+<li id="chap_three_measure_of_variation-13-9-1-6-1-2"><div class="para" id="chap_three_measure_of_variation-13-9-1-6-1-2-1">Calculate the 5-number summary for each group.</div></li>
+<li id="chap_three_measure_of_variation-13-9-1-6-1-3"><div class="para" id="chap_three_measure_of_variation-13-9-1-6-1-3-1">Calculate the range and IQR for each group.</div></li>
+<li id="chap_three_measure_of_variation-13-9-1-6-1-4"><div class="para" id="chap_three_measure_of_variation-13-9-1-6-1-4-1">Create side-by-side boxplots and compare and contrast the two groups.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-10"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-10-1-1">The US Census Bureau, in addition to counting the population of the US every 10 years, conducts yearly informational surveys, such as the American Community Survey (ACS). For the 2012 ACS, a randomly chosen group of 20 respondents (10 males, 10 females) answered a question about their incomes.</div> <div class="para" id="chap_three_measure_of_variation-13-10-1-2">Income in dollars for people who identify as female:</div> <div class="para" id="chap_three_measure_of_variation-13-10-1-3"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">1,600</td>
+<td class="c m b1 r1 l0 t1 lines">1,200</td>
+<td class="c m b1 r1 l0 t1 lines">20,000</td>
+<td class="c m b1 r1 l0 t1 lines">25,000</td>
+<td class="c m b1 r1 l0 t1 lines">670</td>
+<td class="c m b1 r1 l0 t1 lines">29,000</td>
+<td class="c m b1 r1 l0 t1 lines">44,000</td>
+<td class="c m b1 r1 l0 t1 lines">30,000</td>
+<td class="c m b1 r1 l0 t1 lines">5,800</td>
+<td class="c m b1 r1 l0 t1 lines">50,000</td>
+</tr></table></div></div></div></div> <div class="para" id="chap_three_measure_of_variation-13-10-1-4">Income in dollars for people who identify as male:</div> <div class="para" id="chap_three_measure_of_variation-13-10-1-5"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">53,000</td>
+<td class="c m b1 r1 l0 t1 lines">70,000</td>
+<td class="c m b1 r1 l0 t1 lines">12,800</td>
+<td class="c m b1 r1 l0 t1 lines">30,000</td>
+<td class="c m b1 r1 l0 t1 lines">4,500</td>
+<td class="c m b1 r1 l0 t1 lines">42,000</td>
+<td class="c m b1 r1 l0 t1 lines">48,000</td>
+<td class="c m b1 r1 l0 t1 lines">60,000</td>
+<td class="c m b1 r1 l0 t1 lines">108,000</td>
+<td class="c m b1 r1 l0 t1 lines">11,000</td>
+</tr></table></div></div></div></div> <div class="para logical" id="chap_three_measure_of_variation-13-10-1-6"><ol class="lower-alpha">
+<li id="chap_three_measure_of_variation-13-10-1-6-1-1"><div class="para" id="chap_three_measure_of_variation-13-10-1-6-1-1-1">Find the standard deviation of each group.</div></li>
+<li id="chap_three_measure_of_variation-13-10-1-6-1-2"><div class="para" id="chap_three_measure_of_variation-13-10-1-6-1-2-1">Calculate the 5-number summary for each group.</div></li>
+<li id="chap_three_measure_of_variation-13-10-1-6-1-3"><div class="para" id="chap_three_measure_of_variation-13-10-1-6-1-3-1">Calculate the range and IQR for each group.</div></li>
+<li id="chap_three_measure_of_variation-13-10-1-6-1-4"><div class="para" id="chap_three_measure_of_variation-13-10-1-6-1-4-1">Create side-by-side boxplots, and compare and contrast the two groups.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-11"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="para logical" id="chap_three_measure_of_variation-13-11-1-1">
 <div class="para">An experiment compared the ability of three groups of participants to remember briefly-presented chess positions. The data are shown below. The numbers represent the average number of pieces correctly remembered from three chess positions.</div>
 <ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-10-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-10-1-1-1-1-1">Find the standard deviation of each group.</div></li>
-<li id="chap_three_measure_of_variation-13-10-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-10-1-1-1-2-1">Calculate the 5-number summary for each group.</div></li>
-<li id="chap_three_measure_of_variation-13-10-1-1-1-3"><div class="para" id="chap_three_measure_of_variation-13-10-1-1-1-3-1">Calculate the range and IQR for each group.</div></li>
-<li id="chap_three_measure_of_variation-13-10-1-1-1-4">
-<div class="para" id="chap_three_measure_of_variation-13-10-1-1-1-4-1">Create side-by-side boxplots and compare and contrast the two groups.</div>
+<li id="chap_three_measure_of_variation-13-11-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-11-1-1-1-1-1">Find the standard deviation of each group.</div></li>
+<li id="chap_three_measure_of_variation-13-11-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-11-1-1-1-2-1">Calculate the 5-number summary for each group.</div></li>
+<li id="chap_three_measure_of_variation-13-11-1-1-1-3"><div class="para" id="chap_three_measure_of_variation-13-11-1-1-1-3-1">Calculate the range and IQR for each group.</div></li>
+<li id="chap_three_measure_of_variation-13-11-1-1-1-4">
+<div class="para" id="chap_three_measure_of_variation-13-11-1-1-1-4-1">Create side-by-side boxplots and compare and contrast the two groups.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">Non-players</th>
@@ -1182,15 +1522,15 @@ Z_{\text{Georgie}}=\frac{24-8.6}{1.2}=12.83\text{ standard deviations.}
 </table></div></div></div>
 </li>
 </ol>
-</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-11"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
-<div class="para logical" id="chap_three_measure_of_variation-13-11-1-1">
-<div class="para">There is evidence that smiling can attenuate judgments of possible wrongdoing. This phenomenon termed the “smile-leniency effect” was the focus of a study by Marianne LaFrance &amp; Marvin Hecht in 1995<details class="ptx-footnote" aria-live="polite" id="chap_three_measure_of_variation-13-11-1-1-2"><summary class="ptx-footnote__number" title="Footnote 3.4.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="chap_three_measure_of_variation-13-11-1-1-2">LaFrance, M., &amp; Hecht, M. A. (1995) Why smiles generate leniency. Personality and Social Psychology Bulletin, 21, 207-214. Adapted from <a class="external" href="http://www.onlinestatbook.com/" target="_blank"><code class="code-inline tex2jax_ignore">onlinestatbook.com</code></a>, by David M. Lane, et al, used under <a class="external" href="https://creativecommons.org/licenses/by-sa/3.0/us/" target="_blank">CC-BY-SA 3.0</a>.</div></details>. The following data are measurements of how lenient the sentences were for three different types of smiles and one neutral control. The same subject was used for all of the conditions so that may affect the results. The second column is a continuation of the first column.</div>
+</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-12"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="para logical" id="chap_three_measure_of_variation-13-12-1-1">
+<div class="para">There is evidence that smiling can attenuate judgments of possible wrongdoing. This phenomenon termed the “smile-leniency effect” was the focus of a study by Marianne LaFrance &amp; Marvin Hecht in 1995<details class="ptx-footnote" aria-live="polite" id="chap_three_measure_of_variation-13-12-1-1-2"><summary class="ptx-footnote__number" title="Footnote 3.4.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="chap_three_measure_of_variation-13-12-1-1-2">LaFrance, M., &amp; Hecht, M. A. (1995) Why smiles generate leniency. Personality and Social Psychology Bulletin, 21, 207-214. Adapted from <a class="external" href="http://www.onlinestatbook.com/" target="_blank"><code class="code-inline tex2jax_ignore">onlinestatbook.com</code></a>, by David M. Lane, et al, used under <a class="external" href="https://creativecommons.org/licenses/by-sa/3.0/us/" target="_blank">CC-BY-SA 3.0</a>.</div></details>. The following data are measurements of how lenient the sentences were for three different types of smiles and one neutral control. The same subject was used for all of the conditions so that may affect the results. The second column is a continuation of the first column.</div>
 <ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-11-1-1-3-1"><div class="para" id="chap_three_measure_of_variation-13-11-1-1-3-1-1">Find the standard deviation for each type of smile and the neutral control.</div></li>
-<li id="chap_three_measure_of_variation-13-11-1-1-3-2"><div class="para" id="chap_three_measure_of_variation-13-11-1-1-3-2-1">Calculate the 5-number summary for type of smile and the neutral control.</div></li>
-<li id="chap_three_measure_of_variation-13-11-1-1-3-3"><div class="para" id="chap_three_measure_of_variation-13-11-1-1-3-3-1">Calculate the range and IQR for each type of smile and the neutral control.</div></li>
-<li id="chap_three_measure_of_variation-13-11-1-1-3-4">
-<div class="para" id="chap_three_measure_of_variation-13-11-1-1-3-4-1">Create side-by-side boxplots and compare and contrast the four groups.</div>
+<li id="chap_three_measure_of_variation-13-12-1-1-3-1"><div class="para" id="chap_three_measure_of_variation-13-12-1-1-3-1-1">Find the standard deviation for each type of smile and the neutral control.</div></li>
+<li id="chap_three_measure_of_variation-13-12-1-1-3-2"><div class="para" id="chap_three_measure_of_variation-13-12-1-1-3-2-1">Calculate the 5-number summary for type of smile and the neutral control.</div></li>
+<li id="chap_three_measure_of_variation-13-12-1-1-3-3"><div class="para" id="chap_three_measure_of_variation-13-12-1-1-3-3-1">Calculate the range and IQR for each type of smile and the neutral control.</div></li>
+<li id="chap_three_measure_of_variation-13-12-1-1-3-4">
+<div class="para" id="chap_three_measure_of_variation-13-12-1-1-3-4-1">Create side-by-side boxplots and compare and contrast the four groups.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">False Smile</th>
@@ -1405,61 +1745,83 @@ Z_{\text{Georgie}}=\frac{24-8.6}{1.2}=12.83\text{ standard deviations.}
 </table></div></div></div>
 </li>
 </ol>
-</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-12"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
-<div class="para logical" id="chap_three_measure_of_variation-13-12-1-1">
+</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-13"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
+<div class="para logical" id="chap_three_measure_of_variation-13-13-1-1">
 <div class="para">Make up two data sets with 5 numbers each that have:</div>
 <ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-12-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-12-1-1-1-1-1">The same mean but different standard deviations.</div></li>
-<li id="chap_three_measure_of_variation-13-12-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-12-1-1-1-2-1">The same standard deviation but different means.</div></li>
+<li id="chap_three_measure_of_variation-13-13-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-13-1-1-1-1-1">The same mean but different standard deviations.</div></li>
+<li id="chap_three_measure_of_variation-13-13-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-13-1-1-1-2-1">The same standard deviation but different means.</div></li>
 </ol>
-</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-13"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
-<div class="para" id="chap_three_measure_of_variation-13-13-1-1">Make up two data sets with 7 numbers that each have:</div> <div class="para logical" id="chap_three_measure_of_variation-13-13-1-2"><ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-13-1-2-1-1"><div class="para" id="chap_three_measure_of_variation-13-13-1-2-1-1-1">The same IQR but different medians.</div></li>
-<li id="chap_three_measure_of_variation-13-13-1-2-1-2"><div class="para" id="chap_three_measure_of_variation-13-13-1-2-1-2-1">Different IQRs but the same medians.</div></li>
-</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-14"><h4 class="heading"><span class="codenumber">13<span class="period">.</span></span></h4>
-<div class="para logical" id="chap_three_measure_of_variation-13-14-1-1">
+</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-14"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-14-1-1">Make up two data sets with 7 numbers that each have:</div> <div class="para logical" id="chap_three_measure_of_variation-13-14-1-2"><ol class="lower-alpha">
+<li id="chap_three_measure_of_variation-13-14-1-2-1-1"><div class="para" id="chap_three_measure_of_variation-13-14-1-2-1-1-1">The same IQR but different medians.</div></li>
+<li id="chap_three_measure_of_variation-13-14-1-2-1-2"><div class="para" id="chap_three_measure_of_variation-13-14-1-2-1-2-1">Different IQRs but the same medians.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-15"><h4 class="heading"><span class="codenumber">13<span class="period">.</span></span></h4>
+<div class="para logical" id="chap_three_measure_of_variation-13-15-1-1">
 <div class="para">The side-by-side boxplots show salaries for actuaries and CPAs.</div>
 <ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-14-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-14-1-1-1-1-1">Estimate the 25th, 50th and 75th percentiles for CPA and actuary salaries.</div></li>
-<li id="chap_three_measure_of_variation-13-14-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-14-1-1-1-2-1">Deshawn makes the median salary for an actuary. Kelsey makes the first quartile salary for a CPA. Who makes more money? How much more?</div></li>
-<li id="chap_three_measure_of_variation-13-14-1-1-1-3"><div class="para" id="chap_three_measure_of_variation-13-14-1-1-1-3-1">What percentage of actuaries make more than the median salary of a CPA?</div></li>
-<li id="chap_three_measure_of_variation-13-14-1-1-1-4">
-<div class="para" id="chap_three_measure_of_variation-13-14-1-1-1-4-1">What percentage of CPAs earn less than all actuaries?</div>
+<li id="chap_three_measure_of_variation-13-15-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-15-1-1-1-1-1">Estimate the 25th, 50th and 75th percentiles for CPA and actuary salaries.</div></li>
+<li id="chap_three_measure_of_variation-13-15-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-15-1-1-1-2-1">Deshawn makes the median salary for an actuary. Kelsey makes the first quartile salary for a CPA. Who makes more money? How much more?</div></li>
+<li id="chap_three_measure_of_variation-13-15-1-1-1-3"><div class="para" id="chap_three_measure_of_variation-13-15-1-1-1-3-1">What percentage of actuaries make more than the median salary of a CPA?</div></li>
+<li id="chap_three_measure_of_variation-13-15-1-1-1-4">
+<div class="para" id="chap_three_measure_of_variation-13-15-1-1-1-4-1">What percentage of CPAs earn less than all actuaries?</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/exercise1.png" class="contained" alt="The boxplot for CPA salary shows a 5-number summary of 30, 40, 75, 90, 100 in thousand dollars. The boxplot for Actuary salary shows a 5-number summary of 40, 75, 90, 94, 110 in thousand dollars"></div></div></div>
 </li>
 </ol>
-</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-15"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
-<div class="para" id="chap_three_measure_of_variation-13-15-1-1">Fifty juniors and fifty seniors at a local high school were surveyed to find out how many hours per week they spend studying. The side-by-side boxplots the weekly study times for those high school juniors and seniors.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/exercise2.png" class="contained" alt="The boxplot of weekly study time for seniors shows a 5-number summary of 4, 5.5, 6, 9, 14 hours. The boxplot of weekly study time for juniors shows a 5-number summary of 0, 1, 3, 4, 6 hours"></div></div></div> <div class="para logical" id="chap_three_measure_of_variation-13-15-1-3"><ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-15-1-3-1-1"><div class="para" id="chap_three_measure_of_variation-13-15-1-3-1-1-1">Estimate the 25th, 50th, and 75th percentiles for weekly study time for high school juniors and seniors.</div></li>
-<li id="chap_three_measure_of_variation-13-15-1-3-1-2"><div class="para" id="chap_three_measure_of_variation-13-15-1-3-1-2-1">Olivia studies the maximum number of weekly study hours for a junior. Lucy studies the first quartile weekly study time for a senior. Who studies more, and by how many hours?</div></li>
-<li id="chap_three_measure_of_variation-13-15-1-3-1-3"><div class="para" id="chap_three_measure_of_variation-13-15-1-3-1-3-1">What percentage of juniors study between the minimum and median weekly study times for seniors?</div></li>
-<li id="chap_three_measure_of_variation-13-15-1-3-1-4"><div class="para" id="chap_three_measure_of_variation-13-15-1-3-1-4-1">What percentage of seniors study more than the third quartile weekly study time for juniors?</div></li>
-</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-16"><h4 class="heading"><span class="codenumber">15<span class="period">.</span></span></h4>
-<div class="para logical" id="chap_three_measure_of_variation-13-16-1-1">
+</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-16"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-16-1-1">Fifty juniors and fifty seniors at a local high school were surveyed to find out how many hours per week they spend studying. The side-by-side boxplots the weekly study times for those high school juniors and seniors.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_4/exercise2.png" class="contained" alt="The boxplot of weekly study time for seniors shows a 5-number summary of 4, 5.5, 6, 9, 14 hours. The boxplot of weekly study time for juniors shows a 5-number summary of 0, 1, 3, 4, 6 hours"></div></div></div> <div class="para logical" id="chap_three_measure_of_variation-13-16-1-3"><ol class="lower-alpha">
+<li id="chap_three_measure_of_variation-13-16-1-3-1-1"><div class="para" id="chap_three_measure_of_variation-13-16-1-3-1-1-1">Estimate the 25th, 50th, and 75th percentiles for weekly study time for high school juniors and seniors.</div></li>
+<li id="chap_three_measure_of_variation-13-16-1-3-1-2"><div class="para" id="chap_three_measure_of_variation-13-16-1-3-1-2-1">Olivia studies the maximum number of weekly study hours for a junior. Lucy studies the first quartile weekly study time for a senior. Who studies more, and by how many hours?</div></li>
+<li id="chap_three_measure_of_variation-13-16-1-3-1-3"><div class="para" id="chap_three_measure_of_variation-13-16-1-3-1-3-1">What percentage of juniors study between the minimum and median weekly study times for seniors?</div></li>
+<li id="chap_three_measure_of_variation-13-16-1-3-1-4"><div class="para" id="chap_three_measure_of_variation-13-16-1-3-1-4-1">What percentage of seniors study more than the third quartile weekly study time for juniors?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-17"><h4 class="heading"><span class="codenumber">15<span class="period">.</span></span></h4>
+<div class="para logical" id="chap_three_measure_of_variation-13-17-1-1">
 <div class="para">Suppose you buy a new car whose advertised gas mileage is 25 mpg (miles per gallon). After driving the car for several months, you find that you are getting only 21.4 mpg. You phone the manufacturer and learn that the standard deviation of gas mileage for cars of that model is 1.15 mpg.</div>
 <ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-16-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-16-1-1-1-1-1">Find the Z-score for the gas mileage of your car.</div></li>
-<li id="chap_three_measure_of_variation-13-16-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-16-1-1-1-2-1">Does it appear that your car is getting unusually low gas mileage? Explain your answer using your Z-score.</div></li>
+<li id="chap_three_measure_of_variation-13-17-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-17-1-1-1-1-1">Find the Z-score for the gas mileage of your car.</div></li>
+<li id="chap_three_measure_of_variation-13-17-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-17-1-1-1-2-1">Does it appear that your car is getting unusually low gas mileage? Explain your answer using your Z-score.</div></li>
 </ol>
-</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-17"><h4 class="heading"><span class="codenumber">16<span class="period">.</span></span></h4>
-<div class="para" id="chap_three_measure_of_variation-13-17-1-1">According to a local marathon club, the mean finishing time for a marathon is 274 minutes, with a standard deviation of 63 minutes.</div> <div class="para logical" id="chap_three_measure_of_variation-13-17-1-2"><ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-17-1-2-1-1"><div class="para" id="chap_three_measure_of_variation-13-17-1-2-1-1-1">If I can run a marathon with a finishing time of 170 minutes, find the Z-score for my marathon time.</div></li>
-<li id="chap_three_measure_of_variation-13-17-1-2-1-2"><div class="para" id="chap_three_measure_of_variation-13-17-1-2-1-2-1">Is my marathon finishing time of 170 minutes unusually fast? Explain your answer using the Z-score.</div></li>
-</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-18"><h4 class="heading"><span class="codenumber">17<span class="period">.</span></span></h4>
-<div class="para logical" id="chap_three_measure_of_variation-13-18-1-1">
-<div class="para">This data is a sample of the average number of hours per year that a driver is delayed by road congestion in 11 cities: 56, 53, 53, 50, 46, 45, 44, 43, 42, 40, 36</div>
-<ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-18-1-1-1-1"><div class="para" id="chap_three_measure_of_variation-13-18-1-1-1-1-1">Find the mean and the standard deviation, including units.</div></li>
-<li id="chap_three_measure_of_variation-13-18-1-1-1-2"><div class="para" id="chap_three_measure_of_variation-13-18-1-1-1-2-1">What is the Z-score for the city with an average delay time of 42 hours per year?</div></li>
-</ol>
-</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-19"><h4 class="heading"><span class="codenumber">18<span class="period">.</span></span></h4>
-<div class="para" id="chap_three_measure_of_variation-13-19-1-1">In a survey of 12 companies recruiting for recent college graduates, they reported the following numbers of job applicants per job posting: 123, 123, 134, 127, 115, 122, 125, 101, 130, 143, 110, and 122.</div> <div class="para logical" id="chap_three_measure_of_variation-13-19-1-2"><ol class="lower-alpha">
-<li id="chap_three_measure_of_variation-13-19-1-2-1-1"><div class="para" id="chap_three_measure_of_variation-13-19-1-2-1-1-1">Find the mean and standard deviation, including units.</div></li>
-<li id="chap_three_measure_of_variation-13-19-1-2-1-2"><div class="para" id="chap_three_measure_of_variation-13-19-1-2-1-2-1">What is the Z score for the company with 143 job applicants per job posting?</div></li>
-</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-20"><h4 class="heading"><span class="codenumber">19<span class="period">.</span></span></h4>
-<div class="para" id="chap_three_measure_of_variation-13-20-1-1">You scored an 89 on a math test where the class mean and standard deviation are 75 points and 7 points respectively. You scored a 65 on an English test where the mean and standard deviation are 53 points and 4 points, respectively. In which class did you do better? Explain your answer using Z-scores.</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-21"><h4 class="heading"><span class="codenumber">20<span class="period">.</span></span></h4>
-<div class="para" id="chap_three_measure_of_variation-13-21-1-1">The mean running time for comedy movies is 139 minutes, with a standard deviation of 39.7 minutes. For action movies, the mean running time is 159 minutes, with a standard deviation of 26.2 minutes. A recent comedy movie had a running time of 102 minutes, while an action movie playing at the same theatre had a running time of 129 minutes. Which movie is shorter compared to other movies in the same genre? Explain your answer using Z-score.</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-22"><h4 class="heading"><span class="codenumber">21<span class="period">.</span></span></h4>
-<div class="para" id="chap_three_measure_of_variation-13-22-1-1">Poe, the Clydesdale horse has a world record breaking height of 20.2 hands. All Clydesdale horses have a mean height of 16.5 hands and a standard deviation of 1.85 hands. The last Great Dane to hold the world record for dog height was Gibson who was 107 cm tall. Great Danes have a mean height of 81 cm and a standard deviation of 13 cm. Which animal is taller compared to their respective breed? Explain your answer using Z-scores.</div></article></section></section></div>
+</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-18"><h4 class="heading"><span class="codenumber">16<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-18-1-1">According to a local marathon club, the mean finishing time for a marathon is 274 minutes, with a standard deviation of 63 minutes.</div> <div class="para logical" id="chap_three_measure_of_variation-13-18-1-2"><ol class="lower-alpha">
+<li id="chap_three_measure_of_variation-13-18-1-2-1-1"><div class="para" id="chap_three_measure_of_variation-13-18-1-2-1-1-1">If I can run a marathon with a finishing time of 170 minutes, find the Z-score for my marathon time.</div></li>
+<li id="chap_three_measure_of_variation-13-18-1-2-1-2"><div class="para" id="chap_three_measure_of_variation-13-18-1-2-1-2-1">Is my marathon finishing time of 170 minutes unusually fast? Explain your answer using the Z-score.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-19"><h4 class="heading"><span class="codenumber">17<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-19-1-1">This data set is a sample of the average number of hours per year that a driver is delayed by road congestion in 11 cities:</div> <div class="para" id="chap_three_measure_of_variation-13-19-1-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">56</td>
+<td class="c m b1 r1 l0 t1 lines">53</td>
+<td class="c m b1 r1 l0 t1 lines">53</td>
+<td class="c m b1 r1 l0 t1 lines">50</td>
+<td class="c m b1 r1 l0 t1 lines">46</td>
+<td class="c m b1 r1 l0 t1 lines">45</td>
+<td class="c m b1 r1 l0 t1 lines">44</td>
+<td class="c m b1 r1 l0 t1 lines">43</td>
+<td class="c m b1 r1 l0 t1 lines">42</td>
+<td class="c m b1 r1 l0 t1 lines">40</td>
+<td class="c m b1 r1 l0 t1 lines">36</td>
+</tr></table></div></div></div></div> <div class="para logical" id="chap_three_measure_of_variation-13-19-1-3"><ol class="lower-alpha">
+<li id="chap_three_measure_of_variation-13-19-1-3-1-1"><div class="para" id="chap_three_measure_of_variation-13-19-1-3-1-1-1">Find the mean and the standard deviation, including units.</div></li>
+<li id="chap_three_measure_of_variation-13-19-1-3-1-2"><div class="para" id="chap_three_measure_of_variation-13-19-1-3-1-2-1">What is the Z-score for the city with an average delay time of 42 hours per year?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-20"><h4 class="heading"><span class="codenumber">18<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-20-1-1">In a survey of 12 companies recruiting for recent college graduates, they reported the following numbers of job applicants per job posting:</div> <div class="para" id="chap_three_measure_of_variation-13-20-1-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">123</td>
+<td class="c m b1 r1 l0 t1 lines">123</td>
+<td class="c m b1 r1 l0 t1 lines">134</td>
+<td class="c m b1 r1 l0 t1 lines">127</td>
+<td class="c m b1 r1 l0 t1 lines">115</td>
+<td class="c m b1 r1 l0 t1 lines">122</td>
+<td class="c m b1 r1 l0 t1 lines">125</td>
+<td class="c m b1 r1 l0 t1 lines">101</td>
+<td class="c m b1 r1 l0 t1 lines">130</td>
+<td class="c m b1 r1 l0 t1 lines">143</td>
+<td class="c m b1 r1 l0 t1 lines">110</td>
+<td class="c m b1 r1 l0 t1 lines">122</td>
+</tr></table></div></div></div></div> <div class="para logical" id="chap_three_measure_of_variation-13-20-1-3"><ol class="lower-alpha">
+<li id="chap_three_measure_of_variation-13-20-1-3-1-1"><div class="para" id="chap_three_measure_of_variation-13-20-1-3-1-1-1">Find the mean and standard deviation, including units.</div></li>
+<li id="chap_three_measure_of_variation-13-20-1-3-1-2"><div class="para" id="chap_three_measure_of_variation-13-20-1-3-1-2-1">What is the Z score for the company with 143 job applicants per job posting?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-21"><h4 class="heading"><span class="codenumber">19<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-21-1-1">You scored an 89 on a math test where the class mean and standard deviation are 75 points and 7 points respectively. You scored a 65 on an English test where the mean and standard deviation are 53 points and 4 points, respectively. In which class did you do better? Explain your answer using Z-scores.</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-22"><h4 class="heading"><span class="codenumber">20<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-22-1-1">The mean running time for comedy movies is 139 minutes, with a standard deviation of 39.7 minutes. For action movies, the mean running time is 159 minutes, with a standard deviation of 26.2 minutes. A recent comedy movie had a running time of 102 minutes, while an action movie playing at the same theatre had a running time of 129 minutes. Which movie is shorter compared to other movies in the same genre? Explain your answer using Z-score.</div></article><article class="exercise exercise-like" id="chap_three_measure_of_variation-13-23"><h4 class="heading"><span class="codenumber">21<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_measure_of_variation-13-23-1-1">Poe, the Clydesdale horse has a world record breaking height of 20.2 hands. All Clydesdale horses have a mean height of 16.5 hands and a standard deviation of 1.85 hands. The last Great Dane to hold the world record for dog height was Gibson who was 107 cm tall. Great Danes have a mean height of 81 cm and a standard deviation of 13 cm. Which animal is taller compared to their respective breed? Explain your answer using Z-scores.</div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="chap_three_measure_of_center.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="chap_three_review.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

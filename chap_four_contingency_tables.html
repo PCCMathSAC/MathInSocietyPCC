@@ -8,12 +8,15 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Contingency Tables</title>
+<title>Math In Society: Contingency Tables</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
+<meta property="og:image" content="https://spot.pcc.edu/math/mathinsociety/book-1.html/external/images/Portland_Oregon_Skyline.jpg">
 <meta property="book:title" content="Math in Society">
 <meta property="book:author" content="Portland Community College Math Department">
+<link rel="icon" type="image/png" sizes="32x32" href="external/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="external/favicon/favicon-16x16.png">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -89,9 +92,9 @@ window.MathJax = {
 <link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
 </head>
-<body class="pretext book ignore-math">
+<body id="PCC-Math In Society" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
-<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<a id="logo-link" class="logo-link" target="_blank" href="https://spot.pcc.edu/math/mathinsociety/book-1.html"><img src="external/images/Portland_Oregon_Skyline.jpg" alt="Logo image"></a><div class="title-container">
 <h1 class="heading"><a href="root-1-2.html"><span class="title">Math in Society:</span> <span class="subtitle">Mathematics for Liberal Arts Majors</span></a></h1>
 <p class="byline">Portland Community College Math Department</p>
 </div>
@@ -106,7 +109,8 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="probability.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="probability.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chap_four_theoretical_probability.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="probability.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="probability.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chap_four_theoretical_probability.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\( 		
+ 		\newcommand{\highlight}[1]{{\color{blue}{{#1}}}}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -123,7 +127,6 @@ window.MathJax = {
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Attributions</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="Notes.html" class="internal"><span class="title">Project Notes</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Resources</span></a></div></li>
-<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Errata</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -514,24 +517,24 @@ window.MathJax = {
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
 <td class="c m b1 r1 l0 t0 lines"><em class="emphasis">Yes Cat and Yes Dog</em></td>
 <td class="c m b1 r1 l0 t0 lines"><em class="emphasis">Yes Cat and No Dog</em></td>
 <td class="c m b1 r1 l0 t0 lines"><em class="emphasis">Yes Cat Total</em></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">No Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
 <td class="c m b1 r1 l0 t0 lines"><em class="emphasis">No Cat and Yes Dog</em></td>
 <td class="c m b1 r1 l0 t0 lines"><em class="emphasis">No Cat and No Dog</em></td>
 <td class="c m b1 r1 l0 t0 lines"><em class="emphasis">No Cat Total</em></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines"><em class="emphasis">Yes Dog Total</em></td>
 <td class="c m b1 r1 l0 t0 lines"><em class="emphasis">No Dog Total</em></td>
 <td class="c m b1 r1 l0 t0 lines"><em class="emphasis">Grand total</em></td>
@@ -541,24 +544,24 @@ window.MathJax = {
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
 <td class="c m b1 r1 l0 t0 lines">52</td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines">180</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">No Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">95</td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines">250</td>
@@ -569,18 +572,18 @@ window.MathJax = {
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
 <td class="c m b1 r1 l0 t0 lines">52</td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(180-52=128\)</span></td>
 <td class="c m b1 r1 l0 t0 lines">180</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">No Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(95-52=43\)</span></td>
 <td class="c m b1 r1 l0 t0 lines">
 <span class="process-math">\(155-128=27\)</span><br>or<br><span class="process-math">\(70-43=27\)</span>
@@ -588,7 +591,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(250-180=70\)</span></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">95</td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(250-95=155\)</span></td>
 <td class="c m b1 r1 l0 t0 lines">250</td>
@@ -599,24 +602,24 @@ window.MathJax = {
 <div class="sbspanel fixed-width top" style="width:50%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">52</code></td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">128</code></td>
 <td class="c m b1 r1 l0 t0 lines">180</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">No Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">43</code></td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">27</code></td>
 <td class="c m b1 r1 l0 t0 lines">70</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">95</td>
 <td class="c m b1 r1 l0 t0 lines">155</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">250</code></td>
@@ -625,24 +628,24 @@ window.MathJax = {
 <div class="sbspanel fixed-width top" style="width:50%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
 <td class="c m b1 r1 l0 t0 lines">52</td>
 <td class="c m b1 r1 l0 t0 lines">128</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">180</code></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">No Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
 <td class="c m b1 r1 l0 t0 lines">43</td>
 <td class="c m b1 r1 l0 t0 lines">27</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">70</code></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">95</code></td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">155</code></td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">250</code></td>
@@ -661,24 +664,24 @@ window.MathJax = {
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
 <td class="c m b1 r1 l0 t0 lines">52</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">128</code></td>
 <td class="c m b1 r1 l0 t0 lines">180</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">No Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
 <td class="c m b1 r1 l0 t0 lines">43</td>
 <td class="c m b1 r1 l0 t0 lines">27</td>
 <td class="c m b1 r1 l0 t0 lines">70</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">95</td>
 <td class="c m b1 r1 l0 t0 lines">155</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">250</code></td>
@@ -692,24 +695,24 @@ window.MathJax = {
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">52</code></td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">128</code></td>
 <td class="c m b1 r1 l0 t0 lines">180</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">No Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">43</code></td>
 <td class="c m b1 r1 l0 t0 lines">27</td>
 <td class="c m b1 r1 l0 t0 lines">70</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">95</td>
 <td class="c m b1 r1 l0 t0 lines">155</td>
 <td class="c m b1 r1 l0 t0 lines">250</td>
@@ -722,23 +725,23 @@ window.MathJax = {
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines"><code class="code-inline tex2jax_ignore">Dog</code></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Dog</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">52</code></td>
 <td class="c m b1 r1 l0 t0 lines">128</td>
 <td class="c m b1 r1 l0 t0 lines">180</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">No Cat</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">43</code></td>
 <td class="c m b1 r1 l0 t0 lines">27</td>
 <td class="c m b1 r1 l0 t0 lines">70</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">95</code></td>
 <td class="c m b1 r1 l0 t0 lines">155</td>
 <td class="c m b1 r1 l0 t0 lines">250</td>
@@ -754,55 +757,55 @@ window.MathJax = {
 <div class="para" id="chap_four_contingency_tables-9-3-1-1">910 randomly sampled registered voters from Tampa, FL were asked if they thought workers who have illegally entered the US should (i) be allowed to keep their jobs and apply for US citizenship, (ii) be allowed to keep their jobs as temporary guest workers but not be allowed to apply for US citizenship, or (iii) lose their jobs and have to leave the country. Not sure was also an option (iv). The results of the survey by political ideology are shown below<details class="ptx-footnote" aria-live="polite" id="chap_four_contingency_tables-9-3-1-1-1"><summary class="ptx-footnote__number" title="Footnote 4.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="chap_four_contingency_tables-9-3-1-1-1">SurveyUSA, <a class="external" href="http://www.surveyusa.com/client/PollReport.aspx?g=60d6fa81-2698-4c51-a5f8-714f40976df2" target="_blank">News Poll #18927</a>, data collected Jan 27-29, 2012. Example adapted from <a class="external" href="https://www.openintro.org/" target="_blank">Open Intro: Advanced High School Statistics</a>, by Diez et al, used under <a class="external" href="https://creativecommons.org/licenses/by-sa/3.0/us/" target="_blank">CC-BY-SA 3.0</a>.</div></details>. Use the contingency table to answer the questions.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Conservative</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Moderate</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Liberal</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Conservative</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Moderate</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Liberal</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">(i) Apply for citizenship</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(i) Apply for citizenship</th>
 <td class="c m b1 r1 l0 t0 lines">57</td>
 <td class="c m b1 r1 l0 t0 lines">120</td>
 <td class="c m b1 r1 l0 t0 lines">101</td>
 <td class="c m b1 r1 l0 t0 lines">278</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">(ii) Guest worker</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(ii) Guest worker</th>
 <td class="c m b1 r1 l0 t0 lines">121</td>
 <td class="c m b1 r1 l0 t0 lines">113</td>
 <td class="c m b1 r1 l0 t0 lines">28</td>
 <td class="c m b1 r1 l0 t0 lines">262</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">(iii) Leave the country</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(iii) Leave the country</th>
 <td class="c m b1 r1 l0 t0 lines">179</td>
 <td class="c m b1 r1 l0 t0 lines">126</td>
 <td class="c m b1 r1 l0 t0 lines">45</td>
 <td class="c m b1 r1 l0 t0 lines">350</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">(iv) Not sure</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(iv) Not sure</th>
 <td class="c m b1 r1 l0 t0 lines">15</td>
 <td class="c m b1 r1 l0 t0 lines">4</td>
 <td class="c m b1 r1 l0 t0 lines">1</td>
 <td class="c m b1 r1 l0 t0 lines">20</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">372</td>
 <td class="c m b1 r1 l0 t0 lines">363</td>
 <td class="c m b1 r1 l0 t0 lines">175</td>
 <td class="c m b1 r1 l0 t0 lines">910</td>
 </tr>
 </table></div></div></div> <div class="para logical" id="chap_four_contingency_tables-9-3-1-3"><ol class="lower-alpha">
-<li id="chap_four_contingency_tables-9-3-1-3-1-1"><div class="para" id="chap_four_contingency_tables-9-3-1-3-1-1-1">What percent of the sampled Tampa, Fl voters identified themselves as conservatives?</div></li>
+<li id="chap_four_contingency_tables-9-3-1-3-1-1"><div class="para" id="chap_four_contingency_tables-9-3-1-3-1-1-1">What percent of the sampled Tampa, FL voters identified themselves as conservatives?</div></li>
 <li id="chap_four_contingency_tables-9-3-1-3-1-2"><div class="para" id="chap_four_contingency_tables-9-3-1-3-1-2-1">What percent of the sampled voters are in favor of the citizenship option?</div></li>
 <li id="chap_four_contingency_tables-9-3-1-3-1-3"><div class="para" id="chap_four_contingency_tables-9-3-1-3-1-3-1">What percent of the sampled voters identify themselves as conservatives <em class="alert">and</em> are in favor of the citizenship option?</div></li>
 <li id="chap_four_contingency_tables-9-3-1-3-1-4"><div class="para" id="chap_four_contingency_tables-9-3-1-3-1-4-1">What percent of the sampled voters identify themselves as liberal <em class="alert">or</em> are in favor of the leaving the country option?</div></li>
 <li id="chap_four_contingency_tables-9-3-1-3-1-5"><div class="para" id="chap_four_contingency_tables-9-3-1-3-1-5-1">What percent of the sampled voters who identify as conservatives are also in favor of the citizenship option? What percent of moderate and liberal voters share this view?</div></li>
 </ol></div>
 <div class="solutions"><details id="chap_four_contingency_tables-9-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="chap_four_contingency_tables-9-3-2-1"><ol class="decimal">
-<li id="chap_four_contingency_tables-9-3-2-1-1-1"><div class="para" id="chap_four_contingency_tables-9-3-2-1-1-1-1">To answer this question, we find the conservative column and look to the bottom cell for the total number of conservative voters and divide that by the total number of voters surveyed. This gives us <span class="process-math">\(\frac{372}{910}\approx 0.409\)</span> or approximately 41% of the Tampa, Fl voters who identify as conservative.</div></li>
+<li id="chap_four_contingency_tables-9-3-2-1-1-1"><div class="para" id="chap_four_contingency_tables-9-3-2-1-1-1-1">To answer this question, we find the conservative column and look to the bottom cell for the total number of conservative voters and divide that by the total number of voters surveyed. This gives us <span class="process-math">\(\frac{372}{910}\approx 0.409\)</span> or approximately 41% of the Tampa, FL voters who identify as conservative.</div></li>
 <li id="chap_four_contingency_tables-9-3-2-1-1-2"><div class="para" id="chap_four_contingency_tables-9-3-2-1-1-2-1">For this question we find the apply for citizenship row, look across to find the total, and divide this by the total number of voters surveyed. We get <span class="process-math">\(\frac{278}{910} \approx 0.305\)</span> or approximately 31% of these voters are in favor of the citizenship option.</div></li>
 <li id="chap_four_contingency_tables-9-3-2-1-1-3"><div class="para" id="chap_four_contingency_tables-9-3-2-1-1-3-1">For this question we are looking for the cell that is the intersection of those who identify as conservative and those who are in favor of the citizen option. This cell has 57 voters, so we divide that by the total number of voters. This gives us or <span class="process-math">\(\frac{57}{910} \approx 0.063\)</span> or approximately 6.3% of these voters identify as conservatives and are in favor of the citizenship option.</div></li>
 <li id="chap_four_contingency_tables-9-3-2-1-1-4">
@@ -810,41 +813,41 @@ window.MathJax = {
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Conservative</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Moderate</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Liberal</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Conservative</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Moderate</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Liberal</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">(i) Apply for citizenship</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(i) Apply for citizenship</th>
 <td class="c m b1 r1 l0 t0 lines">57</td>
 <td class="c m b1 r1 l0 t0 lines">120</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">101</code></td>
 <td class="c m b1 r1 l0 t0 lines">278</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">(ii) Guest worker</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(ii) Guest worker</th>
 <td class="c m b1 r1 l0 t0 lines">121</td>
 <td class="c m b1 r1 l0 t0 lines">113</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">28</code></td>
 <td class="c m b1 r1 l0 t0 lines">262</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">(iii) Leave the country</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(iii) Leave the country</th>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">179</code></td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">126</code></td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">45</code></td>
 <td class="c m b1 r1 l0 t0 lines">350</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">(iv) Not sure</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(iv) Not sure</th>
 <td class="c m b1 r1 l0 t0 lines">15</td>
 <td class="c m b1 r1 l0 t0 lines">4</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">1</code></td>
 <td class="c m b1 r1 l0 t0 lines">20</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">372</td>
 <td class="c m b1 r1 l0 t0 lines">363</td>
 <td class="c m b1 r1 l0 t0 lines">175</td>
@@ -879,24 +882,24 @@ window.MathJax = {
 <div class="para" id="chap_four_contingency_tables-11-5-1-1">A survey of licensed drivers asked whether they had received a speeding ticket in the last year and whether their car is red. The results of the survey are shown in the contingency table to the right.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Red Car</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
 <td class="c m b1 r1 l0 t0 lines">15</td>
 <td class="c m b1 r1 l0 t0 lines">135</td>
 <td class="c m b1 r1 l0 t0 lines">150</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Not Red Car</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
 <td class="c m b1 r1 l0 t0 lines">45</td>
 <td class="c m b1 r1 l0 t0 lines">470</td>
 <td class="c m b1 r1 l0 t0 lines">515</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">60</td>
 <td class="c m b1 r1 l0 t0 lines">605</td>
 <td class="c m b1 r1 l0 t0 lines">665</td>
@@ -918,27 +921,27 @@ window.MathJax = {
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Red Car</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
 <td class="c m b1 r1 l0 t0 lines">15</td>
 <td class="c m b1 r1 l0 t0 lines">135</td>
-<td class="c m b1 r1 l0 t0 lines">150</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">150</code></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Not Red Car</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
 <td class="c m b1 r1 l0 t0 lines">45</td>
 <td class="c m b1 r1 l0 t0 lines">470</td>
 <td class="c m b1 r1 l0 t0 lines">515</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">60</td>
 <td class="c m b1 r1 l0 t0 lines">605</td>
-<td class="c m b1 r1 l0 t0 lines">665</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">665</code></td>
 </tr>
 </table></div></div></div>
 <div class="para" id="chap_four_contingency_tables-11-5-2-1-1-1-2">To find <span class="process-math">\(P(\text{red car})\text{,}\)</span> we divide the number of participants who own a red car by the total number of people surveyed:<span class="process-math">\(P(\text{red car})=\frac{150}{665} \approx 0.226\)</span> or 22.6%.</div>
@@ -947,27 +950,27 @@ window.MathJax = {
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Red Car</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
 <td class="c m b1 r1 l0 t0 lines">15</td>
 <td class="c m b1 r1 l0 t0 lines">135</td>
 <td class="c m b1 r1 l0 t0 lines">150</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Not Red Car</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
 <td class="c m b1 r1 l0 t0 lines">45</td>
 <td class="c m b1 r1 l0 t0 lines">470</td>
 <td class="c m b1 r1 l0 t0 lines">515</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
-<td class="c m b1 r1 l0 t0 lines">60</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">60</code></td>
 <td class="c m b1 r1 l0 t0 lines">605</td>
-<td class="c m b1 r1 l0 t0 lines">665</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">665</code></td>
 </tr>
 </table></div></div></div>
 <div class="para" id="chap_four_contingency_tables-11-5-2-1-1-2-2">
@@ -977,27 +980,27 @@ window.MathJax = {
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Red Car</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
 <td class="c m b1 r1 l0 t0 lines">15</td>
-<td class="c m b1 r1 l0 t0 lines">135</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">135</code></td>
 <td class="c m b1 r1 l0 t0 lines">150</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Not Red Car</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
 <td class="c m b1 r1 l0 t0 lines">45</td>
 <td class="c m b1 r1 l0 t0 lines">470</td>
 <td class="c m b1 r1 l0 t0 lines">515</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">60</td>
 <td class="c m b1 r1 l0 t0 lines">605</td>
-<td class="c m b1 r1 l0 t0 lines">665</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">665</code></td>
 </tr>
 </table></div></div></div>
 <div class="para" id="chap_four_contingency_tables-11-5-2-1-1-3-2">To find <span class="process-math">\(P(\text{red and no ticket})\)</span> , we find the intersection of the red car category and the no ticket category and divide by the total number of participants: <span class="process-math">\(P(\text{red and no ticket}) =\frac{135}{665} \approx 0.203\)</span> or 20.3%</div>
@@ -1006,27 +1009,27 @@ window.MathJax = {
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Red Car</em></td>
-<td class="c m b1 r1 l0 t0 lines">15</td>
-<td class="c m b1 r1 l0 t0 lines">135</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">15</code></td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">135</code></td>
 <td class="c m b1 r1 l0 t0 lines">150</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Not Red Car</em></td>
-<td class="c m b1 r1 l0 t0 lines">45</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">45</code></td>
 <td class="c m b1 r1 l0 t0 lines">470</td>
 <td class="c m b1 r1 l0 t0 lines">515</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">60</td>
 <td class="c m b1 r1 l0 t0 lines">605</td>
-<td class="c m b1 r1 l0 t0 lines">665</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">665</code></td>
 </tr>
 </table></div></div></div>
 <div class="para" id="chap_four_contingency_tables-11-5-2-1-1-4-2">To find <span class="process-math">\(P(\text{red or ticket})\text{,}\)</span> we need to add those who drive a red car and did not have a speeding ticket (just red), those who had a speeding ticket and do not drive a red car (just ticket) and those who drive a red car and had a speeding ticket (both), and divide by the total number of participants:</div>
@@ -1049,24 +1052,24 @@ P(\text{red and no ticket})\amp= P(\text{red})+ P(\text{speeding ticket}) - P(\t
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Red Car</em></td>
-<td class="c m b1 r1 l0 t0 lines">15</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">15</code></td>
 <td class="c m b1 r1 l0 t0 lines">135</td>
-<td class="c m b1 r1 l0 t0 lines">150</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">150</code></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Not Red Car</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
 <td class="c m b1 r1 l0 t0 lines">45</td>
 <td class="c m b1 r1 l0 t0 lines">470</td>
 <td class="c m b1 r1 l0 t0 lines">515</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">60</td>
 <td class="c m b1 r1 l0 t0 lines">605</td>
 <td class="c m b1 r1 l0 t0 lines">665</td>
@@ -1083,25 +1086,25 @@ P(\text{speeding ticket given red car})=\frac{15}{150} = 0.10\text{ or } 10\%
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">No Speeding Ticket</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Red Car</em></td>
-<td class="c m b1 r1 l0 t0 lines">15</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">15</code></td>
 <td class="c m b1 r1 l0 t0 lines">135</td>
 <td class="c m b1 r1 l0 t0 lines">150</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Not Red Car</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
 <td class="c m b1 r1 l0 t0 lines">45</td>
 <td class="c m b1 r1 l0 t0 lines">470</td>
 <td class="c m b1 r1 l0 t0 lines">515</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
-<td class="c m b1 r1 l0 t0 lines">60</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">60</code></td>
 <td class="c m b1 r1 l0 t0 lines">605</td>
 <td class="c m b1 r1 l0 t0 lines">665</td>
 </tr>
@@ -1131,24 +1134,24 @@ P(\text{red car given speeding ticket})=\frac{15}{60} = 0.25\text{ or }25\%
 </div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Positive Test</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Negative Test</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Positive Test</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Negative Test</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Pregnant</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Pregnant</th>
 <td class="c m b1 r1 l0 t0 lines">70</td>
 <td class="c m b1 r1 l0 t0 lines">4</td>
 <td class="c m b1 r1 l0 t0 lines">74</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Not Pregnant</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Pregnant</th>
 <td class="c m b1 r1 l0 t0 lines">5</td>
 <td class="c m b1 r1 l0 t0 lines">14</td>
 <td class="c m b1 r1 l0 t0 lines">19</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">75</td>
 <td class="c m b1 r1 l0 t0 lines">18</td>
 <td class="c m b1 r1 l0 t0 lines">93</td>
@@ -1162,25 +1165,25 @@ P(\text{red car given speeding ticket})=\frac{15}{60} = 0.25\text{ or }25\%
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Positive Test</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Negative Test</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Positive Test</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Negative Test</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Pregnant</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Pregnant</th>
 <td class="c m b1 r1 l0 t0 lines">70</td>
 <td class="c m b1 r1 l0 t0 lines">4</td>
 <td class="c m b1 r1 l0 t0 lines">74</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Not Pregnant</em></td>
-<td class="c m b1 r1 l0 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Pregnant</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">5</code></td>
 <td class="c m b1 r1 l0 t0 lines">14</td>
 <td class="c m b1 r1 l0 t0 lines">19</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
-<td class="c m b1 r1 l0 t0 lines">75</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">75</code></td>
 <td class="c m b1 r1 l0 t0 lines">18</td>
 <td class="c m b1 r1 l0 t0 lines">93</td>
 </tr>
@@ -1196,24 +1199,24 @@ P(\text{not pregnant given positve test})=\frac{5}{75} \approx 0.067\text{ or } 
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Positive Test</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Negative Test</em></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Total</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Positive Test</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Negative Test</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Pregnant</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Pregnant</th>
 <td class="c m b1 r1 l0 t0 lines">70</td>
 <td class="c m b1 r1 l0 t0 lines">4</td>
 <td class="c m b1 r1 l0 t0 lines">74</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Not Pregnant</em></td>
-<td class="c m b1 r1 l0 t0 lines">5</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Pregnant</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">5</code></td>
 <td class="c m b1 r1 l0 t0 lines">14</td>
-<td class="c m b1 r1 l0 t0 lines">19</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">19</code></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines"><em class="alert">Total</em></td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">75</td>
 <td class="c m b1 r1 l0 t0 lines">18</td>
 <td class="c m b1 r1 l0 t0 lines">93</td>
@@ -1239,19 +1242,19 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Housing Insecure</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Housing Insecure</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines">60</td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Not Housing Insecure</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Housing Insecure</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines">460</td>
 <td class="c m b1 r1 l0 t0 lines">760</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">680</td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
@@ -1265,19 +1268,19 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Cafeteria</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cafeteria</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines">375</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">No Cafeteria</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cafeteria</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines">135</td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">630</td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines">850</td>
@@ -1293,19 +1296,19 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Floss</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Floss</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">No Floss</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Floss</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
@@ -1322,19 +1325,19 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Apple</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Apple</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">No Apple</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Apple</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
@@ -1353,19 +1356,19 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">B</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">B</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Not B</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not B</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
@@ -1382,19 +1385,19 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">B</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">B</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Not B</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not B</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
@@ -1409,21 +1412,21 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Morning Class</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Morning Class</th>
 <td class="c m b1 r1 l0 t0 lines">8</td>
 <td class="c m b1 r1 l0 t0 lines">18</td>
 <td class="c m b1 r1 l0 t0 lines">13</td>
 <td class="c m b1 r1 l0 t0 lines">39</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Afternoon Class</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Afternoon Class</th>
 <td class="c m b1 r1 l0 t0 lines">10</td>
 <td class="c m b1 r1 l0 t0 lines">4</td>
 <td class="c m b1 r1 l0 t0 lines">12</td>
 <td class="c m b1 r1 l0 t0 lines">26</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">18</td>
 <td class="c m b1 r1 l0 t0 lines">22</td>
 <td class="c m b1 r1 l0 t0 lines">25</td>
@@ -1449,7 +1452,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Morning Class</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Morning Class</th>
 <td class="c m b1 r1 l0 t0 lines">12</td>
 <td class="c m b1 r1 l0 t0 lines">5</td>
 <td class="c m b1 r1 l0 t0 lines">7</td>
@@ -1457,7 +1460,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines">32</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Afternoon Class</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Afternoon Class</th>
 <td class="c m b1 r1 l0 t0 lines">5</td>
 <td class="c m b1 r1 l0 t0 lines">13</td>
 <td class="c m b1 r1 l0 t0 lines">8</td>
@@ -1465,7 +1468,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines">28</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">17</td>
 <td class="c m b1 r1 l0 t0 lines">18</td>
 <td class="c m b1 r1 l0 t0 lines">15</td>
@@ -1491,21 +1494,21 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Between the ages<br>of 18-35</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Between the ages<br>of 18-35</th>
 <td class="c m b1 r1 l0 t0 lines">9</td>
 <td class="c m b1 r1 l0 t0 lines">5</td>
 <td class="c m b1 r1 l0 t0 lines">19</td>
 <td class="c m b1 r1 l0 t0 lines">33</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Over age 35</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Over age 35</th>
 <td class="c m b1 r1 l0 t0 lines">18</td>
 <td class="c m b1 r1 l0 t0 lines">10</td>
 <td class="c m b1 r1 l0 t0 lines">20</td>
 <td class="c m b1 r1 l0 t0 lines">48</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">27</td>
 <td class="c m b1 r1 l0 t0 lines">15</td>
 <td class="c m b1 r1 l0 t0 lines">39</td>
@@ -1532,19 +1535,19 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Lived</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Lived</th>
 <td class="c m b1 r1 l0 t0 lines">238</td>
 <td class="c m b1 r1 l0 t0 lines">5136</td>
 <td class="c m b1 r1 l0 t0 lines">5374</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Died</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Died</th>
 <td class="c m b1 r1 l0 t0 lines">6</td>
 <td class="c m b1 r1 l0 t0 lines">844</td>
 <td class="c m b1 r1 l0 t0 lines">850</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">244</td>
 <td class="c m b1 r1 l0 t0 lines">5980</td>
 <td class="c m b1 r1 l0 t0 lines">6224</td>
@@ -1567,7 +1570,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Survive</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Survive</th>
 <td class="c m b1 r1 l0 t0 lines">203</td>
 <td class="c m b1 r1 l0 t0 lines">118</td>
 <td class="c m b1 r1 l0 t0 lines">178</td>
@@ -1575,7 +1578,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines">711</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Not Survive</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Survive</th>
 <td class="c m b1 r1 l0 t0 lines">122</td>
 <td class="c m b1 r1 l0 t0 lines">167</td>
 <td class="c m b1 r1 l0 t0 lines">528</td>
@@ -1583,7 +1586,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines">1490</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">325</td>
 <td class="c m b1 r1 l0 t0 lines">285</td>
 <td class="c m b1 r1 l0 t0 lines">706</td>
@@ -1609,21 +1612,21 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">United States</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">United States</th>
 <td class="c m b1 r1 l0 t0 lines">45%</td>
 <td class="c m b1 r1 l0 t0 lines">2%</td>
 <td class="c m b1 r1 l0 t0 lines">8%</td>
 <td class="c m b1 r1 l0 t0 lines">55%</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Foreign</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Foreign</th>
 <td class="c m b1 r1 l0 t0 lines">41%</td>
 <td class="c m b1 r1 l0 t0 lines">1%</td>
 <td class="c m b1 r1 l0 t0 lines">3%</td>
 <td class="c m b1 r1 l0 t0 lines">45%</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">86%</td>
 <td class="c m b1 r1 l0 t0 lines">11%</td>
 <td class="c m b1 r1 l0 t0 lines">3%</td>
@@ -1647,19 +1650,19 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Computer</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Computer</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">No Computer</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Computer</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
@@ -1683,19 +1686,19 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Stretched</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Stretched</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Not Stretched</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Stretched</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
@@ -1720,19 +1723,19 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Fiction</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Fiction</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Nonfiction</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Nonfiction</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
@@ -1753,19 +1756,19 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Pass</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Pass</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">No Pass</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Pass</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>

@@ -8,12 +8,15 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Describing Data</title>
+<title>Math In Society: Describing Data</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
+<meta property="og:image" content="https://spot.pcc.edu/math/mathinsociety/book-1.html/external/images/Portland_Oregon_Skyline.jpg">
 <meta property="book:title" content="Math in Society">
 <meta property="book:author" content="Portland Community College Math Department">
+<link rel="icon" type="image/png" sizes="32x32" href="external/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="external/favicon/favicon-16x16.png">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -89,9 +92,9 @@ window.MathJax = {
 <link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
 </head>
-<body class="pretext book ignore-math">
+<body id="PCC-Math In Society" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
-<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<a id="logo-link" class="logo-link" target="_blank" href="https://spot.pcc.edu/math/mathinsociety/book-1.html"><img src="external/images/Portland_Oregon_Skyline.jpg" alt="Logo image"></a><div class="title-container">
 <h1 class="heading"><a href="root-1-2.html"><span class="title">Math in Society:</span> <span class="subtitle">Mathematics for Liberal Arts Majors</span></a></h1>
 <p class="byline">Portland Community College Math Department</p>
 </div>
@@ -106,7 +109,8 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="chap_three_statistical_process.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="statistics.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chap_three_measure_of_center.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="chap_three_statistical_process.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="statistics.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chap_three_measure_of_center.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\( 		
+ 		\newcommand{\highlight}[1]{{\color{blue}{{#1}}}}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -123,7 +127,6 @@ window.MathJax = {
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Attributions</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="Notes.html" class="internal"><span class="title">Project Notes</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Resources</span></a></div></li>
-<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Errata</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -510,7 +513,7 @@ window.MathJax = {
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.1<span class="period">.</span></span><span class="space"> </span>Alternative Video Lessons</figcaption></figure></section><section class="subsection" id="chap_three_describing_data-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.1</span><span class="space"> </span><span class="title">Types of Data</span>
 </h3>
-<div class="para" id="chap_three_describing_data-4-2">There are two types of data, categorical data and quantitative data.</div>
+<div class="para" id="chap_three_describing_data-4-2">There are two types of data, categorical data and quantitative data. The word data is plural because it represents many pieces of information.</div>
 <div class="para" id="chap_three_describing_data-4-3">
 <em class="alert">Categorical (qualitative) data</em> are pieces of information that allow us to classify the subjects into various categories.</div>
 <article class="example example-like" id="chap_three_describing_data-4-4"><h4 class="heading">
@@ -555,90 +558,89 @@ window.MathJax = {
 <th scope="col" class="c m b1 r1 l0 t1 lines">Frequency of Total-<br>Loss Collisions</th>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">Blue</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Blue</th>
 <td class="c m b1 r1 l0 t0 lines">25</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">Green</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Green</th>
 <td class="c m b1 r1 l0 t0 lines">52</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">Red</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Red</th>
 <td class="c m b1 r1 l0 t0 lines">41</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">White</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">White</th>
 <td class="c m b1 r1 l0 t0 lines">36</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">Black</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Black</th>
 <td class="c m b1 r1 l0 t0 lines">39</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">Grey</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Grey</th>
 <td class="c m b1 r1 l0 t0 lines">23</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">216</td>
 </tr>
 </table></div></div></div></article></section><section class="subsection" id="chap_three_describing_data-7"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.4</span><span class="space"> </span><span class="title">Relative Frequency Tables</span>
 </h3>
-<div class="para" id="chap_three_describing_data-7-2">Numbers are usually not as easy to interpret as percentages, so we will add a column for the relative frequencies. A <em class="alert">relative frequency</em> is the percentage for the category, found by dividing each frequency by the total and converting to a percentage. You’ll notice the percentages may not add up to exactly 100% due to rounding.</div>
+<div class="para" id="chap_three_describing_data-7-2">Counts are usually not as easy to interpret as percentages, so we will add a column for the relative frequencies. A <em class="alert">relative frequency</em> is the percentage for the category, found by dividing each frequency by the total and converting to a percentage. You’ll notice the percentages may not add up to exactly 100% due to rounding.</div>
 <article class="example example-like" id="chap_three_describing_data-7-3"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="chap_three_describing_data-7-3-1">
-<a href="chap_three_describing_data.html#insurance_frequency_table_pt1" class="xref" data-knowl="./knowl/xref/insurance_frequency_table_pt1.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.5">Example 3.2.5</a> continued</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="l m b1 r1 l1 t1 lines">Car Color</th>
 <th scope="col" class="l m b1 r1 l0 t1 lines">Frequency of Total-<br>Loss Collisions</th>
 <th scope="col" class="l m b1 r1 l0 t1 lines">Relative Frequency<br>of Total-Loss Collisions</th>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">Blue</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Blue</th>
 <td class="c m b1 r1 l0 t0 lines">25</td>
 <td class="l m b1 r1 l0 t0 lines">
 <span class="process-math">\(25/216 = 0.116\)</span> or 11.6%</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">Green</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Green</th>
 <td class="c m b1 r1 l0 t0 lines">52</td>
 <td class="l m b1 r1 l0 t0 lines">
 <span class="process-math">\(52/216 = 0.241\)</span> or 24.1%</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">Red</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Red</th>
 <td class="c m b1 r1 l0 t0 lines">41</td>
 <td class="l m b1 r1 l0 t0 lines">
 <span class="process-math">\(41/216 = 0.190\)</span> or 19.0%</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">White</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">White</th>
 <td class="c m b1 r1 l0 t0 lines">36</td>
 <td class="l m b1 r1 l0 t0 lines">
 <span class="process-math">\(36/216 = 0.167\)</span> or 16.7%</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">Black</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Black</th>
 <td class="c m b1 r1 l0 t0 lines">39</td>
 <td class="l m b1 r1 l0 t0 lines">
 <span class="process-math">\(39/216 = 0.181\)</span> or 18.1%</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">Grey</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Grey</th>
 <td class="c m b1 r1 l0 t0 lines">23</td>
 <td class="l m b1 r1 l0 t0 lines">
 <span class="process-math">\(23/216 = 0.107\)</span> or 10.7%</td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines">Total</td>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Total</th>
 <td class="c m b1 r1 l0 t0 lines">216</td>
 <td class="l m b1 r1 l0 t0 lines">
 <span class="process-math">\(216/216 = 1.0\)</span> or 100%</td>
 </tr>
-</table></div></div></div> <div class="para" id="chap_three_describing_data-7-3-3">It would be even more useful to have a visual to see what is going on, and this is where charts and graphs come in. For categorical data we can display our data using bar graphs and pie charts.</div></article></section><section class="subsection" id="chap_three_describing_data-8"><h3 class="heading hide-type">
+</table></div></div></div> <div class="para" id="chap_three_describing_data-7-3-2">It would be even more useful to have a visual to see what is going on, and this is where charts and graphs come in. For categorical data we can display our data using bar graphs and pie charts.</div></article></section><section class="subsection" id="chap_three_describing_data-8"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.5</span><span class="space"> </span><span class="title">Bar graphs</span>
 </h3>
 <div class="para" id="chap_three_describing_data-8-2">A <em class="alert">bar graph</em> is a graph that displays a bar for each category with the height of the bar indicating the frequency of that category. To construct a bar graph with vertical bars, we label the horizontal axis with the categories. The vertical axis will have a scale for the frequency or relative frequency.</div>
@@ -656,7 +658,7 @@ window.MathJax = {
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.7</span><span class="space"> </span><span class="title">Using a Spreadsheet to Make Bar Charts and Pie Charts</span>
 </h3>
 <div class="para" id="chap_three_describing_data-10-2">To make a graph using a spreadsheet, place the data from the frequency table into the cells. Then select the data, go to the Insert tab, and choose the bar graph or pie chart that you would like. For this example, we will choose a pie graph.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/use_sheet2.png" class="contained" alt="This is a large screen shot of excel that includes both the data and the Insert tab with various circle graph options."></div></div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/use_sheet2.png" class="contained" alt="This is a screen shot of excel that includes both the data and the Insert tab with various circle graph options."></div></div></div>
 <div class="para" id="chap_three_describing_data-10-4">After the spreadsheet has created your pie graph you can choose which design you prefer by clicking on the Chart Design tab. Since these pie pieces represent car colors, we matched the color of each wedge to the color of the car in our pie chart above.</div>
 <div class="para" id="chap_three_describing_data-10-5">To give your graph a meaningful title, click on Chart Title. There are many other settings that you can experiment with.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/use_sheet3.png" class="contained" alt="This is a screenshots of excel that shows the frequency table and pie chart and shows the Chart Design Tab."></div></div></div></section><section class="subsection" id="chap_three_describing_data-11"><h3 class="heading hide-type">
@@ -667,7 +669,7 @@ window.MathJax = {
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.7</span><span class="period">.</span>
 </h4>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
-<div class="sbspanel middle" style="width:44.4444444444444%;"><div class="para" id="chap_three_describing_data-11-3-1-1">3-dimensional bar chart like the one shown is usually not as effective as a 2-dimensional graph. The extra dimension does not add any useful information.</div></div>
+<div class="sbspanel middle" style="width:44.4444444444444%;"><div class="para" id="chap_three_describing_data-11-3-1-1">A 3-dimensional bar chart like the one shown is usually not as effective as a 2-dimensional graph. The extra dimension does not add any useful information.</div></div>
 <div class="sbspanel middle" style="width:44.4444444444444%;"><img src="external/images/statistics/3_2/misleading.png" class="contained" alt="A 3-D bar graph showing the car color data."></div>
 </div></div> <div class="para" id="chap_three_describing_data-11-3-2">Here is another way that fanciness can sometimes lead to trouble. Instead of plain bars, it is tempting to substitute images. This type of graph is called a pictogram.</div></article></section><section class="subsection" id="chap_three_describing_data-12"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.9</span><span class="space"> </span><span class="title">Perceptual Distortion</span>
@@ -704,27 +706,27 @@ window.MathJax = {
 <th scope="col" class="c m b1 r1 l0 t1 lines">Student 2</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Rent</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Rent</th>
 <td class="c m b1 r1 l0 t0 lines">$500</td>
 <td class="c m b1 r1 l0 t0 lines">$650</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Food</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Food</th>
 <td class="c m b1 r1 l0 t0 lines">$125</td>
 <td class="c m b1 r1 l0 t0 lines">$125</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Tuition</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Tuition</th>
 <td class="c m b1 r1 l0 t0 lines">$1750</td>
 <td class="c m b1 r1 l0 t0 lines">$1450</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Books</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Books</th>
 <td class="c m b1 r1 l0 t0 lines">$325</td>
 <td class="c m b1 r1 l0 t0 lines">$275</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Misc</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Misc</th>
 <td class="c m b1 r1 l0 t0 lines">$100</td>
 <td class="c m b1 r1 l0 t0 lines">$175</td>
 </tr>
@@ -738,7 +740,42 @@ window.MathJax = {
 <article class="example example-like" id="chap_three_describing_data-15-3"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.11</span><span class="period">.</span>
 </h4>
-<div class="para" id="chap_three_describing_data-15-3-1">A teacher records scores on a 20-point quiz for the 30 students in their class. The scores are:</div> <div class="para" id="chap_three_describing_data-15-3-2">19, 20, 18, 18, 17, 18, 19, 17, 20, 18, 20, 16, 20, 15, 17, 12, 18, 19, 18, 19, 17, 20, 18, 16, 15, 18, 20, 5, 0 and 0.</div> <div class="para" id="chap_three_describing_data-15-3-3">Here is a frequency table with the scores grouped and put in order.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="chap_three_describing_data-15-3-1">A teacher records scores on a 20-point quiz for the 30 students in their class. The scores in points are:</div> <div class="para" id="chap_three_describing_data-15-3-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">19</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">19</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+<td class="c m b1 r1 l0 t1 lines">16</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">19</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">19</td>
+<td class="c m b1 r1 l0 t0 lines">17</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+</tr>
+</table></div></div></div></div> <div class="para" id="chap_three_describing_data-15-3-3">Here is a frequency table with the scores grouped and put in order.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">
 <em class="alert">Quiz</em><br><em class="alert">Score</em>
@@ -748,39 +785,39 @@ window.MathJax = {
 </th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">0</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">0</th>
 <td class="c m b1 r1 l0 t0 lines">2</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">15</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
 <td class="c m b1 r1 l0 t0 lines">1</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">12</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">12</th>
 <td class="c m b1 r1 l0 t0 lines">1</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">15</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">15</th>
 <td class="c m b1 r1 l0 t0 lines">2</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">16</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">16</th>
 <td class="c m b1 r1 l0 t0 lines">2</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">17</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">17</th>
 <td class="c m b1 r1 l0 t0 lines">4</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">18</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">18</th>
 <td class="c m b1 r1 l0 t0 lines">8</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">19</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">19</th>
 <td class="c m b1 r1 l0 t0 lines">4</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">20</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">20</th>
 <td class="c m b1 r1 l0 t0 lines">6</td>
 </tr>
 </table></div></div></div></article><div class="para" id="chap_three_describing_data-15-4">Using this table, it would be possible to create a standard bar chart from this summary, like we did for categorical data. However, since the scores are numerical values, this chart wouldn’t make sense; the first and second bars would be five values apart, while the later bars would only be one value apart. Instead, we will treat the horizontal axis as a number line. This type of graph is called a histogram.</div></section><section class="subsection" id="chap_three_describing_data-16"><h3 class="heading hide-type">
@@ -798,7 +835,7 @@ window.MathJax = {
 <div class="para">
 <em class="alert">Class intervals</em> are groupings of the data. In general, we define class intervals so that:</div>
 <ol class="decimal">
-<li id="chap_three_describing_data-17-2-2-1"><div class="para" id="chap_three_describing_data-17-2-2-1-1">Each interval is equal in size. For example, if the first class contains values from 120-134, the second class should include values from 135-149.</div></li>
+<li id="chap_three_describing_data-17-2-2-1"><div class="para" id="chap_three_describing_data-17-2-2-1-1">Each interval is equal in size. For example, if the first class contains values from 120 up to but not including 135, the second class should include values from 135 up to but not including 150.</div></li>
 <li id="chap_three_describing_data-17-2-2-2"><div class="para" id="chap_three_describing_data-17-2-2-2-1">We typically have somewhere between 5 and 20 classes, depending on the number of data values we’re working with.</div></li>
 </ol>
 </div>
@@ -814,43 +851,43 @@ window.MathJax = {
 <th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Frequency</em></th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">120-134</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">120-134.99</th>
 <td class="c m b1 r1 l0 t0 lines">4</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">135-149</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">135-149.99</th>
 <td class="c m b1 r1 l0 t0 lines">14</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">150-164</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">150-164.99</th>
 <td class="c m b1 r1 l0 t0 lines">16</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">165-179</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">165-179.99</th>
 <td class="c m b1 r1 l0 t0 lines">28</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">180-194</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">180-194.99</th>
 <td class="c m b1 r1 l0 t0 lines">12</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">195-209</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">195-209.99</th>
 <td class="c m b1 r1 l0 t0 lines">8</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">210-224</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">210-224.99</th>
 <td class="c m b1 r1 l0 t0 lines">7</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">225-239</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">225-239.99</th>
 <td class="c m b1 r1 l0 t0 lines">6</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">240-254</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">240-254.99</th>
 <td class="c m b1 r1 l0 t0 lines">2</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">255-269</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">255-269.99</th>
 <td class="c m b1 r1 l0 t0 lines">3</td>
 </tr>
 </table></div>
@@ -977,8 +1014,8 @@ window.MathJax = {
 </div></details>, 1012 adults were asked whether they personally worried about a variety of environmental concerns. The number of people who indicated that they worried “a great deal” about some selected concerns is listed below.</div>
 <ol class="lower-alpha">
 <li id="chap_three_describing_data-27-14-1-1-3-1"><div class="para" id="chap_three_describing_data-27-14-1-1-3-1-1">Is this categorical or quantitative data?</div></li>
-<li id="chap_three_describing_data-27-14-1-1-3-2"><div class="para" id="chap_three_describing_data-27-14-1-1-3-2-1">Make a bar chart for this data.</div></li>
-<li id="chap_three_describing_data-27-14-1-1-3-3"><div class="para" id="chap_three_describing_data-27-14-1-1-3-3-1">Why can’t we make a pie chart for this data?</div></li>
+<li id="chap_three_describing_data-27-14-1-1-3-2"><div class="para" id="chap_three_describing_data-27-14-1-1-3-2-1">Make a bar chart for these data.</div></li>
+<li id="chap_three_describing_data-27-14-1-1-3-3"><div class="para" id="chap_three_describing_data-27-14-1-1-3-3-1">Why can’t we make a pie chart for these data?</div></li>
 </ol>
 </div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
@@ -986,19 +1023,19 @@ window.MathJax = {
 <th scope="col" class="c m b1 r1 l0 t1 lines">Frequency</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Pollution of drinking water</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Pollution of drinking water</th>
 <td class="c m b1 r1 l0 t0 lines">597</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Contamination of soil and water by toxic waste</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Contamination of soil and water by toxic waste</th>
 <td class="c m b1 r1 l0 t0 lines">526</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Air pollution</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Air pollution</th>
 <td class="c m b1 r1 l0 t0 lines">455</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Global warming</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Global warming</th>
 <td class="c m b1 r1 l0 t0 lines">354</td>
 </tr>
 </table></div></div></div></article><article class="exercise exercise-like" id="chap_three_describing_data-27-15"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
@@ -1006,8 +1043,8 @@ window.MathJax = {
 <div class="para">In a survey, 2056 adults were asked about their views on immigration. The percent of people who responded that immigrants to the United States are making each of the following situations in the country better are listed below.</div>
 <ol class="lower-alpha">
 <li id="chap_three_describing_data-27-15-1-1-1-1"><div class="para" id="chap_three_describing_data-27-15-1-1-1-1-1">Is this categorical or quantitative data?</div></li>
-<li id="chap_three_describing_data-27-15-1-1-1-2"><div class="para" id="chap_three_describing_data-27-15-1-1-1-2-1">Make a relative frequency bar chart for this data.</div></li>
-<li id="chap_three_describing_data-27-15-1-1-1-3"><div class="para" id="chap_three_describing_data-27-15-1-1-1-3-1">Can we make a pie chart for this data?</div></li>
+<li id="chap_three_describing_data-27-15-1-1-1-2"><div class="para" id="chap_three_describing_data-27-15-1-1-1-2-1">Make a relative frequency bar chart for these data.</div></li>
+<li id="chap_three_describing_data-27-15-1-1-1-3"><div class="para" id="chap_three_describing_data-27-15-1-1-1-3-1">Can we make a pie chart for these data?</div></li>
 </ol>
 </div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr class="header-horizontal">
@@ -1015,27 +1052,27 @@ window.MathJax = {
 <th scope="col" class="c m b1 r1 l0 t1 lines">Relative Frequency (%)</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Food, music and the arts</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Food, music and the arts</th>
 <td class="c m b1 r1 l0 t0 lines">57</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">The economy in general</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">The economy in general</th>
 <td class="c m b1 r1 l0 t0 lines">43</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Social and moral values</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Social and moral values</th>
 <td class="c m b1 r1 l0 t0 lines">31</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Job opportunities for<br>you and your family</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Job opportunities for<br>you and your family</th>
 <td class="c m b1 r1 l0 t0 lines">19</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Taxes</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Taxes</th>
 <td class="c m b1 r1 l0 t0 lines">20</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Crime</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Crime</th>
 <td class="c m b1 r1 l0 t0 lines">7</td>
 </tr>
 </table></div></div></div></article><article class="exercise exercise-like" id="chap_three_describing_data-27-16"><h4 class="heading"><span class="codenumber">15<span class="period">.</span></span></h4>
@@ -1051,23 +1088,23 @@ window.MathJax = {
 <th scope="col" class="c m b1 r1 l0 t1 lines">Relative Frequency (%)</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Electricity</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Electricity</th>
 <td class="c m b1 r1 l0 t0 lines">33</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Heating Oil</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Heating Oil</th>
 <td class="c m b1 r1 l0 t0 lines">4</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Natural Gas</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Natural Gas</th>
 <td class="c m b1 r1 l0 t0 lines">50</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Firewood</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Firewood</th>
 <td class="c m b1 r1 l0 t0 lines">8</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Other</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Other</th>
 <td class="c m b1 r1 l0 t0 lines">5</td>
 </tr>
 </table></div></div></div></article><article class="exercise exercise-like" id="chap_three_describing_data-27-17"><h4 class="heading"><span class="codenumber">16<span class="period">.</span></span></h4>
@@ -1083,19 +1120,19 @@ window.MathJax = {
 <th scope="col" class="c m b1 r1 l0 t1 lines">Relative Frequency (%)</th>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Freshman</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Freshman</th>
 <td class="c m b1 r1 l0 t0 lines">18</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Sophmore</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Sophmore</th>
 <td class="c m b1 r1 l0 t0 lines">13</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Junior</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Junior</th>
 <td class="c m b1 r1 l0 t0 lines">23</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">Senior</td>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Senior</th>
 <td class="c m b1 r1 l0 t0 lines">46</td>
 </tr>
 </table></div></div></div></article><article class="exercise exercise-like" id="chap_three_describing_data-27-18"><h4 class="heading"><span class="codenumber">17<span class="period">.</span></span></h4>
@@ -1107,8 +1144,7 @@ window.MathJax = {
 <li id="chap_three_describing_data-27-18-1-1-1-3"><div class="para" id="chap_three_describing_data-27-18-1-1-1-3-1">Make a bar chart for the data.</div></li>
 <li id="chap_three_describing_data-27-18-1-1-1-4">
 <div class="para" id="chap_three_describing_data-27-18-1-1-1-4-1">Make a pie chart for the data.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
-<tr>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular"><tr>
 <td class="c m b1 r1 l1 t1 lines">1</td>
 <td class="c m b1 r1 l0 t1 lines">4</td>
 <td class="c m b1 r1 l0 t1 lines">2</td>
@@ -1121,22 +1157,19 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t1 lines">4</td>
 <td class="c m b1 r1 l0 t1 lines">2</td>
 <td class="c m b1 r1 l0 t1 lines">2</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">1</td>
-<td class="c m b1 r1 l0 t0 lines">2</td>
-<td class="c m b1 r1 l0 t0 lines">1</td>
-<td class="c m b1 r1 l0 t0 lines">3</td>
-<td class="c m b1 r1 l0 t0 lines">2</td>
-<td class="c m b1 r1 l0 t0 lines">2</td>
-<td class="c m b1 r1 l0 t0 lines">1</td>
-<td class="c m b1 r1 l0 t0 lines">2</td>
-<td class="c m b1 r1 l0 t0 lines">1</td>
-<td class="c m b1 r1 l0 t0 lines">1</td>
-<td class="c m b1 r1 l0 t0 lines">1</td>
-<td class="c m b1 r1 l0 t0 lines">2</td>
-</tr>
-</table></div></div></div>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+</tr></table></div></div></div>
 </li>
 </ol>
 </div></article><article class="exercise exercise-like" id="chap_three_describing_data-27-19"><h4 class="heading"><span class="codenumber">18<span class="period">.</span></span></h4>
@@ -1181,7 +1214,7 @@ window.MathJax = {
 </ol>
 </div></article><article class="exercise exercise-like" id="chap_three_describing_data-27-20"><h4 class="heading"><span class="codenumber">19<span class="period">.</span></span></h4>
 <div class="para" id="chap_three_describing_data-27-20-1-1">This graph shows the number of adults and kids who prefer each type of soda. There were 130 adults and kids surveyed. Discuss some ways in which the graph could be improved.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/exercise_graph5.png" class="contained" alt="This is a 3 dimensional double bar graph. There is a bar for kids and a bar for adults. The x-axis is labeled coke, diet coke, sprite and cherry soda. The y-axis starts at 20  and goes to 45 with a scale of 5."></div></div></div></article><article class="exercise exercise-like" id="chap_three_describing_data-27-21"><h4 class="heading"><span class="codenumber">20<span class="period">.</span></span></h4>
-<div class="para" id="chap_three_describing_data-27-21-1-1">A poll was taken asking people if they agreed with the positions of the 4 candidates for a county office. Does this pie chart present a good representation of this data? Explain.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/exercise_graph6.png" class="contained" alt="A pie chart with 4 regions: Nguyen is labeled 42%, McKee is labeled 35%, Jones is labeled 64% and Brown is labeled 52%."></div></div></div></article><article class="exercise exercise-like" id="chap_three_describing_data-27-22"><h4 class="heading"><span class="codenumber">21<span class="period">.</span></span></h4>
+<div class="para" id="chap_three_describing_data-27-21-1-1">A poll was taken asking people if they agreed with the positions of the 4 candidates for a county office. Does this pie chart present a good representation of these data? Explain.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/exercise_graph6.png" class="contained" alt="A pie chart with 4 regions: Nguyen is labeled 42%, McKee is labeled 35%, Jones is labeled 64% and Brown is labeled 52%."></div></div></div></article><article class="exercise exercise-like" id="chap_three_describing_data-27-22"><h4 class="heading"><span class="codenumber">21<span class="period">.</span></span></h4>
 <div class="para" id="chap_three_describing_data-27-22-1-1">Why is this a misleading or poor graph?</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/misleading_1.png" class="contained" alt='This is a bar graph and is titled "Favorite Drinks". The x-axis is labeled Drink Type and includes colas, lemon flavored, root beer, teas, coffee, and other. The y-axis is labeled frequency and has no scale.'></div></div></div></article><article class="exercise exercise-like" id="chap_three_describing_data-27-23"><h4 class="heading"><span class="codenumber">22<span class="period">.</span></span></h4>
 <div class="para" id="chap_three_describing_data-27-23-1-1">Why is this a misleading or poor graph?</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/misleading_2.png" class="contained" alt='This is a bar graph and is titled "Profit During First Half of Year". The x-axis is labeled Year and includes January, February, March, April, May, and June. The y-axis is labeled Profits in $. The scale goes from 0 to 4500 by 500. The bar for each month is labeled with the following values: January 4230, February 3760, March 2670, April -1320, May 750, and June 1560. The bar for April is colored red while the remaining bars are colored blue.'></div></div></div></article><article class="exercise exercise-like" id="chap_three_describing_data-27-24"><h4 class="heading"><span class="codenumber">23<span class="period">.</span></span></h4>
 <div class="para logical" id="chap_three_describing_data-27-24-1-1">
@@ -1213,8 +1246,100 @@ window.MathJax = {
 <li id="chap_three_describing_data-27-26-1-1-1-1"><div class="para" id="chap_three_describing_data-27-26-1-1-1-1-1">Create a histogram for each dataset, using the same class intervals and scales so you can compare them.</div></li>
 <li id="chap_three_describing_data-27-26-1-1-1-2">
 <div class="para" id="chap_three_describing_data-27-26-1-1-1-2-1">Compare and contrast the two distributions.</div>
-<div class="para" id="chap_three_describing_data-27-26-1-1-1-2-2">Researcher 1: 3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34</div>
-<div class="para" id="chap_three_describing_data-27-26-1-1-1-2-3">Researcher 2: 3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29</div>
+<div class="para" id="chap_three_describing_data-27-26-1-1-1-2-2">Researcher 1 Patients (in months):</div>
+<div class="para" id="chap_three_describing_data-27-26-1-1-1-2-3"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">11</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">16</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+<td class="c m b1 r1 l0 t1 lines">22</td>
+<td class="c m b1 r1 l0 t1 lines">44</td>
+<td class="c m b1 r1 l0 t1 lines">37</td>
+<td class="c m b1 r1 l0 t1 lines">16</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">24</td>
+<td class="c m b1 r1 l0 t1 lines">25</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">26</td>
+<td class="c m b1 r1 l0 t1 lines">27</td>
+<td class="c m b1 r1 l0 t1 lines">33</td>
+<td class="c m b1 r1 l0 t1 lines">29</td>
+<td class="c m b1 r1 l0 t1 lines">35</td>
+<td class="c m b1 r1 l0 t1 lines">44</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">13</td>
+<td class="c m b1 r1 l0 t0 lines">21</td>
+<td class="c m b1 r1 l0 t0 lines">22</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">40</td>
+<td class="c m b1 r1 l0 t0 lines">32</td>
+<td class="c m b1 r1 l0 t0 lines">26</td>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines">31</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+<td class="c m b1 r1 l0 t0 lines">29</td>
+<td class="c m b1 r1 l0 t0 lines">17</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">24</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">47</td>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+</tr>
+</table></div></div></div></div>
+<div class="para" id="chap_three_describing_data-27-26-1-1-1-2-4">Researcher 2 Patients (in months):</div>
+<div class="para" id="chap_three_describing_data-27-26-1-1-1-2-5"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">11</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">16</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+<td class="c m b1 r1 l0 t1 lines">28</td>
+<td class="c m b1 r1 l0 t1 lines">41</td>
+<td class="c m b1 r1 l0 t1 lines">31</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">26</td>
+<td class="c m b1 r1 l0 t1 lines">25</td>
+<td class="c m b1 r1 l0 t1 lines">21</td>
+<td class="c m b1 r1 l0 t1 lines">22</td>
+<td class="c m b1 r1 l0 t1 lines">31</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">35</td>
+<td class="c m b1 r1 l0 t1 lines">44</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">23</td>
+<td class="c m b1 r1 l0 t0 lines">21</td>
+<td class="c m b1 r1 l0 t0 lines">21</td>
+<td class="c m b1 r1 l0 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">41</td>
+<td class="c m b1 r1 l0 t0 lines">22</td>
+<td class="c m b1 r1 l0 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines">25</td>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+<td class="c m b1 r1 l0 t0 lines">29</td>
+<td class="c m b1 r1 l0 t0 lines">13</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">24</td>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+<td class="c m b1 r1 l0 t0 lines">42</td>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+<td class="c m b1 r1 l0 t0 lines">29</td>
+</tr>
+</table></div></div></div></div>
 </li>
 </ol>
 </div></article></section></section></div>
