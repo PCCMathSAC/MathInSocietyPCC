@@ -578,7 +578,7 @@ window.MathJax = {
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.4.4</span><span class="space"> </span><span class="title">The Efficiency Gap</span>
 </h3>
 <div class="para" id="chap_five_gerrymandering-7-2">To try to measure how unfair the map is, let’s learn how to calculate the efficiency gap. First, we will tally the votes in the table below, and note how the election results would turn out by using bold numbers for the party with more voters in each district. For example, there are 4 D’s and 3 R’s in district 1, so the Democrats would theoretically win that district.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">District</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">D Votes</th>
@@ -628,7 +628,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para logical" id="chap_five_gerrymandering-7-4">
 <div class="para">Election Results:</div>
 <ul class="disc">
@@ -637,7 +637,7 @@ window.MathJax = {
 </ul>
 </div>
 <div class="para" id="chap_five_gerrymandering-7-5">Next, we will calculate how many votes would be extra over the amount needed to win the election. These are the <em class="alert">surplus votes</em>. In this example, with 7 voters, the majority of a district is 4 votes, so we will subtract 4 from each winning side. From each losing side, all of the votes are considered surplus because they did not go toward electing a candidate of their party. Then we add all the surplus votes for each party.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">District</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">D Votes</th>
@@ -687,7 +687,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">2</td>
 <td class="c m b1 r1 l0 t0 lines">13</td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_five_gerrymandering-7-7">The difference between the surplus votes as a percentage of the population is the efficiency gap. As a formula it is written:</div>
 <div class="para" id="chap_five_gerrymandering-7-8"><span class="process-math">\(\frac{\text{Party A Surplus Votes } - \text{ Party B Surplus Votes}}{\text{Total Votes}}\)</span></div>
 <div class="para" id="chap_five_gerrymandering-7-9">To get a positive result, we put the larger number first and we have</div>
@@ -704,7 +704,7 @@ window.MathJax = {
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel middle" style="width:59%;"><div class="para" id="chap_five_gerrymandering-7-14-1-1-1">For another example, we will take the same map and gerrymander it for the Republicans. This time we will pack as many Democrats as we can into the middle, and then use cracking to form the rest of the districts, trying to get 4 R’s in as many as we can. Here is the map.</div></div>
 <div class="sbspanel middle" style="width:35%;"><figure class="figure figure-like" id="chap_five_gerrymandering-7-14-1-1-2"><img src="external/images/democracy/5_4/simplified_state_map3.png" class="contained" alt="The previous map with new district lines drawn. This time Districts 1, 3, 4 and 5 have 4 Republicans and 3 Democrats each. District 2 has 7 Democrats packed in and District 4 has 2 Democrats and 5 Rupublicans."><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.4.8<span class="period">.</span></span><span class="space"> </span>The map gerrymandered in favor of Republicans</figcaption></figure></div>
-</div></div> <div class="para" id="chap_five_gerrymandering-7-14-1-2">Now, let’s fill in our table:</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+</div></div> <div class="para" id="chap_five_gerrymandering-7-14-1-2">Now, let’s fill in our table:</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">District</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">D Votes</th>
@@ -754,7 +754,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">14</td>
 <td class="c m b1 r1 l0 t0 lines">1</td>
 </tr>
-</table></div></div></div> <div class="para logical" id="chap_five_gerrymandering-7-14-1-4">
+</table></div> <div class="para logical" id="chap_five_gerrymandering-7-14-1-4">
 <div class="para">Election Results:</div>
 <ul class="disc">
 <li id="chap_five_gerrymandering-7-14-1-4-1-1"><div class="para" id="chap_five_gerrymandering-7-14-1-4-1-1-1">Democrats win 1 seat</div></li>
@@ -770,7 +770,7 @@ window.MathJax = {
 <div class="para" id="chap_five_gerrymandering-7-15-1-1-1-2">With this map, we tried to have two districts that favored Democrats, two that favored Republicans, and one that might go either way. Since there is one extra Democrat, the population is 17:18 and the seats are 2:3</div>
 </div>
 <div class="sbspanel middle" style="width:35%;"><figure class="figure figure-like" id="chap_five_gerrymandering-7-15-1-1-2"><img src="external/images/democracy/5_4/simplified_state_map4.png" class="contained" alt="The previous map with new district lines drawn. Districts 2, 3 and 5 have 4 Democrats and 3 Republians each. Districts 1 and 4 have 3 Democrats and 4 Rupublicans each."><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.4.10<span class="period">.</span></span><span class="space"> </span>A more fair map</figcaption></figure></div>
-</div></div> <div class="para" id="chap_five_gerrymandering-7-15-1-2">Let’s see how the efficiency gap comes out in this situation:</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+</div></div> <div class="para" id="chap_five_gerrymandering-7-15-1-2">Let’s see how the efficiency gap comes out in this situation:</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">District</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">D Votes</th>
@@ -820,7 +820,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">6</td>
 <td class="c m b1 r1 l0 t0 lines">9</td>
 </tr>
-</table></div></div></div> <div class="para logical" id="chap_five_gerrymandering-7-15-1-4">
+</table></div> <div class="para logical" id="chap_five_gerrymandering-7-15-1-4">
 <div class="para">Election Results:</div>
 <ul class="disc">
 <li id="chap_five_gerrymandering-7-15-1-4-1-1"><div class="para" id="chap_five_gerrymandering-7-15-1-4-1-1-1">Democrats win 3 seats</div></li>

@@ -514,7 +514,7 @@ window.MathJax = {
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.1</span><span class="space"> </span><span class="title">Contingency Tables</span>
 </h3>
 <div class="para" id="chap_four_contingency_tables-4-2">A <em class="alert">contingency table</em> summarizes all the possible combinations for two categorical variables. Each value in the table represents the number of times a particular combination of outcomes occurs. For example, suppose we randomly select 250 households from the greater Portland area and ask whether they have a cat and whether they have a dog. In this case, “have a cat” and “have a dog” are the two variables, and each variable has two categories: Yes and No. To create the contingency table, we make columns for the categories of one variable, and rows for the categories of the other variable. We also add a row and column for the subtotals of each category. Each cell of the resulting table contains the number of outcomes having the characteristics of the intersecting row and column categories. For our dog and cat example, the table would look like this:</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
@@ -539,9 +539,9 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"><em class="emphasis">No Dog Total</em></td>
 <td class="c m b1 r1 l0 t0 lines"><em class="emphasis">Grand total</em></td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_four_contingency_tables-4-4">Suppose that of the 250 households surveyed, 180 said they have a cat, 95 said they have a dog, and 52 said they have both a cat and a dog. We can use this information to fill in the cells of the table.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
@@ -566,10 +566,10 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines">250</td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_four_contingency_tables-4-6">The first cell we can fill in is the <em class="alert">grand total</em>, which is the total number of subjects in the study. In this case, there are 250 households participating in the survey. The next two cells we can fill in are the total number of households that have a cat, 180, and the total number of households that have a dog, 95. The final cell we can fill in from the given information is the intersection of the having a dog column and a having a cat row, which is 52 households.</div>
 <div class="para" id="chap_four_contingency_tables-4-7">Since each row and column must sum to their totals, we can use subtraction to find the missing numbers as shown below.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
@@ -596,7 +596,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(250-95=155\)</span></td>
 <td class="c m b1 r1 l0 t0 lines">250</td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_four_contingency_tables-4-9">Now that we have our contingency table completed, notice that the numbers in the central four cells add to the grand total as shown in the table on the left. The total row and the total column also add to the grand total as shown in the right table.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel fixed-width top" style="width:50%;"><table class="tabular">
@@ -661,7 +661,7 @@ window.MathJax = {
 </h3>
 <div class="para" id="chap_four_contingency_tables-6-2">Now we can use the contingency table or the Venn diagram to determine the percentage of households that meet certain conditions. For instance, what percent of those surveyed own a cat <em class="alert">and</em> do not own a dog? In the Venn diagram, this is 128 households in the cat only region.</div>
 <div class="para" id="chap_four_contingency_tables-6-3">In the contingency table we see the 128 households at the intersection of the row of households who own a cat and the column of households who do not own a dog. As a percentage, the total number of households surveyed, is <span class="process-math">\(\frac{128}{250}=0.512\)</span> or 51.2% that have a cat and no dog.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
@@ -686,13 +686,13 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">155</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">250</code></td>
 </tr>
-</table></div></div></div></section><section class="subsection" id="chap_four_contingency_tables-7"><h3 class="heading hide-type">
+</table></div></section><section class="subsection" id="chap_four_contingency_tables-7"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.4</span><span class="space"> </span><span class="title">“Or” Statements</span>
 </h3>
 <div class="para" id="chap_four_contingency_tables-7-2">How about the percentage of households surveyed that have a cat <em class="alert">or</em> a dog? We know from Venn diagrams that the inclusive <em class="emphasis">or</em> includes the number of households who own a cat only, a dog only, and both a cat and a dog, or <span class="process-math">\(128+52+43=223\)</span> households. As a percentage of the total surveyed, we get <span class="process-math">\(\frac{223}{250}=0.892\)</span> or 89.2% of households in the sample have a dog <em class="alert">or</em> a cat (or both).</div>
 <div class="para" id="chap_four_contingency_tables-7-3">We can get the same answer from the contingency table. by adding the cells for households who have a cat and not a dog, a dog and not a cat, and the households that have both a cat and a dog. This also gives us 223 households.</div>
 <div class="para" id="chap_four_contingency_tables-7-4">There is another way to calculate an <em class="emphasis">or</em> statements from a contingency table. We could add the row and column totals for having a cat and having a dog, but then we have counted the 52 households in the intersection twice. We can subtract that number to get <span class="process-math">\(180+95-52=223\)</span> households with a dog or a cat, which we know is 89.2% of those surveyed.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
@@ -717,11 +717,11 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">155</td>
 <td class="c m b1 r1 l0 t0 lines">250</td>
 </tr>
-</table></div></div></div></section><section class="subsection" id="chap_four_contingency_tables-8"><h3 class="heading hide-type">
+</table></div></section><section class="subsection" id="chap_four_contingency_tables-8"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.5</span><span class="space"> </span><span class="title">Conditional Statements</span>
 </h3>
 <div class="para" id="chap_four_contingency_tables-8-2">Another question we can answer using a contingency table is what percentage of dog owning households also own a cat? In this case the group that we are interested in isn’t every household surveyed (the grand total), but just those households that own a dog.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines"><code class="code-inline tex2jax_ignore">Dog</code></th>
@@ -746,7 +746,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">155</td>
 <td class="c m b1 r1 l0 t0 lines">250</td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_four_contingency_tables-8-4">We call this a <em class="alert">conditional</em> statement because we are only considering the households with a certain condition. If we focus on the column representing the households that own a dog, we see that there is a total of 95 households with a dog, and that 52 of those 95 households also have a cat. Therefore, <span class="process-math">\(\frac{52}{95} \approx 0.547\)</span> or approximately 54.7% of the households with a dog also have a cat. Another way to phrase this conditional statement is, “What percent of households have a cat <em class="alert">given</em> they have a dog.” You will see the word given quite a bit in this chapter and that makes the denominator change. It is also possible to find this conditional percentage using the Venn diagram by taking the number in the intersection and dividing it by the total in the whole dog circle.</div></section><section class="subsection" id="chap_four_contingency_tables-9"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.6</span><span class="space"> </span><span class="title">Contingency Tables with More Than Two Categories</span>
 </h3>
@@ -754,7 +754,7 @@ window.MathJax = {
 <article class="example example-like" id="chap_four_contingency_tables-9-3"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.2</span><span class="period">.</span>
 </h4>
-<div class="para" id="chap_four_contingency_tables-9-3-1-1">910 randomly sampled registered voters from Tampa, FL were asked if they thought workers who have illegally entered the US should (i) be allowed to keep their jobs and apply for US citizenship, (ii) be allowed to keep their jobs as temporary guest workers but not be allowed to apply for US citizenship, or (iii) lose their jobs and have to leave the country. Not sure was also an option (iv). The results of the survey by political ideology are shown below<details class="ptx-footnote" aria-live="polite" id="chap_four_contingency_tables-9-3-1-1-1"><summary class="ptx-footnote__number" title="Footnote 4.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="chap_four_contingency_tables-9-3-1-1-1">SurveyUSA, <a class="external" href="http://www.surveyusa.com/client/PollReport.aspx?g=60d6fa81-2698-4c51-a5f8-714f40976df2" target="_blank">News Poll #18927</a>, data collected Jan 27-29, 2012. Example adapted from <a class="external" href="https://www.openintro.org/" target="_blank">Open Intro: Advanced High School Statistics</a>, by Diez et al, used under <a class="external" href="https://creativecommons.org/licenses/by-sa/3.0/us/" target="_blank">CC-BY-SA 3.0</a>.</div></details>. Use the contingency table to answer the questions.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="chap_four_contingency_tables-9-3-1-1">910 randomly sampled registered voters from Tampa, FL were asked if they thought workers who have illegally entered the US should (i) be allowed to keep their jobs and apply for US citizenship, (ii) be allowed to keep their jobs as temporary guest workers but not be allowed to apply for US citizenship, or (iii) lose their jobs and have to leave the country. Not sure was also an option (iv). The results of the survey by political ideology are shown below<details class="ptx-footnote" aria-live="polite" id="chap_four_contingency_tables-9-3-1-1-1"><summary class="ptx-footnote__number" title="Footnote 4.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="chap_four_contingency_tables-9-3-1-1-1">SurveyUSA, <a class="external" href="http://www.surveyusa.com/client/PollReport.aspx?g=60d6fa81-2698-4c51-a5f8-714f40976df2" target="_blank">News Poll #18927</a>, data collected Jan 27-29, 2012. Example adapted from <a class="external" href="https://www.openintro.org/" target="_blank">Open Intro: Advanced High School Statistics</a>, by Diez et al, used under <a class="external" href="https://creativecommons.org/licenses/by-sa/3.0/us/" target="_blank">CC-BY-SA 3.0</a>.</div></details>. Use the contingency table to answer the questions.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Conservative</th>
@@ -797,7 +797,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">175</td>
 <td class="c m b1 r1 l0 t0 lines">910</td>
 </tr>
-</table></div></div></div> <div class="para logical" id="chap_four_contingency_tables-9-3-1-3"><ol class="lower-alpha">
+</table></div> <div class="para logical" id="chap_four_contingency_tables-9-3-1-3"><ol class="lower-alpha">
 <li id="chap_four_contingency_tables-9-3-1-3-1-1"><div class="para" id="chap_four_contingency_tables-9-3-1-3-1-1-1">What percent of the sampled Tampa, FL voters identified themselves as conservatives?</div></li>
 <li id="chap_four_contingency_tables-9-3-1-3-1-2"><div class="para" id="chap_four_contingency_tables-9-3-1-3-1-2-1">What percent of the sampled voters are in favor of the citizenship option?</div></li>
 <li id="chap_four_contingency_tables-9-3-1-3-1-3"><div class="para" id="chap_four_contingency_tables-9-3-1-3-1-3-1">What percent of the sampled voters identify themselves as conservatives <em class="alert">and</em> are in favor of the citizenship option?</div></li>
@@ -810,7 +810,7 @@ window.MathJax = {
 <li id="chap_four_contingency_tables-9-3-2-1-1-3"><div class="para" id="chap_four_contingency_tables-9-3-2-1-1-3-1">For this question we are looking for the cell that is the intersection of those who identify as conservative and those who are in favor of the citizen option. This cell has 57 voters, so we divide that by the total number of voters. This gives us or <span class="process-math">\(\frac{57}{910} \approx 0.063\)</span> or approximately 6.3% of these voters identify as conservatives and are in favor of the citizenship option.</div></li>
 <li id="chap_four_contingency_tables-9-3-2-1-1-4">
 <div class="para" id="chap_four_contingency_tables-9-3-2-1-1-4-1">The <em class="emphasis">or</em> in this question is inclusive, so we need to determine the number of voters who identify as liberal, who are in favor of the leaving the country option, or both.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Conservative</th>
@@ -853,7 +853,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">175</td>
 <td class="c m b1 r1 l0 t0 lines">910</td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_four_contingency_tables-9-3-2-1-1-4-3">In terms of the individual cells, the number of voters who have the specified characteristics is the sum <span class="process-math">\(179+126+101+28+45+1=480\text{,}\)</span> which we can divide by the total number of voters surveyed to get the percent. So, we have <span class="process-math">\(\frac{480}{910} \approx 0.527\)</span> or approximately 53% of the voters identify as liberal or are in favor of the leave the country option.</div>
 <div class="para" id="chap_four_contingency_tables-9-3-2-1-1-4-4">Another way to calculate this is to add the total number who identify as liberal (175 voters) and the total number who are in favor of the leave the country option (350 voters), then subtract the double counted cell (45 voters) who are liberal and in favor of the leave the country option: <span class="process-math">\(175+350-45=480\)</span>
 </div>
@@ -879,7 +879,7 @@ window.MathJax = {
 <article class="example example-like" id="chap_four_contingency_tables-11-5"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="chap_four_contingency_tables-11-5-1-1">A survey of licensed drivers asked whether they had received a speeding ticket in the last year and whether their car is red. The results of the survey are shown in the contingency table to the right.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="chap_four_contingency_tables-11-5-1-1">A survey of licensed drivers asked whether they had received a speeding ticket in the last year and whether their car is red. The results of the survey are shown in the contingency table to the right.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
@@ -904,7 +904,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">605</td>
 <td class="c m b1 r1 l0 t0 lines">665</td>
 </tr>
-</table></div></div></div> <div class="para logical" id="chap_four_contingency_tables-11-5-1-3">
+</table></div> <div class="para logical" id="chap_four_contingency_tables-11-5-1-3">
 <div class="para">Find the probability that a randomly selected survey participant:</div>
 <ol class="lower-alpha">
 <li id="chap_four_contingency_tables-11-5-1-3-1-1"><div class="para" id="chap_four_contingency_tables-11-5-1-3-1-1-1">has a red car.</div></li>
@@ -918,7 +918,7 @@ window.MathJax = {
 </div>
 <div class="solutions"><details id="chap_four_contingency_tables-11-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="chap_four_contingency_tables-11-5-2-1"><ol class="lower-alpha">
 <li id="chap_four_contingency_tables-11-5-2-1-1-1">
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
@@ -943,11 +943,11 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">605</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">665</code></td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_four_contingency_tables-11-5-2-1-1-1-2">To find <span class="process-math">\(P(\text{red car})\text{,}\)</span> we divide the number of participants who own a red car by the total number of people surveyed:<span class="process-math">\(P(\text{red car})=\frac{150}{665} \approx 0.226\)</span> or 22.6%.</div>
 </li>
 <li id="chap_four_contingency_tables-11-5-2-1-1-2">
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
@@ -972,12 +972,12 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">605</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">665</code></td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_four_contingency_tables-11-5-2-1-1-2-2">
 <span class="process-math">\(P(\text{speeding ticket})\text{,}\)</span> we divide the number of participants who got a speeding ticket in the last year by the total number of people surveyed: <span class="process-math">\(P(\text{speeding ticket})=\frac{60}{665} \approx 0.09\)</span> or 9%.</div>
 </li>
 <li id="chap_four_contingency_tables-11-5-2-1-1-3">
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
@@ -1002,11 +1002,11 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">605</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">665</code></td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_four_contingency_tables-11-5-2-1-1-3-2">To find <span class="process-math">\(P(\text{red and no ticket})\)</span> , we find the intersection of the red car category and the no ticket category and divide by the total number of participants: <span class="process-math">\(P(\text{red and no ticket}) =\frac{135}{665} \approx 0.203\)</span> or 20.3%</div>
 </li>
 <li id="chap_four_contingency_tables-11-5-2-1-1-4">
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
@@ -1031,7 +1031,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">605</td>
 <td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">665</code></td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_four_contingency_tables-11-5-2-1-1-4-2">To find <span class="process-math">\(P(\text{red or ticket})\text{,}\)</span> we need to add those who drive a red car and did not have a speeding ticket (just red), those who had a speeding ticket and do not drive a red car (just ticket) and those who drive a red car and had a speeding ticket (both), and divide by the total number of participants:</div>
 <div class="para logical" id="chap_four_contingency_tables-11-5-2-1-1-4-3"><div class="displaymath process-math" id="chap_four_contingency_tables-11-5-2-1-1-4-3-1">
 \begin{gather*}
@@ -1049,7 +1049,7 @@ P(\text{red and no ticket})\amp= P(\text{red})+ P(\text{speeding ticket}) - P(\t
 <div class="para" id="chap_four_contingency_tables-11-5-2-1-1-4-6">which gives us the same answer as counting the individual cells.</div>
 </li>
 <li id="chap_four_contingency_tables-11-5-2-1-1-5">
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
@@ -1074,7 +1074,7 @@ P(\text{red and no ticket})\amp= P(\text{red})+ P(\text{speeding ticket}) - P(\t
 <td class="c m b1 r1 l0 t0 lines">605</td>
 <td class="c m b1 r1 l0 t0 lines">665</td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_four_contingency_tables-11-5-2-1-1-5-2">The probability <span class="process-math">\(P(\text{speeding ticket given red car})\)</span> is a conditional probability as we have seen before since it is conditional on the given characteristic occurring. In this problem, the given characteristic is owning a red car, so we isolate our attention to just the row of 150 red car owners and see how many have had a speeding ticket in the last year. Looking at the table, we see that there were 15 red car owners who had a speeding ticket in the last year, so we calculate:</div>
 <div class="para logical" id="chap_four_contingency_tables-11-5-2-1-1-5-3"><div class="displaymath process-math" id="chap_four_contingency_tables-11-5-2-1-1-5-3-1">
 \begin{gather*}
@@ -1083,7 +1083,7 @@ P(\text{speeding ticket given red car})=\frac{15}{150} = 0.10\text{ or } 10\%
 </div></div>
 </li>
 <li id="chap_four_contingency_tables-11-5-2-1-1-6">
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
@@ -1108,7 +1108,7 @@ P(\text{speeding ticket given red car})=\frac{15}{150} = 0.10\text{ or } 10\%
 <td class="c m b1 r1 l0 t0 lines">605</td>
 <td class="c m b1 r1 l0 t0 lines">665</td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_four_contingency_tables-11-5-2-1-1-6-2">This question is also asking for a conditional probability, <span class="process-math">\(P(\text{red car given speeding ticket})\text{,}\)</span> but it is phrased more like we would say it. In this case the given characteristic is that the person has received a speeding ticket, so we will isolate our attention to just the speeding ticket column. Among the 60 people who had a speeding ticket in the last year, we see that 15 also drove a red car. Now we can calculate the probability:</div>
 <div class="para logical" id="chap_four_contingency_tables-11-5-2-1-1-6-3"><div class="displaymath process-math" id="chap_four_contingency_tables-11-5-2-1-1-6-3-1">
 \begin{gather*}
@@ -1131,7 +1131,7 @@ P(\text{red car given speeding ticket})=\frac{15}{60} = 0.25\text{ or }25\%
 <li id="chap_four_contingency_tables-12-3-1-1-1-1"><div class="para" id="chap_four_contingency_tables-12-3-1-1-1-1-1">was not pregnant given the home test was positive.</div></li>
 <li id="chap_four_contingency_tables-12-3-1-1-1-2"><div class="para" id="chap_four_contingency_tables-12-3-1-1-1-2-1">had a positive home pregnancy test given they were not pregnant.</div></li>
 </ol>
-</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Positive Test</th>
@@ -1156,13 +1156,13 @@ P(\text{red car given speeding ticket})=\frac{15}{60} = 0.25\text{ or }25\%
 <td class="c m b1 r1 l0 t0 lines">18</td>
 <td class="c m b1 r1 l0 t0 lines">93</td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="solutions"><details id="chap_four_contingency_tables-12-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="chap_four_contingency_tables-12-3-2-1">
 <div class="para">Here are the solutions:</div>
 <ol class="lower-alpha">
 <li id="chap_four_contingency_tables-12-3-2-1-1-1">
 <div class="para" id="chap_four_contingency_tables-12-3-2-1-1-1-1">Since we are given the home test result was positive, we are limited to the 75 women in the positive test column, of which 5 were not pregnant. This gives:</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Positive Test</th>
@@ -1187,7 +1187,7 @@ P(\text{red car given speeding ticket})=\frac{15}{60} = 0.25\text{ or }25\%
 <td class="c m b1 r1 l0 t0 lines">18</td>
 <td class="c m b1 r1 l0 t0 lines">93</td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para logical" id="chap_four_contingency_tables-12-3-2-1-1-1-3"><div class="displaymath process-math" id="chap_four_contingency_tables-12-3-2-1-1-1-3-1">
 \begin{gather*}
 P(\text{not pregnant given positve test})=\frac{5}{75} \approx 0.067\text{ or } 6.7\%
@@ -1196,7 +1196,7 @@ P(\text{not pregnant given positve test})=\frac{5}{75} \approx 0.067\text{ or } 
 </li>
 <li id="chap_four_contingency_tables-12-3-2-1-1-2">
 <div class="para" id="chap_four_contingency_tables-12-3-2-1-1-2-1">Since we are given the woman is not pregnant, we are limited to the 19 women in the not pregnant row, of which 5 had a positive test. This gives:</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Positive Test</th>
@@ -1221,7 +1221,7 @@ P(\text{not pregnant given positve test})=\frac{5}{75} \approx 0.067\text{ or } 
 <td class="c m b1 r1 l0 t0 lines">18</td>
 <td class="c m b1 r1 l0 t0 lines">93</td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para logical" id="chap_four_contingency_tables-12-3-2-1-1-2-3"><div class="displaymath process-math" id="chap_four_contingency_tables-12-3-2-1-1-2-3-1">
 \begin{gather*}
 P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or } 26.3\% 
@@ -1234,7 +1234,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">4.1.10</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <article class="exercise exercise-like" id="chap_four_contingency_tables-13-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="para" id="chap_four_contingency_tables-13-2-1-1">A recent survey asked a random sample of PCC students if they are currently experiencing food insecurity and if they are currently experiencing housing insecurity. Fill in the missing entries of the contingency table below.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="chap_four_contingency_tables-13-2-1-1">A recent survey asked a random sample of PCC students if they are currently experiencing food insecurity and if they are currently experiencing housing insecurity. Fill in the missing entries of the contingency table below.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Food Insecure</th>
@@ -1259,8 +1259,8 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
-</table></div></div></div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="para" id="chap_four_contingency_tables-13-3-1-1">A recent survey asked a random sample of PCC students if they have purchased food from the cafeteria in the last week, and if they purchased their textbooks through the bookstore. Fill in the missing entries of the contingency table below.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+</table></div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="chap_four_contingency_tables-13-3-1-1">A recent survey asked a random sample of PCC students if they have purchased food from the cafeteria in the last week, and if they purchased their textbooks through the bookstore. Fill in the missing entries of the contingency table below.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Bookstore</th>
@@ -1285,7 +1285,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines">850</td>
 </tr>
-</table></div></div></div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+</table></div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
 <div class="para" id="chap_four_contingency_tables-13-4-1-1">A recent survey asked PCC students if they regularly eat breakfast and if they regularly floss their teeth Use the completed Venn Diagram to fill in the corresponding contingency table.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:2%;margin-right:2%;">
 <div class="sbspanel top" style="width:33.3333333333333%;"><img src="external/images/probability/4_1/breakfast_floss_venn.png" class="contained" alt="A Venn diagram where the breakfast only region shows 3, the floss only region shows 49, the intersection shows 12 and the region outside the circles shows 8 students"></div>
 <div class="sbspanel fixed-width top" style="width:62.5%;"><table class="tabular">
@@ -1348,7 +1348,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <li id="chap_four_contingency_tables-13-6-1-2-1-1"><div class="para" id="chap_four_contingency_tables-13-6-1-2-1-1-1"><span class="process-math">\(\displaystyle \text{P(A and B)} = 10/75\)</span></div></li>
 <li id="chap_four_contingency_tables-13-6-1-2-1-2"><div class="para" id="chap_four_contingency_tables-13-6-1-2-1-2-1"><span class="process-math">\(\displaystyle \text{P(A)} = 40/75 \)</span></div></li>
 <li id="chap_four_contingency_tables-13-6-1-2-1-3"><div class="para" id="chap_four_contingency_tables-13-6-1-2-1-3-1"><span class="process-math">\(\displaystyle \text{P(not B)} = 45/75\)</span></div></li>
-</ul></div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+</ul></div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">A</th>
@@ -1373,11 +1373,11 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
-</table></div></div></div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-7"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+</table></div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-7"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
 <div class="para" id="chap_four_contingency_tables-13-7-1-1">Use the following information to complete the contingency table:</div> <div class="para logical" id="chap_four_contingency_tables-13-7-1-2"><ul class="disc">
 <li id="chap_four_contingency_tables-13-7-1-2-1-1"><div class="para" id="chap_four_contingency_tables-13-7-1-2-1-1-1"><span class="process-math">\(\displaystyle \text{P(A given B)} = 30/80\)</span></div></li>
 <li id="chap_four_contingency_tables-13-7-1-2-1-2"><div class="para" id="chap_four_contingency_tables-13-7-1-2-1-2-1"><span class="process-math">\(\displaystyle \text{P(Not A and Not B)} = 10/120\)</span></div></li>
-</ul></div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+</ul></div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">A</th>
@@ -1402,8 +1402,8 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
-</table></div></div></div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-8"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
-<div class="para" id="chap_four_contingency_tables-13-8-1-1">A professor gave a test to students in a morning class and the same test to the afternoon class. The grades are summarized below.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+</table></div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-8"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="para" id="chap_four_contingency_tables-13-8-1-1">A professor gave a test to students in a morning class and the same test to the afternoon class. The grades are summarized below.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">A</th>
@@ -1432,7 +1432,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines">25</td>
 <td class="c m b1 r1 l0 t0 lines">65</td>
 </tr>
-</table></div></div></div> <div class="para logical" id="chap_four_contingency_tables-13-8-1-3">
+</table></div> <div class="para logical" id="chap_four_contingency_tables-13-8-1-3">
 <div class="para">If one student was chosen at random:</div>
 <ol class="lower-alpha">
 <li id="chap_four_contingency_tables-13-8-1-3-1-1"><div class="para" id="chap_four_contingency_tables-13-8-1-3-1-1-1">What is the probability they were in the morning class?</div></li>
@@ -1442,7 +1442,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <li id="chap_four_contingency_tables-13-8-1-3-1-5"><div class="para" id="chap_four_contingency_tables-13-8-1-3-1-5-1">What is the probability that they were in the morning class or they earned a B?</div></li>
 </ol>
 </div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-9"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
-<div class="para" id="chap_four_contingency_tables-13-9-1-1">A professor surveyed students in her morning and afternoon Math 105 class, and asked what their class standing was. The class standings are summarized below:</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="chap_four_contingency_tables-13-9-1-1">A professor surveyed students in her morning and afternoon Math 105 class, and asked what their class standing was. The class standings are summarized below:</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Freshman</th>
@@ -1475,7 +1475,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines">10</td>
 <td class="c m b1 r1 l0 t0 lines">60</td>
 </tr>
-</table></div></div></div> <div class="para logical" id="chap_four_contingency_tables-13-9-1-3">
+</table></div> <div class="para logical" id="chap_four_contingency_tables-13-9-1-3">
 <div class="para">If one student was chosen at random:</div>
 <ol class="lower-alpha">
 <li id="chap_four_contingency_tables-13-9-1-3-1-1"><div class="para" id="chap_four_contingency_tables-13-9-1-3-1-1-1">What is the probability they were in the morning class?</div></li>
@@ -1485,7 +1485,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <li id="chap_four_contingency_tables-13-9-1-3-1-5"><div class="para" id="chap_four_contingency_tables-13-9-1-3-1-5-1">What is the probability that they were in the morning class or they were a Junior?</div></li>
 </ol>
 </div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-10"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
-<div class="para" id="chap_four_contingency_tables-13-10-1-1">The contingency table below shows the number of credit cards owned by a group of individuals below the age of 35 and above the age of 35.  </div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="chap_four_contingency_tables-13-10-1-1">The contingency table below shows the number of credit cards owned by a group of individuals below the age of 35 and above the age of 35.  </div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Zero</th>
@@ -1514,7 +1514,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines">39</td>
 <td class="c m b1 r1 l0 t0 lines">81</td>
 </tr>
-</table></div></div></div> <div class="para logical" id="chap_four_contingency_tables-13-10-1-3">
+</table></div> <div class="para logical" id="chap_four_contingency_tables-13-10-1-3">
 <div class="para">If one person was chosen at random:</div>
 <ol class="lower-alpha">
 <li id="chap_four_contingency_tables-13-10-1-3-1-1"><div class="para" id="chap_four_contingency_tables-13-10-1-3-1-1-1">What is the probability they had no credit cards?</div></li>
@@ -1527,7 +1527,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 </ol>
 </div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-11"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
 <div class="para" id="chap_four_contingency_tables-13-11-1-1">The following contingency table provides data from a sample of 6,224 individuals who were exposed to smallpox in Boston.<details class="ptx-footnote" aria-live="polite" id="chap_four_contingency_tables-13-11-1-1-1"><summary class="ptx-footnote__number" title="Footnote 4.1.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="chap_four_contingency_tables-13-11-1-1-1">Data taken from Mostly Harmless Probability &amp; Statistics by Rachel Webb</div></details>
-</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Inoculated</th>
@@ -1552,7 +1552,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines">5980</td>
 <td class="c m b1 r1 l0 t0 lines">6224</td>
 </tr>
-</table></div></div></div> <div class="para logical" id="chap_four_contingency_tables-13-11-1-3"><ol class="lower-alpha">
+</table></div> <div class="para logical" id="chap_four_contingency_tables-13-11-1-3"><ol class="lower-alpha">
 <li id="chap_four_contingency_tables-13-11-1-3-1-1"><div class="para" id="chap_four_contingency_tables-13-11-1-3-1-1-1">What is the probability that a person was inoculated?</div></li>
 <li id="chap_four_contingency_tables-13-11-1-3-1-2"><div class="para" id="chap_four_contingency_tables-13-11-1-3-1-2-1">What is the probability that a person lived?</div></li>
 <li id="chap_four_contingency_tables-13-11-1-3-1-3"><div class="para" id="chap_four_contingency_tables-13-11-1-3-1-3-1">What is the probability that a person died or was inoculated?</div></li>
@@ -1560,7 +1560,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <li id="chap_four_contingency_tables-13-11-1-3-1-5"><div class="para" id="chap_four_contingency_tables-13-11-1-3-1-5-1">What is the probability that a person died given they were not inoculated?</div></li>
 <li id="chap_four_contingency_tables-13-11-1-3-1-6"><div class="para" id="chap_four_contingency_tables-13-11-1-3-1-6-1">Does it appear that survival depended on if a person were inoculated? Or are they independent? Use probability to support your claim.</div></li>
 </ol></div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-12"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
-<div class="para" id="chap_four_contingency_tables-13-12-1-1">The contingency table below shows the survival data for the passengers of the Titanic.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="chap_four_contingency_tables-13-12-1-1">The contingency table below shows the survival data for the passengers of the Titanic.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">First</th>
@@ -1593,7 +1593,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines">885</td>
 <td class="c m b1 r1 l0 t0 lines">2201</td>
 </tr>
-</table></div></div></div> <div class="para logical" id="chap_four_contingency_tables-13-12-1-3"><ol class="lower-alpha">
+</table></div> <div class="para logical" id="chap_four_contingency_tables-13-12-1-3"><ol class="lower-alpha">
 <li id="chap_four_contingency_tables-13-12-1-3-1-1"><div class="para" id="chap_four_contingency_tables-13-12-1-3-1-1-1">What is the probability that a passenger did not survive?</div></li>
 <li id="chap_four_contingency_tables-13-12-1-3-1-2"><div class="para" id="chap_four_contingency_tables-13-12-1-3-1-2-1">What is the probability that a passenger was crew?</div></li>
 <li id="chap_four_contingency_tables-13-12-1-3-1-3"><div class="para" id="chap_four_contingency_tables-13-12-1-3-1-3-1">What is the probability that a passenger was first class and did not survive?</div></li>
@@ -1603,7 +1603,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <li id="chap_four_contingency_tables-13-12-1-3-1-7"><div class="para" id="chap_four_contingency_tables-13-12-1-3-1-7-1">What is the probability that a passenger survived given they were third class?</div></li>
 <li id="chap_four_contingency_tables-13-12-1-3-1-8"><div class="para" id="chap_four_contingency_tables-13-12-1-3-1-8-1">Does it appear that survival depended on the passenger’s class? Or are they independent? Use probability to support your claim.</div></li>
 </ol></div></article><article class="exercise exercise-like" id="chap_four_contingency_tables-13-13"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
-<div class="para" id="chap_four_contingency_tables-13-13-1-1">The following table shows the utility patents granted for a specific year.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="chap_four_contingency_tables-13-13-1-1">The following table shows the utility patents granted for a specific year.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Corporation</th>
@@ -1632,7 +1632,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines">3%</td>
 <td class="c m b1 r1 l0 t0 lines">100%</td>
 </tr>
-</table></div></div></div> <div class="para logical" id="chap_four_contingency_tables-13-13-1-3"><ol class="lower-alpha">
+</table></div> <div class="para logical" id="chap_four_contingency_tables-13-13-1-3"><ol class="lower-alpha">
 <li id="chap_four_contingency_tables-13-13-1-3-1-1"><div class="para" id="chap_four_contingency_tables-13-13-1-3-1-1-1">What is the probability that a patent is foreign and from the government?</div></li>
 <li id="chap_four_contingency_tables-13-13-1-3-1-2"><div class="para" id="chap_four_contingency_tables-13-13-1-3-1-2-1">What is the probability that a patent is from the U.S. and from a corporation?</div></li>
 <li id="chap_four_contingency_tables-13-13-1-3-1-3"><div class="para" id="chap_four_contingency_tables-13-13-1-3-1-3-1">What is the probability that a patent is foreign or from the government?</div></li>
@@ -1642,7 +1642,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <div class="para" id="chap_four_contingency_tables-13-14-1-1">There is a 15% chance that a shopper entering a computer store will purchase a computer, a 25% chance they will purchase a game/software, and there is a 10% chance they will purchase both a computer and a game/software.</div> <div class="para logical" id="chap_four_contingency_tables-13-14-1-2"><ol class="lower-alpha">
 <li id="chap_four_contingency_tables-13-14-1-2-1-1">
 <div class="para" id="chap_four_contingency_tables-13-14-1-2-1-1-1">Create a contingency table for the information.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Game/Software</th>
@@ -1667,7 +1667,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
-</table></div></div></div>
+</table></div>
 </li>
 <li id="chap_four_contingency_tables-13-14-1-2-1-2"><div class="para" id="chap_four_contingency_tables-13-14-1-2-1-2-1">What is the probability that a shopper will not purchase a computer and will not purchase a game/software?</div></li>
 <li id="chap_four_contingency_tables-13-14-1-2-1-3"><div class="para" id="chap_four_contingency_tables-13-14-1-2-1-3-1">What is the probability that a shopper will purchase a computer or purchase a game/software?</div></li>
@@ -1678,7 +1678,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <div class="para" id="chap_four_contingency_tables-13-15-1-1">A fitness center coach kept track over the last year of whether members stretched before they exercised, and whether or not they sustained an injury. Among the 400 members, 322 stretched before they exercised, 327 did not sustain an injury, and 270 both stretched and did not sustain an injury.</div> <div class="para logical" id="chap_four_contingency_tables-13-15-1-2"><ol class="lower-alpha">
 <li id="chap_four_contingency_tables-13-15-1-2-1-1">
 <div class="para" id="chap_four_contingency_tables-13-15-1-2-1-1-1">Create a contingency table for the information.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Injury</th>
@@ -1703,7 +1703,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
-</table></div></div></div>
+</table></div>
 </li>
 <li id="chap_four_contingency_tables-13-15-1-2-1-2"><div class="para" id="chap_four_contingency_tables-13-15-1-2-1-2-1">What is the probability that a member sustained an injury?</div></li>
 <li id="chap_four_contingency_tables-13-15-1-2-1-3"><div class="para" id="chap_four_contingency_tables-13-15-1-2-1-3-1">What is the probability that a member sustained an injury and did not stretch?</div></li>
@@ -1715,7 +1715,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <div class="para" id="chap_four_contingency_tables-13-16-1-1">Among the 95 books on a bookshelf, 72 are fiction, 28 are hardcover, and 87 are fiction or hardcover.</div> <div class="para logical" id="chap_four_contingency_tables-13-16-1-2"><ol class="lower-alpha">
 <li id="chap_four_contingency_tables-13-16-1-2-1-1">
 <div class="para" id="chap_four_contingency_tables-13-16-1-2-1-1-1">Create a contingency table for the information.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Hardcover</th>
@@ -1740,7 +1740,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
-</table></div></div></div>
+</table></div>
 </li>
 <li id="chap_four_contingency_tables-13-16-1-2-1-2"><div class="para" id="chap_four_contingency_tables-13-16-1-2-1-2-1">What is the probability that a book is non-fiction and paperback?</div></li>
 <li id="chap_four_contingency_tables-13-16-1-2-1-3"><div class="para" id="chap_four_contingency_tables-13-16-1-2-1-3-1">What is the probability that a book is fiction given it is hardcover?</div></li>
@@ -1748,7 +1748,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <div class="para" id="chap_four_contingency_tables-13-17-1-1">After finishing the course, among the 32 students in a Math 105 class, 25 could successfully construct a contingency table, 27 passed the class, and 29 could successfully construct a contingency table or passed the class.</div> <div class="para logical" id="chap_four_contingency_tables-13-17-1-2"><ol class="lower-alpha">
 <li id="chap_four_contingency_tables-13-17-1-2-1-1">
 <div class="para" id="chap_four_contingency_tables-13-17-1-2-1-1-1">Create a contingency table for the information.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines"></th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Contingency Table</th>
@@ -1773,7 +1773,7 @@ P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or }
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
-</table></div></div></div>
+</table></div>
 </li>
 <li id="chap_four_contingency_tables-13-17-1-2-1-2"><div class="para" id="chap_four_contingency_tables-13-17-1-2-1-2-1">What is the probability that a student passed and could not successfully construct a contingency table?</div></li>
 <li id="chap_four_contingency_tables-13-17-1-2-1-3"><div class="para" id="chap_four_contingency_tables-13-17-1-2-1-3-1">What is the probability that a student passed given they could not successfully construct a contingency table?</div></li>

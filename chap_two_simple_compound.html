@@ -672,7 +672,7 @@ A\amp=\$1002.50+\$2.51=\$1005.01
 </div></div>
 <div class="para" id="chap_two_simple_compound-6-10">Notice that in the second month we earned more interest than we did in the first month. This is because we earned interest not only on the original $1000 we deposited, but we also earned interest on the $2.50 of interest we earned the first month. This is the key advantage that compounding gives us.</div>
 <div class="para" id="chap_two_simple_compound-6-11">Calculating out a few more months in a table or a spreadsheet we have:</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="l m b1 r1 l1 t1 lines">Month</th>
 <th scope="col" class="l m b1 r1 l0 t1 lines">Starting balance</th>
@@ -751,7 +751,7 @@ A\amp=\$1002.50+\$2.51=\$1005.01
 <td class="l m b1 r1 l0 t0 lines">2.56</td>
 <td class="l m b1 r1 l0 t0 lines">1030.42</td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_two_simple_compound-6-13">To find an equation to represent this, we will go through a few months to see the pattern:</div>
 <div class="para" id="chap_two_simple_compound-6-14">Initial Amount: <span class="process-math">\(P=\$1000\)</span>
 </div>
@@ -833,7 +833,7 @@ A\amp=3000\left(1+\frac{0.06}{12}\right)^{12\cdot20}\\
 </h3>
 <div class="para" id="chap_two_simple_compound-8-2">Let us compare the amount of money earned from compounding in the previous example against the amount you would earn from simple interest. From the table and graph below we can see that over a long period of time, compounding makes a large difference in the account balance. You may recognize this as the difference between linear growth and exponential growth.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel fixed-width bottom" style="width:60%;"><figure class="table table-like" id="chap_two_simple_compound-8-3-1"><table class="tabular">
+<div class="sbspanel fixed-width bottom" style="width:60%;"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="l m b1 r1 l1 t1 lines">Year</th>
 <th scope="col" class="l m b1 r1 l0 t1 lines">Simple Interest<br>($15 per month)</th>
@@ -879,8 +879,7 @@ A\amp=3000\left(1+\frac{0.06}{12}\right)^{12\cdot20}\\
 <td class="l m b1 r1 l0 t0 lines">$9300</td>
 <td class="l m b1 r1 l0 t0 lines">$24370.65</td>
 </tr>
-</table>
-<figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.2.6<span class="period">.</span></span><span class="space"> </span></figcaption></figure></div>
+</table></div>
 <div class="sbspanel bottom" style="width:36%;"><img src="external/images/financial_math/2_2/comparing_interest.png" class="contained" alt="A coordinate graph with years on the x-axis and account balance on the y-axis. The simple interest increases in a straight line; the compound interest curves up faster because it is an exponential function."></div>
 </div></div></section><section class="subsection" id="chap_two_simple_compound-9"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.2.6</span><span class="space"> </span><span class="title">Finding the Principal, or Present Value</span>
@@ -905,7 +904,7 @@ A\amp=3000\left(1+\frac{0.06}{12}\right)^{12\cdot20}\\
 <dd><div class="para" id="chap_two_simple_compound-10-3-3-1-4-2">is the amount desired in the future, <span class="process-math">\(A\)</span>
 </div></dd>
 </dl></div></article><article class="example example-like" id="chap_two_simple_compound-10-4"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.7</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.6</span><span class="period">.</span>
 </h4>
 <div class="para" id="chap_two_simple_compound-10-4-1-1">You know that you will need $40,000 for your child’s education in 18 years. If your account earns 4% APR compounded quarterly, how much would you need to deposit now to reach your goal?</div>
 <div class="solutions"><details id="chap_two_simple_compound-10-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
@@ -943,7 +942,7 @@ A=Pe^{rt} \text{ or } P=\frac{A}{e^{rt}}
 </dl></div>
 <div class="para" id="chap_two_simple_compound-11-3-4">To calculate this on a spreadsheet we use the <code class="code-inline tex2jax_ignore">=EXP</code> function. The spreadsheet formulas are</div>
 <div class="para logical" id="chap_two_simple_compound-11-3-5"><pre class="code-display tex2jax_ignore">=Principal*EXP(r*t) or =A/EXP(r*t)</pre></div></article><article class="example example-like" id="chap_two_simple_compound-11-4"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.8</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.7</span><span class="period">.</span>
 </h4>
 <div class="para" id="chap_two_simple_compound-11-4-1-1">You deposit $4000 in an account that earns 2.75% APR compounded continuously. How much will you have after 7 years? How much interest did you earn? What percentage of the final balance is interest?</div>
 <div class="solutions"><details id="chap_two_simple_compound-11-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
@@ -968,7 +967,7 @@ A\amp=4000e^{(0.0275\cdot 7)}\\
 </h3>
 <div class="para" id="chap_two_simple_compound-12-2">In the previous example we also want to know how much interest was earned and what percentage of the final balance is from interest. The future value of the investment is $4,849.11. Now to figure out how much of that was interest, we need to subtract the amount initially deposited.</div>
 <article class="example example-like" id="chap_two_simple_compound-12-3"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.9</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.8</span><span class="period">.</span>
 </h4>
 <div class="para" id="chap_two_simple_compound-12-3-1">Continued: To find the total amount of interest earned, we subtract the principal from the total balance.</div> <div class="para logical" id="chap_two_simple_compound-12-3-2"><div class="displaymath process-math">
 \begin{equation*}
@@ -991,7 +990,7 @@ A\amp=4000e^{(0.0275\cdot 7)}\\
 <dd><div class="para" id="chap_two_simple_compound-13-3-3-1-2-2">is the number of times the account is compounded per year, <span class="process-math">\(n\)</span>
 </div></dd>
 </dl></div></article><article class="example example-like" id="chap_two_simple_compound-13-4"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.10</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.9</span><span class="period">.</span>
 </h4>
 <div class="para" id="chap_two_simple_compound-13-4-1-1">You are comparing an account that pays 5.25% APR compounded monthly, with an account that pays 5% APR compounded daily. Which account will earn you more interest?</div>
 <div class="solutions"><details id="chap_two_simple_compound-13-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
@@ -1009,7 +1008,7 @@ A\amp=4000e^{(0.0275\cdot 7)}\\
 <div class="sbspanel middle" style="width:54%;"><img src="external/images/financial_math/2_2/effective_rate2.png" class="contained" alt="An image of the spreadsheet showing the formula used and the result."></div>
 </div></div> <div class="para" id="chap_two_simple_compound-13-4-2-6">Now we can compare the effective rates of 5.38% and 5.13% and see that the account with the higher interest rate will earn more interest in this case. This is not always true, so we will show another example.</div>
 </div></details></div></article><article class="example example-like" id="chap_two_simple_compound-13-5"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.11</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.10</span><span class="period">.</span>
 </h4>
 <div class="para" id="chap_two_simple_compound-13-5-1-1">Find the effective rates to compare an account that earns 6% APR compounded quarterly with an account that earns 5.975% APR compounded daily. Which one would you choose?</div>
 <div class="solutions"><details id="chap_two_simple_compound-13-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">

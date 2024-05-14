@@ -570,7 +570,7 @@ window.MathJax = {
 </ul>
 </div>
 <div class="para" id="chap_two_income_taxes-13-3">Your filing status determines your standard deduction and tax liability. The standard deduction for each filing status for the tax year 2024 is given in the table below.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="l m b1 r1 l1 t1 lines">Filing Status</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Standard Deduction for Tax Year 2024</th>
@@ -595,7 +595,7 @@ window.MathJax = {
 <td class="l m b1 r1 l1 t0 lines">Qualifying Widow</td>
 <td class="c m b1 r1 l0 t0 lines">$29200</td>
 </tr>
-</table></div></div></div>
+</table></div>
 <div class="para" id="chap_two_income_taxes-13-5">Here is an example where we calculate adjusted gross income and taxable income.</div>
 <article class="example example-like" id="chap_two_income_taxes-13-6"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.4</span><span class="period">.</span>
@@ -610,7 +610,7 @@ window.MathJax = {
 <div class="para" id="chap_two_income_taxes-14-3">The cutoff values in the figure are for a married couple filing jointly, but the percentages are the same for everyone as you’ll see in the table on the next page. We pay 10% of any taxable income in the first bucket. If the first bucket is full, we move to the second bucket and we pay 12% of that income. This couple is in the 22% tax bracket because the 3rd bucket is partially filled. They will pay 22% of the income in that bucket, but they are not paying 22% of their entire income.</div>
 <figure class="figure figure-like" id="tax_buckets"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/images/financial_math/2_5/tax_tables.png" class="contained" alt="A drawing that shows the tax brackets as buckets being filled from a hose labeled taxable income; the first bucket for the 10% tax bracket is full and has the range of $0-19,050; the second bucket for the 12% tax bracket is also full and has the range of $19051-77,400; the third bucket for the 22% bracket is partially full and has the range of $77,401-165,000; there are buckets for the 24%, 32%, 35% and 37% tax brackets which are empty. The cutoff values for all of these brackets are given in the next table."></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.5<span class="period">.</span></span><span class="space"> </span>Tax Buckets by John Chesbrough, licensed under <a class="external" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC-BY-ND-NC 4.0</a><details class="ptx-footnote" aria-live="polite" id="tax_buckets-1-2"><summary class="ptx-footnote__number" title="Footnote 2.5.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="tax_buckets-1-2"><code class="code-inline tex2jax_ignore">creativecommons.org/licenses/by-nc-nd/4.0</code></div></details>.</figcaption></figure><div class="para" id="chap_two_income_taxes-14-5">Here is a table with cutoff values for each filing status. Everyone pays a tax of 10% on any income in the first tax bracket. Then we all pay 12% of the next bracket of income, 22% of the next bracket, and so on. This keeps going up to the 37% tax bracket.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><figure class="table table-like" id="chap_two_income_taxes-14-6-1"><table class="tabular">
+<figure class="table table-like" id="chap_two_income_taxes-14-6"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.6<span class="period">.</span></span><span class="space"> </span>2024 Tax Year Marginal Tax Rates</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="l m b1 r1 l1 t1 lines">Marginal Tax Rate<br>On Taxable Income</th>
 <th scope="col" class="l m b1 r1 l0 t1 lines">Filing Single</th>
@@ -667,9 +667,7 @@ window.MathJax = {
 <td class="l m b1 r1 l0 t0 lines">Over $731,200</td>
 <td class="l m b1 r1 l0 t0 lines">Over $365,600</td>
 </tr>
-</table>
-<figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.6<span class="period">.</span></span><span class="space"> </span>2024 Tax Year Marginal Tax Rates</figcaption></figure></div></div></div>
-<div class="para" id="chap_two_income_taxes-14-7">Let’s see how to use this table to calculate taxes in an example.</div>
+</table></div></figure><div class="para" id="chap_two_income_taxes-14-7">Let’s see how to use this table to calculate taxes in an example.</div>
 <article class="example example-like" id="chap_two_income_taxes-14-8"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.7</span><span class="period">.</span>
 </h4>
@@ -686,7 +684,7 @@ window.MathJax = {
 <span class="process-math">\(\frac{\$7,175}{\$55,100}=0.1302\)</span> or about 13%</div>
 </div></details></div></article><div class="para" id="chap_two_income_taxes-14-9">We could calculate all taxes this way, but you might notice that the first few terms will be the same if the buckets are full. For this reason, we can simplify these tax tables. The tax tables below give the value for all of the lower tax buckets that are full. There is a tax table for each filing status and the cutoffs are regularly adjusted for inflation, so they usually vary from year to year.</div>
 <div class="para" id="chap_two_income_taxes-14-10">The next four tables give the tax calculations for 2024 federal income taxes by filing status.</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><figure class="table table-like" id="chap_two_income_taxes-14-11-1"><table class="tabular">
+<figure class="table table-like" id="chap_two_income_taxes-14-11"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.8<span class="period">.</span></span><span class="space"> </span>Filing Single (Tax Year 2024)</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="l m b1 r1 l1 t1 lines">If taxable income is:</th>
 <th scope="col" class="l m b1 r1 l0 t1 lines">The tax is:</th>
@@ -719,9 +717,7 @@ window.MathJax = {
 <td class="l m b1 r1 l1 t0 lines">Over $609,350</td>
 <td class="l m b1 r1 l0 t0 lines">$183,647.25 plus 37% of the excess over $609,350</td>
 </tr>
-</table>
-<figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.8<span class="period">.</span></span><span class="space"> </span>Filing as Single (Tax Year 2024)</figcaption></figure></div></div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><figure class="table table-like" id="chap_two_income_taxes-14-12-1"><table class="tabular">
+</table></div></figure><figure class="table table-like" id="chap_two_income_taxes-14-12"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.9<span class="period">.</span></span><span class="space"> </span>Filing as Head of Household (Tax Year 2024)</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="l m b1 r1 l1 t1 lines">If taxable income is:</th>
 <th scope="col" class="l m b1 r1 l0 t1 lines">The tax is:</th>
@@ -754,9 +750,7 @@ window.MathJax = {
 <td class="l m b1 r1 l1 t0 lines">Over $609,350</td>
 <td class="l m b1 r1 l0 t0 lines">$181,954.50 plus 37% of the excess over $609,350</td>
 </tr>
-</table>
-<figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.9<span class="period">.</span></span><span class="space"> </span>Filing as Head of Household (Tax Year 2024)</figcaption></figure></div></div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><figure class="table table-like" id="chap_two_income_taxes-14-13-1"><table class="tabular">
+</table></div></figure><figure class="table table-like" id="chap_two_income_taxes-14-13"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.10<span class="period">.</span></span><span class="space"> </span>Married Filing Jointly (Tax Year 2024)</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="l m b1 r1 l1 t1 lines">If taxable income is:</th>
 <th scope="col" class="l m b1 r1 l0 t1 lines">The tax is:</th>
@@ -789,9 +783,7 @@ window.MathJax = {
 <td class="l m b1 r1 l1 t0 lines">Over $731,200</td>
 <td class="l m b1 r1 l0 t0 lines">$196,669.50 plus 37% of the excess over $731,200</td>
 </tr>
-</table>
-<figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.10<span class="period">.</span></span><span class="space"> </span>Married Filing Jointly (Tax Year 2024)</figcaption></figure></div></div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><figure class="table table-like" id="chap_two_income_taxes-14-14-1"><table class="tabular">
+</table></div></figure><figure class="table table-like" id="chap_two_income_taxes-14-14"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.11<span class="period">.</span></span><span class="space"> </span>Married Filing Separately (Tax Year 2024)</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="l m b1 r1 l1 t1 lines">If taxable income is:</th>
 <th scope="col" class="l m b1 r1 l0 t1 lines">The tax is:</th>
@@ -824,9 +816,7 @@ window.MathJax = {
 <td class="l m b1 r1 l1 t0 lines">Over $365,600</td>
 <td class="l m b1 r1 l0 t0 lines">$98,334.75 plus 37% of the excess over $365,600</td>
 </tr>
-</table>
-<figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.11<span class="period">.</span></span><span class="space"> </span>Married Filing Separately (Tax Year 2024)</figcaption></figure></div></div></div>
-<article class="example example-like" id="chap_two_income_taxes-14-15"><h4 class="heading">
+</table></div></figure><article class="example example-like" id="chap_two_income_taxes-14-15"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.12</span><span class="period">.</span>
 </h4>
 <div class="para" id="chap_two_income_taxes-14-15-1-1">Suppose Adira is filing as head of household and has a taxable income of $106,450. Calculate her taxes using the individual tax brackets and with the simplified table.</div>
