@@ -674,7 +674,7 @@ s=\sqrt{\frac{\text{Sum of the squared deviations from the mean}}{n-1}}
 </tr>
 <tr>
 <th scope="row" class="c m b1 r1 l1 t0 lines">10</th>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5-5=0\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(10-5=5\)</span></td>
 </tr>
 </table></div>
 <div class="para" id="chap_three_measure_of_variation-5-10">We would like to get an idea of the “average” deviation from the mean, but if we find the average of the values in the second column, the negative and positive values cancel each other out (this will always happen), so to prevent this we square the deviations.</div>
@@ -790,8 +790,8 @@ s=\sqrt{\frac{\text{Sum of the squared deviations from the mean}}{n-1}}
 </tr>
 <tr>
 <th scope="row" class="c m b1 r1 l1 t0 lines">$3.29</th>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3.59-3.68=-0.09\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((-0.39)^{2}=1521\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3.29-3.68=-0.39\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((-0.39)^{2}=0.1521\)</span></td>
 </tr>
 <tr>
 <th scope="row" class="c m b1 r1 l1 t0 lines">$3.59</th>
@@ -888,7 +888,7 @@ s=\sqrt{\frac{0.2733}{4}} \approx \$0.2614
 <div class="para">and get $78.68.</div>
 </div></div>
 </div></div> <div class="para" id="textbook_example_mean_median_sd-2-2">The mean and the median are relatively close to each other, so we can expect the distribution to be approximately symmetric with maybe a slight skew to the left, since the mean is smaller. The mean and standard deviation together tell us that the average cost of textbooks for a term is about $299.58, give or take $78.68.</div>
-</div></details></div></article><div class="para" id="chap_three_measure_of_variation-5-30">In addition to a spreadsheet, we will continue our use of GeoGebra. Let’s take a look at how to use GeoGeogebra to find the mean, median and standard deviation for the last example. We begin just like we did for making a histogram.</div>
+</div></details></div></article><div class="para" id="chap_three_measure_of_variation-5-30">In addition to a spreadsheet, we will continue our use of GeoGebra. Let’s take a look at how to use GeoGebra to find the mean, median and standard deviation for the last example. We begin just like we did for making a histogram.</div>
 <article class="example example-like" id="chap_three_measure_of_variation-5-31"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.4</span><span class="period">.</span>
 </h4>
@@ -1151,14 +1151,14 @@ Z_{\text{Apple}}=\frac{3.5-4.2}{0.6}=-1.17\text { standard deviations}
 \end{gather*}
 </div></div> <div class="para" id="chap_three_measure_of_variation-12-8-5">By convention, Z-scores are rounded to two decimal places, so we see that the orange is 1.33 standard deviations below its mean and the apple is 1.17 standard deviation below its mean. The orange is therefore smaller relative to its distribution since its Z-score is less than the apple’s Z-score.</div> <div class="para" id="chap_three_measure_of_variation-12-8-6">We can also see from the Z-scores that neither fruit has an unusually small diameter since each piece of fruit is less than 2 standard deviations from its mean.</div> <div class="para" id="chap_three_measure_of_variation-12-8-7">We can also find Z-scores using a spreadsheet with this formula:</div> <div class="para logical" id="chap_three_measure_of_variation-12-8-8"><pre class="code-display tex2jax_ignore">=STANDARDIZE(data value, mean, standard deviation)</pre></div> <div class="para" id="chap_three_measure_of_variation-12-8-9">To verify our apple and orange Z-scores, we would write:</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel top" style="width:50%;"><div class="para logical" id="chap_three_measure_of_variation-12-8-10-1">
-<div class="para">Apple:</div>
+<div class="para">Orange:</div>
 <pre class="code-display tex2jax_ignore">=STANDARDIZE(4.2, 5.8, 1.2)</pre>
 <div class="para">and we get -1.33 standard deviations</div>
 </div></div>
 <div class="sbspanel top" style="width:50%;"><img src="external/images/statistics/3_4/z_score1.png" class="contained" alt="a screenshot of a spreadsheet showing the =STANDARDIZE formula."></div>
 </div></div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel top" style="width:50%;"><div class="para logical" id="chap_three_measure_of_variation-12-8-11-1">
-<div class="para">Orange:</div>
+<div class="para">Apple:</div>
 <pre class="code-display tex2jax_ignore">=STANDARDIZE (3.5, 4.2, 0.6)</pre>
 <div class="para">and we get -1.17 standard deviations</div>
 </div></div>
