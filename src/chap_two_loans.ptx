@@ -112,7 +112,7 @@
 	<assemblage>
 	<title>Loan Formulas</title>
 		<p>
-			<me>P=\frac{d\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{P\left(\frac{r}{n}\right)}{\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}</me>
+			<md>P=\frac{d\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{P\left(\frac{r}{n}\right)}{\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}</md>
 		</p>
 		<p>
 			<dl width="narrow">
@@ -246,7 +246,7 @@
 				For the <insert>3-year loan</insert> at 2.75% APR, her payments would total:
 				</p>
 				<p>
-				<me>\$347.65(12)(3)=\$12{,}515.40</me>. Her interest would be $515.40.
+				<md>\$347.65(12)(3)=\$12{,}515.40</md>. Her interest would be $515.40.
 				</p>
 			</stack>
 			<stack>
@@ -254,7 +254,7 @@
 				For the <insert>5-year loan</insert> at 4% APR, her payments would total:
 			</p>
 			<p>
-				<me>\$221.00(12)(5)=\$13{,}260.00</me>. Her interest would be $1,260.00.
+				<md>\$221.00(12)(5)=\$13{,}260.00</md>. Her interest would be $1,260.00.
 			</p>
 			</stack>
 		</sidebyside>
@@ -379,19 +379,19 @@
 			You would make payments of $839.37 per month for 30 years. To find out what percentage of the total will go towards interest, we need to total up all of the payments.
 		</p>
 		<p>
-			<me>\$839.37(30)(12)=\$302{,}173.20</me>
+			<md>\$839.37(30)(12)=\$302{,}173.20</md>
 		</p>
 		<p>
 			Then take the difference between the total payments and the loan amount.
 		</p>
 		<p>
-			<me>\$302{,}173.20-\$140{,}000=\$162{,}173.20</me>
+			<md>\$302{,}173.20-\$140{,}000=\$162{,}173.20</md>
 		</p>
 		<p>
 			In this case, you would be paying $162,173.20 in interest over the life of the loan. To find the percentage, we divide the interest by the total amount paid.
 		</p>
 		<p>
-			<me>\frac{\$162{,}173.20}{\$302{,}173.20} \approx 0.5367</me>
+			<md>\frac{\$162{,}173.20}{\$302{,}173.20} \approx 0.5367</md>
 		</p>
 		<p>
 			About 53.7% of the total is being paid towards interest.
@@ -496,7 +496,7 @@
 				First we will see what she owes with the 17.99% APR using the compound interest formula for 35 days:
 			</p>
 			<p>
-				<me>900\left(1+\frac{0.1799}{365}\right)^{35} \approx 915.66</me>
+				<md>900\left(1+\frac{0.1799}{365}\right)^{35} \approx 915.66</md>
 			</p>
 			<p>
 				The spreadsheet formula for this computation is <cd>=FV(0.1799/365,35,0,900)</cd>
@@ -505,13 +505,13 @@
 				With interest, Bilqis now owes $915.66.
 			</p>
 			<p>
-				 Now we will find one percent of the new balance which is <me>\$915.66(0.01) \approx \$9.16</me>
+				 Now we will find one percent of the new balance which is <md>\$915.66(0.01) \approx \$9.16</md>
 			</p>
 			<p>
 				$25 is larger than $9.16, so her first payment must be at least $25. If she makes the minimum payment we can subtract to find her new balance:
 			</p>
 			<p>
-				<me>\$915.66-\$25 = \$890.66</me>
+				<md>\$915.66-\$25 = \$890.66</md>
 			</p>
 			<p>
 				Her new balance will be $890.66.
@@ -661,31 +661,31 @@
 			Simple Interest
 		</p>
 		<p>
-			<me>I=Prt \text{     or     } A=P+Prt</me>
+			<md>I=Prt \text{     or     } A=P+Prt</md>
 		</p>
 		<p>
 			Compound Interest
 		</p>
 		<p>
-			<me>A=P\left(1+\frac{r}{n}\right)^{nt} \text{ or } P=\frac{A}{\left(1+\frac{r}{n}\right)^{nt}}</me>
+			<md>A=P\left(1+\frac{r}{n}\right)^{nt} \text{ or } P=\frac{A}{\left(1+\frac{r}{n}\right)^{nt}}</md>
 		</p>
 		<p>
 			Continuously Compounded
 		</p>
 		<p>
-			<me>A=Pe^{rt} \text{  or  }P=\frac{A}{e^{rt}}</me>
+			<md>A=Pe^{rt} \text{  or  }P=\frac{A}{e^{rt}}</md>
 		</p>
 		<p>
 			Savings Plans
 		</p>
 		<p>
-			<me>A=\frac{d\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}</me>
+			<md>A=\frac{d\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}</md>
 		</p>
 		<p>
 			Loans
 		</p>
 		<p>
-			<me>P=\frac{d\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}{\frac{r}{n}} \text{  or  } d=\frac{P\left(\frac{r}{n}\right)}{\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}</me>
+			<md>P=\frac{d\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}{\frac{r}{n}} \text{  or  } d=\frac{P\left(\frac{r}{n}\right)}{\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}</md>
 		</p>
 		<p>
 			<dl width="narrow">

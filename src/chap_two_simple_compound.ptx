@@ -56,13 +56,13 @@
 		For example, if you borrowed $100 from a friend and agree to repay it with 5% interest, then the amount of interest you would pay would be 5% of 100. It is very important to remember to change the interest <alert>rate</alert>, r, of 5% into a decimal by moving the decimal two places to the left.
 	</p>
 	<p>
-		<me>(0.05)\$100=\$5</me>
+		<md>(0.05)\$100=\$5</md>
 	</p>
 	<p>
 		The total amount you would repay is called the <alert>future value</alert> and would be $105, the original principal plus the interest.
 	</p>
 	<p>
-		<me>\$100+\$5=\$105</me>
+		<md>\$100+\$5=\$105</md>
 	</p>
 	<p>
 		Here are the formulas to represent the calculations we just did.
@@ -70,10 +70,10 @@
 	<assemblage>
 		<title>Simple One-time Interest</title>
 		<p> 
-			<me>I=Pr</me>
+			<md>I=Pr</md>
 		</p>
 		<p>
-			<me>A=P+I \text{ or } A=P+Pr</me>
+			<md>A=P+I \text{ or } A=P+Pr</md>
 		</p>
 		<p>
 			<dl width="narrow">
@@ -147,14 +147,14 @@
 			Each year, you would earn 5% interest so over the course of five years, you would earn:
 		</p>
 		<p>
-			<me>\$1000(0.05)(5)=\$250</me>
+			<md>\$1000(0.05)(5)=\$250</md>
 		</p>
 
 		<p>
 			When the bond matures, you would receive back the $1,000 you originally paid and the $250 in interest, so we could also put that into a single calculation:
 		</p>
 		<p>
-			<me>\$1000+\$1000(0.05)(5)=\$1250</me>
+			<md>\$1000+\$1000(0.05)(5)=\$1250</md>
 		</p>
 
 		<p>
@@ -169,10 +169,10 @@
 	<assemblage>
 		<title>Simple Interest over Time</title>
 		<p>
-			<me>I=Prt</me>
+			<md>I=Prt</md>
 		</p>
 		<p>
-			<me>A=P+I \text{ or } A=P+Prt</me>
+			<md>A=P+I \text{ or } A=P+Prt</md>
 		</p>
 		<p>
 			<dl width="narrow">
@@ -224,7 +224,7 @@
 	</p>
 
 	<p>
-		<me>\frac{0.06}{12}=0.005</me>
+		<md>\frac{0.06}{12}=0.005</md>
 	</p>
 	
 	<p>
@@ -232,7 +232,7 @@
 	</p>
 	
 	<p>
-		<me>\frac{0.04}{4}=0.01</me>
+		<md>\frac{0.04}{4}=0.01</md>
 	</p>
 
 	<p>
@@ -437,7 +437,7 @@
 	<assemblage>
 		<title>Compound Interest</title>
 		<p>
-			<me>A=P\left(1+\frac{r}{n}\right)^{nt} \text{ or } P=\frac{A}{\left(1+\frac{r}{n}\right)^{nt}}</me>
+			<md>A=P\left(1+\frac{r}{n}\right)^{nt} \text{ or } P=\frac{A}{\left(1+\frac{r}{n}\right)^{nt}}</md>
 		</p>
 		<p>
 		<dl width="narrow">
@@ -776,7 +776,7 @@
 			Continuously Compounded Interest
 		</title>
 		<p>
-			<me>A=Pe^{rt} \text{ or } P=\frac{A}{e^{rt}}</me>
+			<md>A=Pe^{rt} \text{ or } P=\frac{A}{e^{rt}}</md>
 		</p>
 	<p>
 		<dl width="narrow">
@@ -882,7 +882,7 @@
 			Continued: To find the total amount of interest earned, we subtract the principal from the total balance.
 		</p>
 		<p>
-			<me>\$4{,}849.11-\$4{,}000=\$849.11</me>
+			<md>\$4{,}849.11-\$4{,}000=\$849.11</md>
 		</p>
 		<p>
 			The spreadsheet calculation is
@@ -897,7 +897,7 @@
 			To find the percentage that is interest, divide the amount of interest by the total amount.
 		</p>
 		<p>
-			<me>\frac{\$849.11}{4{,}849.11}\approx0.1751\text{ or } 17.5\%</me>
+			<md>\frac{\$849.11}{4{,}849.11}\approx0.1751\text{ or } 17.5\%</md>
 		</p>
 		<p>
 			The spreadsheet calculation is the same:

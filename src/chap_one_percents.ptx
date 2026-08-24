@@ -54,9 +54,9 @@
 		</p>
 		<p>
 			Percent, denoted by %, means “per 100,” or “parts per hundred.” In Spanish it's literally por ciento. When we write 30% off, that means you save 30 out of every 100 dollars. We can write this percentage as the fraction <m>\frac{30}{100}</m>. When we divide 30 by 100, we get
-			<me>\frac{30}{100}=0.30</me>
+			<md>\frac{30}{100}=0.30</md>
 			We can also say you would save 30 cents out of every dollar. Many equivalent fractions can be written that equal 30%. Notice that 60 out of 200 and 15 out of 50 are also 30%, since
-			<me>\frac{60}{200}=\frac{15}{50}=\frac{30}{100}=0.30</me>
+			<md>\frac{60}{200}=\frac{15}{50}=\frac{30}{100}=0.30</md>
 		</p>
 		<example>
 			<p>
@@ -106,11 +106,11 @@
 						For this shirt we have the dollar amount of the sale so we will subtract it from the original price.
 					</p>
 					<p>
-						<me>\$80-\$20 = \$60</me>
+						<md>\$80-\$20 = \$60</md>
 					</p>
 					<p>
 						Now we will divide to find the percentage of the sale:
-						<me>\frac{\$20}{\$80} = 0.25</me>
+						<md>\frac{\$20}{\$80} = 0.25</md>
 					</p>
 					<p>
 						This shirt is 25% off and the sale price is $60.
@@ -128,7 +128,7 @@
 					</p>
 					<p>
 						Then we subtract the sale amount from the original price to get:
-						<me>\$100-30 = \$70</me>
+						<md>\$100-30 = \$70</md>
 					</p>
 					<p>
 						This shirt is 30% off and the sale price is $70.
@@ -144,11 +144,11 @@
 			<title>Converting Between Percents and Decimals</title>
 		<p>
 			To convert a percent to decimal form, we use the definition of "per 100." For example, <m>82\%</m> means <q>82 per 100</q> so we divide by 100. Notice this is the same as moving the decimal two places to the left and removing the % symbol.
-			<me>82\% = \frac{82}{100}=0.82</me>
+			<md>82\% = \frac{82}{100}=0.82</md>
 		</p>
 		<p>
 			To go the other way, if we have <m>0.10</m>, we can multiply it by 100% or move the decimal two places to the right and add the % symbol.
-			<me>0.10 = 0.10(100\%)=10\%</me>
+			<md>0.10 = 0.10(100\%)=10\%</md>
 		</p>
 
 	<example>
@@ -273,10 +273,10 @@
 <assemblage>
 			<title>Calculating Percents</title>
 			<p>
-				<me>\text{Percent} = \frac{\text{part}}{\text{whole}}</me>
+				<md>\text{Percent} = \frac{\text{part}}{\text{whole}}</md>
 			</p>
 			<p>
-				<me>\text{Part} = \text{percent} \cdot \text{whole}</me>
+				<md>\text{Part} = \text{percent} \cdot \text{whole}</md>
 			</p>
 			<!-- <p>
 				Whole = percent <m>\cdot</m> part
@@ -297,8 +297,8 @@
 					First, we need to identify the part and the whole. The whole is the total number of adults surveyed. The part is the 577 adults who said they would feel better if they got more sleep.
 				</p>
 				<p>
-					Using the formula <me>\text{Percent} = \frac{\text{part}}{\text{whole}}</me> we can calculate
-						<me>\text{Percent} = \frac{577}{1013} \approx 0.57 \text{ or } 57\%</me>
+					Using the formula <md>\text{Percent} = \frac{\text{part}}{\text{whole}}</md> we can calculate
+						<md>\text{Percent} = \frac{577}{1013} \approx 0.57 \text{ or } 57\%</md>
 				</p>
 				<p>
 					About 57% of the adults surveyed said they would feel better if they got more sleep.
@@ -331,10 +331,10 @@
 						We are estimating that 8 out of 10 seems larger compared to 11 out of 15 because missing 2 out of 10 seems like less than 4 out of 15.
 					</p>
 					<p>
-						<me>\frac{8}{10} = 0.80 \text{ or } 80\%</me>
+						<md>\frac{8}{10} = 0.80 \text{ or } 80\%</md>
 					</p>
 					<p>
-						<me>\frac{11}{15} \approx 0.733 \text{ or } 73.3\%</me>
+						<md>\frac{11}{15} \approx 0.733 \text{ or } 73.3\%</md>
 					</p>
 					<p>
 						The score of 8 out of 10 is a higher percentage.
@@ -345,10 +345,10 @@
 						We are estimating that 3 out of 32 is a higher percentage than 2 out of 28 because the added gram of sugar seems high compared with only a 4 gram increase in serving size.
 					</p>
 					<p>
-						<me>\frac{2\text{ g}}{28\text{ g}} \approx 0.07 \text{ or about } 7\%</me>
+						<md>\frac{2\text{ g}}{28\text{ g}} \approx 0.07 \text{ or about } 7\%</md>
 					</p>
 					<p>
-						<me>\frac{3\text{ g}}{32\text{ g}} \approx 0.09 \text{ or about } 9\%</me>
+						<md>\frac{3\text{ g}}{32\text{ g}} \approx 0.09 \text{ or about } 9\%</md>
 					</p>
 					<p>
 						The cereal with 3 grams of sugar out of 32 grams has a higher percentage of sugar.
@@ -372,16 +372,16 @@
 			To perform calculations with percents, we change them into decimal form first. So we divide 4.5 by 100 or move the decimal two places to the left and we get 0.045.
 		</p>
 		<p>
-			Then, using the formula <me>\text{Part} = \text{percent} \cdot \text{whole}</me> we have
+			Then, using the formula <md>\text{Part} = \text{percent} \cdot \text{whole}</md> we have
 		</p>
 		<p>
-			<me>\text{Part} = 0.045(\$3000) = \$135</me>
+			<md>\text{Part} = 0.045(\$3000) = \$135</md>
 		</p>
 		<p>
 			You would earn $135 in interest. Interest is added to your account so we will add to find the total balance.
 		</p>
 		<p>
-			<me>\$3000+135 = \$3{,}135</me> Your total balance is $3,135 after one year.
+			<md>\$3000+135 = \$3{,}135</md> Your total balance is $3,135 after one year.
 		</p>
 		</solution>
 	</example>
@@ -413,17 +413,17 @@
 				<li>
 					<p>
 						First we will find 20% of 12 hours by multiplying by the decimal form of the percent:
-						<me>12(0.20)=2.4\text{ hours}</me> Then we will subtract since the battery life went down.
-						<me>12-2.4=9.6\text{ hours}</me>
+						<md>12(0.20)=2.4\text{ hours}</md> Then we will subtract since the battery life went down.
+						<md>12-2.4=9.6\text{ hours}</md>
 						The phone battery life went down by 2.4 hours to 9.6 hours.
 					</p>
 				</li>
 				<li>
 					<p>
 						We will find 8.7% of $399 by multiplying the amount by the decimal form of the percent
-						<me>\$399(0.087)=\$34.71</me>
+						<md>\$399(0.087)=\$34.71</md>
 						We rounded to the nearest cent. Then we will add since the tax is an additional cost.
-						<me>\$399+34.71=\$433.71</me>
+						<md>\$399+34.71=\$433.71</md>
 						The tax on the TV is $34.71, which gives a total price of $433.71.
 					</p>
 				</li>
@@ -470,7 +470,7 @@
 		</statement>
 		<solution>
 			<p>
-				<me>\frac{\text{part}}{\text{whole}} = \frac{\$120{,}000}{\$50{,}000} = 2.4 \text{ or } 240\%</me>
+				<md>\frac{\text{part}}{\text{whole}} = \frac{\$120{,}000}{\$50{,}000} = 2.4 \text{ or } 240\%</md>
 				The company's profit was 2.4 times or 240% of their goal.
 			</p>
 		</solution>
@@ -495,9 +495,9 @@
 	</assemblage>
 	<p>
 		For example, Portland Community College recently increased its tution from $128 to $133 per credit hour. Find the absolute and relative change. First we will subtract to find out how much the tuition went up.
-		<me>\$133-\$128 = \$5\text{ per credit}</me>
+		<md>\$133-\$128 = \$5\text{ per credit}</md>
 		The absolute change is an increase of $5 per credit. Now we will divide that by the original tuition of $128.
-		<me>\frac{\$5}{\$128}\approx 0.039</me>
+		<md>\frac{\$5}{\$128}\approx 0.039</md>
 		The relative change is a tuition increase of about 3.9%.
 	</p>
 	<p>

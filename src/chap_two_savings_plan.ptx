@@ -90,9 +90,9 @@
 	<assemblage>
 		<title>Savings Plan Formulas</title>
 		<p>
-			<me>
+			<md>
 				A=\frac{d\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}
-			</me>
+			</md>
 		</p>
 		<p>
 			<dl width="narrow">
@@ -198,14 +198,14 @@
 			To find the <alert>amount of interest earned</alert>, calculate the total of all your deposits.
 		</p>
 		<p>
-			<me>\$100(20)(12)=\$24{,}000</me>
+			<md>\$100(20)(12)=\$24{,}000</md>
 		</p>
 
 		<p>
 			The difference between the total amount and the deposits is the interest earned.
 		</p>
 		<p>
-			<me>\$46{,}204.09-\$24{,}000=\$22{,}204.09</me>
+			<md>\$46{,}204.09-\$24{,}000=\$22{,}204.09</md>
 		</p>
 		<p>
 			The total amount of interest you earned was $22,204.09.
@@ -214,7 +214,7 @@
 			To find the <alert>percentage of the balance that is interest</alert> we will divide the interest by the total balance.
 		</p>
 		<p>
-			<me>\frac{\$22{,}204.09}{\$46{,}204.09}\approx 0.4810</me>
+			<md>\frac{\$22{,}204.09}{\$46{,}204.09}\approx 0.4810</md>
 		</p>
 		<p>
 			or 48.1%. After 20 years 48.1% of the balance is from interest.
@@ -399,7 +399,7 @@
 			To find the amount of interest, we will calculate how much was deposited in the account. Since you put in $5 a day for 10 years we get
 		</p>
 		<p>
-			<me>\$5(365)(10)=\$18{,}250</me>.
+			<md>\$5(365)(10)=\$18{,}250</md>.
 		</p>
 
 		<p>
@@ -635,9 +635,9 @@
 	<assemblage>
 	<title>Savings Plan Formulas</title>
 		<p>
-			<me>
+			<md>
 				A=\frac{d\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}
-			</me>
+			</md>
 		</p>
 		<p>
 			<dl width="narrow">

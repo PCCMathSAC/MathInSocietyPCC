@@ -123,11 +123,11 @@
 			</p>
 			<p>
 				For the 12-pack we have
-				<me>\frac{\$8.99}{12\text{ cans}} = \$0.749\text{ per can}</me>
+				<md>\frac{\$8.99}{12\text{ cans}} = \$0.749\text{ per can}</md>
 			</p>
 				<p>
 				For the 8-pack we have
-				<me>\frac{\$6.49}{8\text{ cans}} = \$0.811\text{ per can}</me>
+				<md>\frac{\$6.49}{8\text{ cans}} = \$0.811\text{ per can}</md>
 				In this case the 12-pack has the cheaper unit price. Often the larger size is a better value but that's not always the case. We could also compare using different units like the cost per ounce. Look for the unit prices next time you are in a grocery store or shopping online.
 			</p>
 		</solution>
@@ -173,7 +173,7 @@
 							Two pair:
 						</p>
 					<p>
-						<me>\frac{\$8}{2\text{ pair}}= \$4.00 \text{ per pair}</me>
+						<md>\frac{\$8}{2\text{ pair}}= \$4.00 \text{ per pair}</md>
 					</p>
 					</stack>
 					<stack>
@@ -181,7 +181,7 @@
 						Five pair:
 					</p>
 					<p>
-						<me>\frac{\$20}{5\text{ pair}}= \$4.00 \text{ per pair}</me>
+						<md>\frac{\$20}{5\text{ pair}}= \$4.00 \text{ per pair}</md>
 					</p>
 					</stack>
 				</sidebyside>
@@ -199,7 +199,7 @@
 							Portland to San Francisco:
 						</p>
 					<p>
-						<me>\frac{\$207}{536\text{ miles}}= \$0.386 \text{ per mile}</me>
+						<md>\frac{\$207}{536\text{ miles}}= \$0.386 \text{ per mile}</md>
 					</p>
 					</stack>
 					<stack>
@@ -207,7 +207,7 @@
 						Portland to New York City:
 					</p>
 					<p>
-						<me>\frac{\$554}{2{,}439\text{ miles}}= \$0.227 \text{ per mile}</me>
+						<md>\frac{\$554}{2{,}439\text{ miles}}= \$0.227 \text{ per mile}</md>
 					</p>
 					</stack>
 				</sidebyside>
@@ -267,9 +267,9 @@
 		<solution>
 			<p>
 				We can divide either way to get our unit rate so we will choose miles per gallon. Dividing this way we get
-				<me>\frac{300\text{ miles}}{12\text{ gallons}} = 25\text{ miles per gallon}</me>
+				<md>\frac{300\text{ miles}}{12\text{ gallons}} = 25\text{ miles per gallon}</md>
 				Now we can divide the trip length by the rate
-				<me>1{,}300\text{ miles}\div25\text{ miles per gallon} = 52\text{ gallons}</me>
+				<md>1{,}300\text{ miles}\div25\text{ miles per gallon} = 52\text{ gallons}</md>
 				You will need about 52 gallons for the trip.
 			</p>
 			<p>
@@ -277,9 +277,9 @@
 			</p>
 			<p>
 				If we had chosen, instead, to calculate the unit rate by dividing 12 gallons by 300 miles, we would have gotten
-				<me>\frac{12\text{ gallons}}{300\text{ miles}} = 0.04\text{ gallons per mile}</me>
+				<md>\frac{12\text{ gallons}}{300\text{ miles}} = 0.04\text{ gallons per mile}</md>
 				Then we would multiply the trip length by the rate
-				<me>1{,}300\text{ miles}\cdot0.04\text{ gallons per mile} = 52\text{ gallons}</me>
+				<md>1{,}300\text{ miles}\cdot0.04\text{ gallons per mile} = 52\text{ gallons}</md>
 				Using either rate you will need about 52 gallons of gas for this trip. To estimate the cost you could multiply that by the price per gallon.
 			</p>
 		</solution>

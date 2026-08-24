@@ -125,7 +125,7 @@
 	<assemblage>
 		<title>Theoretical Probability</title>
 		<p>
-			<me>P(E)=\frac{\text{number of outcomes corresponding to the event E}}{\text{total number of equally-likely outcomes}}</me>
+			<md>P(E)=\frac{\text{number of outcomes corresponding to the event E}}{\text{total number of equally-likely outcomes}}</md>
 		</p>
 	</assemblage>
 	<p>
@@ -401,7 +401,7 @@
 	<assemblage>
 	<title>Complement of an Event</title>
 		<p>
-			<me>P(A^{C})=1-P(A)</me>
+			<md>P(A^{C})=1-P(A)</md>
 		</p>
 	</assemblage>
 

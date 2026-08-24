@@ -115,7 +115,7 @@
 	<assemblage>
 		<title>Sample Standard Deviation</title>
 		<p>
-			<me>s=\sqrt{\frac{\text{Sum of the squared deviations from the mean}}{n-1}}</me>
+			<md>s=\sqrt{\frac{\text{Sum of the squared deviations from the mean}}{n-1}}</md>
 		</p>
 		<p>
 			where <m>n</m> is the sample size, or the number of data values
@@ -325,7 +325,7 @@
 			</ol>
 		</p>
 		<p>
-			<me>s=\sqrt{\frac{\text{Sum of the squared deviations from the mean}}{n-1}}</me>
+			<md>s=\sqrt{\frac{\text{Sum of the squared deviations from the mean}}{n-1}}</md>
 		</p>
 	</assemblage>
 
@@ -537,7 +537,7 @@
 	<assemblage>
 	<title>Range</title>
 		<p>
-			<me>\text{Range} = \text{Max - Min}</me>
+			<md>\text{Range} = \text{Max - Min}</md>
 		</p>
 	</assemblage>
 
@@ -557,7 +557,7 @@
 	<assemblage>
 	<title>Interquartile Range (IQR)</title>
 		<p>
-			<me>\text{IQR}=Q_{3} - Q_{1}</me>
+			<md>\text{IQR}=Q_{3} - Q_{1}</md>
 		</p>
 	</assemblage>
 
@@ -727,7 +727,7 @@
 	<assemblage>
 		<title>Five-Number Summary</title>
 		<p>
-			<me>\text{Minimum, } Q_{1}, \text{Median, } Q_{3}, \text{Maximum}</me>
+			<md>\text{Minimum, } Q_{1}, \text{Median, } Q_{3}, \text{Maximum}</md>
 		</p>
 	</assemblage>
 
@@ -995,7 +995,7 @@
 	<assemblage>
 		<title>Z-score</title>
 		<p>
-			<me>Z=\frac{\text{data value - mean}}{\text{standard deviation}}</me>
+			<md>Z=\frac{\text{data value - mean}}{\text{standard deviation}}</md>
 		</p>
 		<p>
 			Be sure to calculate the difference first, then divide
