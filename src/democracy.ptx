@@ -4,7 +4,8 @@
 <title>Democracy</title>
 
 <introduction>
-	<title>Dr. Graciela Chichilnisky and Social Choice</title>
+	<assemblage>
+		<title>Dr. Graciela Chichilnisky and Social Choice</title>
 		<sidebyside valign="top" widths="63% 35%" margins="0%">
 			<stack>
 			<p>
@@ -30,7 +31,8 @@
 		<p>
 			Dr. Chichilnisky taught previously at Harvard, Essex and Stanford Universities. She was elected one of the Ten Most Influential Latinos in the U.S. She is a frequent political and economic speaker on CNN, ABC, BBC TV News, and Bloomberg News, as well as a frequent keynote speaker at leading international conferences and universities. Her two most recent books are <q>Reversing Climate Change: How Carbon Removals Can Resolve Climate Change and Fix the Economy</q> and <q>The Economics of Climate Change</q>. Dr. Chichilnisky is also the author of <q>Saving Kyoto</q>, which won the American Library Association's 2010 Outstanding Academic Title of the Year and the American Geographical Society's Book of the Month Award in October 2009.
 		</p>
-	</introduction>
+	</assemblage>
+</introduction>
 
 <xi:include href="chap_five_apportionment.ptx" />
 <xi:include href="chap_five_voting_methods.ptx" />

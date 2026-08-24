@@ -9,7 +9,8 @@
 	</title>
 <!-- Chapter 1 - change sections below for Edition 1.1 or 2.0 -->
 <introduction>
-	<title>Dr. Jonathan Farley and Partially Ordered Sets</title>
+	<assemblage>
+		<title>Dr. Jonathan Farley and Partially Ordered Sets</title>
 		<sidebyside valign="top" widths="60% 38%" margins="0%">
 			<p>
 				Dr. Jonathan Farley<fn>Photo: <copyright/>Jonathan Farley. All rights reserved, used with permission.</fn> grew up near Rochester, New York and got his mathematics degree from Harvard University. He then went to Oxford University in the United Kingdom. (Later he would return as a Fulbright Distinguished Scholar.) He was awarded Oxford's highest mathematics awards for graduate students, the Senior Mathematical Prize and the Johnson Prize, and earned his doctorate a year later (MIT, 2005). He had a two-year visit to the Mathematical Sciences Research Institute from 1995 to 1997. He is currently an Associate Professor at Morgan State University, a historically Black college.
@@ -28,6 +29,7 @@
 		<p>
 			Dr. Farley has also been a mathematics consultant for the hit TV shows <em>Numb3rs, Medium,</em> and <em>Elementary</em>. Dr. Farley's projects and applications of math continue to make it more interesting and relatable to a wider audience. You can read more on his website, Lattice Theory<fn><url href="http://www.latticetheory.net/"></url></fn>.
 		</p>
+	</assemblage>
 </introduction>
 
 <!-- Todo: Edition change -->

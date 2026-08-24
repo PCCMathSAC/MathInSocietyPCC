@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <frontmatter xml:id="frontmatter">
 
-	<titlepage>
+	<bibinfo>
     	<author>
       		<personname>Portland Community College Math Department</personname>
     	</author>
     	<date><today/></date>
-	</titlepage>
-
-	<colophon>
 		<credit>
 			<role>Project Lead</role>
 			<entity>Cara Lee</entity>
@@ -53,6 +50,14 @@
 			<minilicense>CC BY-SA 4.0</minilicense>
 			<shortlicense>CC BY-SA 4.0</shortlicense>
 		</copyright>
+	</bibinfo>
+
+	<titlepage>
+		<titlepage-items/>
+	</titlepage>
+
+	<colophon>
+		<colophon-items/>
 	</colophon>
 
 	<dedication>

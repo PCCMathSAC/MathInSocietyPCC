@@ -1274,7 +1274,6 @@
 				</p>
 			</li>
 			<li>
-				<stack>
 				<p>
 					<c>=PMT(0.035/4,4*12,-8000,100000)</c> which gives $1,480.51.
 				</p>
@@ -1291,7 +1290,6 @@
 				<!-- <p>
 					This can also be done in nested fashion (be careful to add the negative FV quantity): <c>=PMT(0.035/4,4*12,0,100000+FV(0.035/4,4*12,0,8000))</c>.
 				</p> -->
-				</stack>
 			</li>
 		</ol>
 	</p>

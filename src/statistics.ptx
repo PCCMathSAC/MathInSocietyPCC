@@ -3,7 +3,8 @@
 <title>Statistics</title>
 
 <introduction>
-	<title>Dr. David Blackwell and Statistics</title>
+	<assemblage>
+		<title>Dr. David Blackwell and Statistics</title>
 		<sidebyside valign="top" widths="69% 29%" margins="0%">
 			<stack>
 			<p>
@@ -27,6 +28,7 @@
 		<p>
 			Dr. Blackwell's focus later shifted to the field of statistics and is famous for the Rao-Blackwell Theorem. In 1954, he accepted a professorship at the University of California at Berkeley, where he was previously unable to teach due to racism. By 1956, he was appointed chairman of the statistics department. He continued teaching and publishing a substantial amount of research until his retirement as professor emeritus in 1989. He is the recipient of numerous awards and holds honorary degrees from 12 universities, among them Carnegie-Mellon, Yale, Howard and Harvard.
 		</p>
+	</assemblage>
 </introduction>
 
 <xi:include href="chap_three_statistical_process.ptx" />
