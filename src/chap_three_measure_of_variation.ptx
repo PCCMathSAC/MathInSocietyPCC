@@ -2647,7 +2647,7 @@
 					</row>
 				</tabular>
 				<p>
-					The 5-number summary for tournament palyers is:
+					The 5-number summary for tournament players is:
 				</p>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
@@ -2771,7 +2771,7 @@
 						<cell>False Smile</cell>
 						<cell>Felt Smile</cell>
 						<cell>Miserable Smile</cell>
-						<cell>Nuetral Control</cell>
+						<cell>Neutral Control</cell>
 					</row>
 					<row>
 						<cell>2.5</cell>

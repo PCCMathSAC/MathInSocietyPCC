@@ -82,7 +82,7 @@
 		After the budget is passed, the Senate and House Appropriations committees distribute the discretionary part of the funding among 12 subcommittees that oversee different groups of agencies. As before, conference committees meet to merge the two versions of the appropriations bills. All 12 bills must be passed by both the Senate and the House and then signed by the President to enact the new budget.
 	</p>
 	<p>
-		If any appropriations bill is not signed by September 30th, there is no budget for the new fiscal year. In this case, Congress must pass a <alert>continuing resolution</alert> to temporarily fund the government. If they do not, or if the president does not sign it, the governement will shut down. The last <alert>government shutdown</alert> went from December 22, 2018 to January 25, 2019. This was the longest shudown in U.S. history and left over 800,000 federal workers either working without pay or being furloughed at home (Robert, 2020).
+		If any appropriations bill is not signed by September 30th, there is no budget for the new fiscal year. In this case, Congress must pass a <alert>continuing resolution</alert> to temporarily fund the government. If they do not, or if the president does not sign it, the government will shut down. The last <alert>government shutdown</alert> went from December 22, 2018 to January 25, 2019. This was the longest shutdown in U.S. history and left over 800,000 federal workers either working without pay or being furloughed at home (Robert, 2020).
 	</p>
 </subsection>
 
@@ -97,7 +97,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		It is hard to find graphs with a vertical axis in dollars becase the value of the dollar changes over time. One dollar in 1974 could buy a lot more than it can today. In the graph above, each dollar amount is converted to the equivalent of 2013 dollars to account for that. The vertical scale is in billions of 2013 dollars. The largest deficits in 2009 to 2012 were from spending and corporate bailouts to recover from the Great Recession of 2008.
+		It is hard to find graphs with a vertical axis in dollars because the value of the dollar changes over time. One dollar in 1974 could buy a lot more than it can today. In the graph above, each dollar amount is converted to the equivalent of 2013 dollars to account for that. The vertical scale is in billions of 2013 dollars. The largest deficits in 2009 to 2012 were from spending and corporate bailouts to recover from the Great Recession of 2008.
 	</p>
 	<p>
 		On the graph above, $1 on the vertical scale represents one billion dollars or $1,000,000,000. The highest deficits go down to about -$1,500 billion, which we would write as -$1,500,000,000,000. Here is a chart that shows large numbers and how many zeros they have.
@@ -133,12 +133,12 @@
 		</row>
 	</tabular>
 	<p>
-		Instead of writing all the zeros, we can abreviate large numbers using decimals. For example, 1,200,000 can be written as 1.2 million. We can write 900,000 as 0.9 million. We can also translate the other way and write 4.567 trillion as 4,567,000,000,000. Note there can be more than one way to write a number. We could write 400,000,000 as either 400 million or 0.4 billion. It is convenient that we put the decimal where the comma goes and vice versa.
+		Instead of writing all the zeros, we can abbreviate large numbers using decimals. For example, 1,200,000 can be written as 1.2 million. We can write 900,000 as 0.9 million. We can also translate the other way and write 4.567 trillion as 4,567,000,000,000. Note there can be more than one way to write a number. We could write 400,000,000 as either 400 million or 0.4 billion. It is convenient that we put the decimal where the comma goes and vice versa.
 	</p>
 	<example>
 		<statement>
 		<p>
-			Write each number using a decimal abreviation.
+			Write each number using a decimal abbreviation.
 			<ol marker="a">
 				<li>
 					<p>
@@ -505,7 +505,7 @@
 				</li>
 				<li>
 					<p>
-						To find the amount of debt per person, we divde the debt by the number of people.
+						To find the amount of debt per person, we divide the debt by the number of people.
 					</p>
 					<p>
 						<m>\frac{\text{national debt}}{\text{population}} = \frac{\text{₩} 754.835\text{ trillion}}{50.617\text{ million people}}</m>
@@ -519,7 +519,7 @@
 				</li>
 				<li>
 					<p>
-						To find the amount of interest paid per year per person, we divde the amount of interest by the number of people.
+						To find the amount of interest paid per year per person, we divide the amount of interest by the number of people.
 					</p>
 					<p>
 						<m>\frac{\text{interest}}{\text{population}} = \frac{\text{₩} 30.055 \text{ trillion}}{50.617\text{ million people}}</m>
@@ -589,7 +589,7 @@
 		</p>
 		<sidebyside width="60%">
 			<image source="images/democracy/5_6/federal_pie2.png">
-			<shortdescription>A pie chart showing Federal Spending for the United States in fiscal year 2019; The categories are pensions 25%, defense 22%, education 3%, health care 28%, interest 8%, wellfare 8%, transportation 2%, protection 1%, general government 1% and other spending 2%</shortdescription>
+			<shortdescription>A pie chart showing Federal Spending for the United States in fiscal year 2019; The categories are pensions 25%, defense 22%, education 3%, health care 28%, interest 8%, welfare 8%, transportation 2%, protection 1%, general government 1% and other spending 2%</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -734,7 +734,7 @@
 <exercise>
 	<statement>
 	<p>
-		Write each number using a decimal abreviation.
+		Write each number using a decimal abbreviation.
 		<ol marker="a">
 			<li>
 				<p>
@@ -790,7 +790,7 @@
 <exercise>
 	<statement>
 	<p>
-		Write each number using a decimal abreviation.
+		Write each number using a decimal abbreviation.
 		<ol marker="a">
 			<li>
 				<p>
@@ -1381,7 +1381,7 @@
 			</li>
 			<li>
 				<p>
-					Approximately $77 was budgeted for local governements per person.
+					Approximately $77 was budgeted for local governments per person.
 				</p>
 			</li>
 			<li>

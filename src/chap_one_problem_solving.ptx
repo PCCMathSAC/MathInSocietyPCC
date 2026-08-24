@@ -780,7 +780,7 @@
  					<mrow>x\amp=\frac{201\,\cancel{\mathrm{ inches}^2}\cdot{20\text{ ounces}}}{113\,\cancel{\mathrm{ inches}^2}}</mrow>
  					<mrow>\amp\approx35.575\text{ ounces}</mrow>
  				</md>
-   				We need about 35.575 ounces of dough for two 16-inch pizzas. Now we multipy that by 3 to get the amount needed for six 16-inch pizzas.
+   				We need about 35.575 ounces of dough for two 16-inch pizzas. Now we multiply that by 3 to get the amount needed for six 16-inch pizzas.
    				<md>35.575(3)=106.73\text{ ounces}</md>
    				This is very close to what we got for our first method. To scale the recipe we would use the ratio
    				<md>\frac{106.73\,\cancel{\mathrm{ ounces}}}{20\,\cancel{\mathrm{ ounces}}}\approx 5.34 \text{ times}</md>
@@ -1076,7 +1076,7 @@
 	<exercise xml:id="exercise-job2"><!--  #14 -->
 		<statement>
 			<p>
-				You have two job offers. One pays a salary of $85,000 per year with a $2,000 yearly bonus that has the possiblity to increase. The other job pays $42.50 per hour for 40 hours a week. If the jobs and benefits are similar, which job would you choose?
+				You have two job offers. One pays a salary of $85,000 per year with a $2,000 yearly bonus that has the possibility to increase. The other job pays $42.50 per hour for 40 hours a week. If the jobs and benefits are similar, which job would you choose?
 			</p>
 		</statement>
 		<solution>
@@ -1139,7 +1139,7 @@
 <exercisegroup>
 	<introduction>
 		<p>
-			Use unit coversions and/or geometric formulas to solve these problems as needed. Document your steps and thinking.
+			Use unit conversions and/or geometric formulas to solve these problems as needed. Document your steps and thinking.
 		</p>
 	</introduction>
 	<exercise><!--  #19 -->
@@ -1433,7 +1433,7 @@
 				How much does a cup of breadcrumbs weigh?
 				</p>
 				<image width="45%" source="images/language_logic_rules/problem_solving/breadcrumbs.png">
-				<shortdescription>Nutrition label for cannister of breadcrumbs; Serving size of 1/3 cup is 30g; Servings per container about 14; Amount per serving: 110 calories, 1.5 grams of fat.</shortdescription>
+				<shortdescription>Nutrition label for canister of breadcrumbs; Serving size of 1/3 cup is 30g; Servings per container about 14; Amount per serving: 110 calories, 1.5 grams of fat.</shortdescription>
 				</image>
 			</li>
 		</ul>
@@ -1539,10 +1539,10 @@
 					</ul>
 				</p>
 				<image width="100%" source="images/language_logic_rules/problem_solving/gas_dollars.png">
-					<shortdescription>Nutrition label for cannister of breadcrumbs; Serving size of 1/3 cup is 30g; Servings per container about 14; Amount per serving: 110 calories, 1.5 grams of fat.</shortdescription>
+					<shortdescription>Nutrition label for canister of breadcrumbs; Serving size of 1/3 cup is 30g; Servings per container about 14; Amount per serving: 110 calories, 1.5 grams of fat.</shortdescription>
 				</image>
 				<image width="100%" source="images/language_logic_rules/problem_solving/gas_therms.png">
-					<shortdescription>Nutrition label for cannister of breadcrumbs; Serving size of 1/3 cup is 30g; Servings per container about 14; Amount per serving: 110 calories, 1.5 grams of fat.</shortdescription>
+					<shortdescription>Nutrition label for canister of breadcrumbs; Serving size of 1/3 cup is 30g; Servings per container about 14; Amount per serving: 110 calories, 1.5 grams of fat.</shortdescription>
 				</image>
 			</li>
 			<li>

@@ -218,7 +218,7 @@
 	</p>
 	<sidebyside width="35%">
 		<image source="images/probability/4_1/cont_table_venn.png">
-		<shortdescription>A Venn diagram with two overlapping circles and a box around it. The Cat only region shows 180-52=128; The dog only region shows 95-52=43; the interesection is 52 and the number outside the circles in the universal set is 27.</shortdescription>
+		<shortdescription>A Venn diagram with two overlapping circles and a box around it. The Cat only region shows 180-52=128; The dog only region shows 95-52=43; the intersection is 52 and the number outside the circles in the universal set is 27.</shortdescription>
 		</image>
 	</sidebyside>
 
@@ -924,7 +924,7 @@
 					</tabular>
 		 			<p>
 		 				<md>
-		 				<mrow>P(\text{not pregnant given positve test})=\frac{5}{75} \approx 0.067\text{ or } 6.7\%
+		 				<mrow>P(\text{not pregnant given positive test})=\frac{5}{75} \approx 0.067\text{ or } 6.7\%
 		 				</mrow>
 		 			</md>
 		 			</p>
@@ -2439,7 +2439,7 @@
 			</li>
 			<li>
 				<p>
-					It apppears that sustaining an injury is dependent on whether the member stretches before exercising. The probability of sustaining an injury among members who did not stretch before exercising was significantly higher than the probability of sustaining an injury among members who stretched before exercising.
+					It appears that sustaining an injury is dependent on whether the member stretches before exercising. The probability of sustaining an injury among members who did not stretch before exercising was significantly higher than the probability of sustaining an injury among members who stretched before exercising.
 				</p>
 			</li>
 		</ol>

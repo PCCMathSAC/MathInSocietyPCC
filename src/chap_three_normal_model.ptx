@@ -56,7 +56,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		Notice how the shape is unimodal and symmetric with larger and smaller values getting less and less common as they get further from the mean. When we take samples from a population we might not get an exact Normal distribution but it is often close. We call this approximately Normal or nearly Normally distributed. The curve drawn over the histogram shows that the data are nearly Normal. Earlier in this chapter we learned about the <alert>mean</alert>, <alert>median</alert> and <alert>mode</alert> as measures of center and the <alert>standard deviation</alert> as a measure of variation or spread. The mean is often written with the greek letter mu, <m>\mu</m>. The standard deviation is usualy represented by the lowercase Greek letter sigma, <m>\sigma</m>.
+		Notice how the shape is unimodal and symmetric with larger and smaller values getting less and less common as they get further from the mean. When we take samples from a population we might not get an exact Normal distribution but it is often close. We call this approximately Normal or nearly Normally distributed. The curve drawn over the histogram shows that the data are nearly Normal. Earlier in this chapter we learned about the <alert>mean</alert>, <alert>median</alert> and <alert>mode</alert> as measures of center and the <alert>standard deviation</alert> as a measure of variation or spread. The mean is often written with the greek letter mu, <m>\mu</m>. The standard deviation is usually represented by the lowercase Greek letter sigma, <m>\sigma</m>.
 	</p>
 </subsection>
 

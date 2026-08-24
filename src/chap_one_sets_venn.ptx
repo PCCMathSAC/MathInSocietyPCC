@@ -254,7 +254,7 @@
 			Next draw two overlapping circles, one for the set of books Julio read and one for the set of books Rose read. Since both Rose and Julio read 1984, we place it in the overlapping region (the intersection).
 		</p>
 		<p>
-			All the books that Rose read will lie in her circle, in one of the two regions that make up her set. Likewise for the books Julio read. Since we have already filled in the overlapping region, we put the books that only Rose read in her circle's <q>cresent moon</q> section, and we put the books that only Julio read in his circle's <q>cresent moon</q> section. The resulting diagram is shown below.
+			All the books that Rose read will lie in her circle, in one of the two regions that make up her set. Likewise for the books Julio read. Since we have already filled in the overlapping region, we put the books that only Rose read in her circle's <q>crescent moon</q> section, and we put the books that only Julio read in his circle's <q>crescent moon</q> section. The resulting diagram is shown below.
 		</p>
 		<sidebyside width="40%">
 		<image source="images/language_logic_rules/1_2/Venn_pic4.png">
@@ -270,7 +270,7 @@
 		</p>
 		<sidebyside width="85%">
 		<image source="images/language_logic_rules/1_2/Venn_pic5.png">
-			<shortdescription>A previous generic Venn diagram showing 2 ovelapping sets, set A and set B. The yellow crescent is labeled Just A, the blue crescent is labeled Just B, and the green intersection is labeled A and B. The inclusive or includes all 3 regions; the exclusive or is just the yellow and blue regions.</shortdescription>
+			<shortdescription>A previous generic Venn diagram showing 2 overlapping sets, set A and set B. The yellow crescent is labeled Just A, the blue crescent is labeled Just B, and the green intersection is labeled A and B. The inclusive or includes all 3 regions; the exclusive or is just the yellow and blue regions.</shortdescription>
 		</image>
 		</sidebyside>
 	</example>
@@ -432,7 +432,7 @@
 		</p>
 			<sidebyside width="40%">
 			<image source="images/language_logic_rules/1_2/ill_data4.png">
-			<shortdescription>A Venn diagram with 3 overlapping circles labeled bigfoot, UFO's and ghosts; The numbers are places as in the text: bigfoot only, 14; UFO's only, 30; ghosts only, 28; bigfooot and UFO's only, 3; bigfoot and ghosts only, 6; UFO's and ghosts only, 8; the center region overlapping all 3 has 2. The region outside the circles has 59 people</shortdescription>
+			<shortdescription>A Venn diagram with 3 overlapping circles labeled bigfoot, UFO's and ghosts; The numbers are places as in the text: bigfoot only, 14; UFO's only, 30; ghosts only, 28; bigfoot and UFO's only, 3; bigfoot and ghosts only, 6; UFO's and ghosts only, 8; the center region overlapping all 3 has 2. The region outside the circles has 59 people</shortdescription>
 			</image>
 			</sidebyside>
 		<p>

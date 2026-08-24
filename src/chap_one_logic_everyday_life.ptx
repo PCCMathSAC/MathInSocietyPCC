@@ -522,7 +522,7 @@
 	<example>
 		<statement>
 		<p>
-			Determine which set(s) of qualificaitons meet the requirement: <q>To apply for this job, applicants must have a bachelor's degree, an associate's degree and 3 years of relevant experience, or a high school diploma or GED and 6 years of relevant experience.</q>
+			Determine which set(s) of qualifications meet the requirement: <q>To apply for this job, applicants must have a bachelor's degree, an associate's degree and 3 years of relevant experience, or a high school diploma or GED and 6 years of relevant experience.</q>
 			<ol marker="a">
 				<li>
 					<p>
@@ -578,7 +578,7 @@
 <subsection>
 	<title>Logical Equivalence</title>
 	<p>
-		<em>And</em> and <em>or</em> statments can have their propositions reversed without affecting the truth value of the statement. If you need to buy bacon <em>and</em> eggs, that's the same as buying eggs <em>and</em> bacon. The order does matter for a conditional statement, though. Sometimes during an argument, an <em>if, then</em> statement will be reversed or combined with <em>not</em> in different ways. There are names for the combinations and it is helpful to look at which statements are equivalent to each other. Here are the names for the different combinations of <em>if, then</em> and <em>not</em> statements.
+		<em>And</em> and <em>or</em> statements can have their propositions reversed without affecting the truth value of the statement. If you need to buy bacon <em>and</em> eggs, that's the same as buying eggs <em>and</em> bacon. The order does matter for a conditional statement, though. Sometimes during an argument, an <em>if, then</em> statement will be reversed or combined with <em>not</em> in different ways. There are names for the combinations and it is helpful to look at which statements are equivalent to each other. Here are the names for the different combinations of <em>if, then</em> and <em>not</em> statements.
 	</p>
 	<p>
 		
@@ -1528,7 +1528,7 @@
 			</li>
 			<li>
 				<p>
-					If it is not hot ouside, then you are not wearing shorts.
+					If it is not hot outside, then you are not wearing shorts.
 				</p>
 			</li>
 			<li>

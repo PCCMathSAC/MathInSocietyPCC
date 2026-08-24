@@ -344,7 +344,7 @@
 			The average manager salary is twice as high as the average worker salary as in a bar graph, but the image is also twice as wide. That makes it look like the manager salary is 4 times as large as the worker salary. The area needs to accurately portray the relationship, otherwise we will have a perceptual distortion.
 		</p>
 			<image source="images/statistics/3_2/distortion.png">
-			<shortdescription>There are two bags of money shown. One is larger labeled Mananger Salaries. The other is half as tall and half as wide and labeled workers salaries. There are no numbers or scale shown. </shortdescription>
+			<shortdescription>There are two bags of money shown. One is larger labeled Manager Salaries. The other is half as tall and half as wide and labeled workers salaries. There are no numbers or scale shown. </shortdescription>
 			</image>
 		</sidebyside>
 
@@ -1072,7 +1072,7 @@
 	</p>
 	<sidebyside width="45%">
 		<image source="images/statistics/3_2/exercise_graph2.png">
-		<shortdescription>The x-axis is labeled shipping times (days) with 1, 2, 3, 4, and 5. The y-axis is labeld frequency. The bar for 1 goes up to 4, 2 goes up to 8, 3 goes up to 6, there's no bar at 4 and 5 goes up to 1.</shortdescription>
+		<shortdescription>The x-axis is labeled shipping times (days) with 1, 2, 3, 4, and 5. The y-axis is labeled frequency. The bar for 1 goes up to 4, 2 goes up to 8, 3 goes up to 6, there's no bar at 4 and 5 goes up to 1.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -1179,7 +1179,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_2/habiba_circle_graph.png">
-			<shortdescription>This is a pie chart with five regions. Work is labled 29%, Travel is labeled 7%, Housework is labeled 12%, Leisure is labeled 23% and Sleep is labeled 29%.</shortdescription>
+			<shortdescription>This is a pie chart with five regions. Work is labeled 29%, Travel is labeled 7%, Housework is labeled 12%, Leisure is labeled 23% and Sleep is labeled 29%.</shortdescription>
 		</image>
 	</sidebyside>
 	</statement>
@@ -1246,7 +1246,7 @@
 			<li>
 				<sidebyside width="40%">
 					<image source="images/statistics/3_2/solution_environmental_issue.png">
-						<shortdescription>There are four spaced apart bars labeled Pollution of drinking water, Contamination of soil and water by toxic waste, Air pollution, and Global warming. The x-axis is labeled Environmental Issue and the y-axis is labeled frequncy.  Pollution of drinking water goes up to 597, Contamination of soil and drinking water goes up to 526, Air pollution goes up to 455, and Global warming goes up to 354.</shortdescription>
+						<shortdescription>There are four spaced apart bars labeled Pollution of drinking water, Contamination of soil and water by toxic waste, Air pollution, and Global warming. The x-axis is labeled Environmental Issue and the y-axis is labeled frequency.  Pollution of drinking water goes up to 597, Contamination of soil and drinking water goes up to 526, Air pollution goes up to 455, and Global warming goes up to 354.</shortdescription>
 					</image>
 				</sidebyside>
 			</li>
@@ -1428,7 +1428,7 @@
 			<cell>18</cell>
 		</row>
 		<row>
-			<cell>Sophmore</cell>
+			<cell>Sophomore</cell>
 			<cell>13</cell>
 		</row>
 		<row>
