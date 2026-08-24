@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
 	<docinfo>
-		<!-- Thumbnail for HTML -->
-		<!-- Double check that the thumbnail links work properly -->
-		<!-- <brandlogo url="https://spot.pcc.edu/math/mathinsociety/root-1-2.html" source="images/Portland_Oregon_Skyline_thumbnail.jpg" /> -->
-		<!-- Thumbnail for edition 2 -->
-		<brandlogo url="https://pccmathsac.github.io/MathInSocietyPCC/root-1-2.html" source="images/Good_Morning_Portland_thumbnail.jpg" />
   		<!-- For title into HTML head, then tabs, bookmarks, etc -->
-  		<initialism>Math In Society:</initialism>
+  		<initialism>MISPCC</initialism>
+
+		<directories external="../external"/>
 
   		<!--<document-id>PCC-Math In Society</document-id> Choose edition-->
 		<!-- <document-id edition="1.1">PCC-Math In Society</document-id> -->
@@ -18,13 +15,6 @@
     		\newcommand{\highlight}[1]{{\color{blue}{{#1}}}}
 		</macros>
 		<math-package latex-name="cancel" mathjax-name="cancel"/>
-		<html>
-      		<!-- Expects favicon/favicon-32x32.png, and favicon/favicon-16x16.png -->
-      		<favicon/>
-      		<!-- There does not need to be a trailing / on the URL             -->
-      		<!-- NB Eventually a publisher option will exist to overrule this, -->
-      		<!-- so a given source can be installed more than one place        -->
-  		</html>
 	</docinfo>
 
 	<book>
@@ -35,24 +25,13 @@
 		<!-- Edition 2 tagline -->
 		<subtitle>Tools for decision making</subtitle>
 
-		<!-- TODO: the following is not PTX schema-compliant. This is a temporary hack that makes
-		 the HTML have this picture on the book's landing page, and has no impact on the PDF. There
-		 should ulimately be explicit support for an image like this on the landing page. -->
-		<introduction>
-			<!-- Todo: Edition change -->
-			<!-- Edition 1 cover image -->
-			<!-- <p>
-				<image source="images/Portland_Oregon_Skyline.jpg">
-				<shortdescription>A picture of the Portland, Oregon skyline taken from the Ross Island Bridge</shortdescription>
-			</image> -->
-			<!-- </p> -->
-			<!-- Edition 2 cover image -->
-			<p>
-				<image source="images/Good_Morning_Portland.jpg">
+		<!-- There is no schema-compliant way to get an image on the top-level page. -->
+		<!-- The markup below no longer succeeds in doing that.                      -->
+		<!-- <introduction>
+			<image source="images/Good_Morning_Portland.jpg">
 				<shortdescription>A picture of the Hawthorne Bridge toward downtown Portland, Oregon</shortdescription>
 			</image>
-			</p>
-		</introduction>
+		</introduction> -->
 <!-- Todo: Edition change -->
 		<xi:include href="./frontmatter.ptx" />
 <!-- Select correct Chapter 1 sections in this file according to edition -->

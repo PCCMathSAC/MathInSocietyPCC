@@ -25,7 +25,7 @@
 
 <publication>
 	<source>
-		<directories external="../external" generated="../generated"/>
+		<directories generated="../generated"/>
 	</source>
 	<common>
 		<tableofcontents level="2"/>
@@ -39,7 +39,8 @@
 		</page>
 		<video privacy="yes" preview="generated/play-button.png"/>
 	</latex>
-	<html>
+	<html favicon="simple">
+		<brandlogo url="https://pccmathsac.github.io/MathInSocietyPCC/root-1-2.html" source="images/Good_Morning_Portland_thumbnail.jpg" />
 		<knowl exercise-inline="no" example="no"/>
 		<index-page ref="frontmatter"/>
 		<video privacy="yes"/>
